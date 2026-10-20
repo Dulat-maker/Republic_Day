@@ -70,9 +70,9 @@ export const STRINGS = {
     en: 'Rounds without photos: guess the year and place',
   },
   dailyNote: {
-    kk: 'Күннің ойынында тек 2000 жылға дейінгі суреттер',
-    ru: 'В игре дня только снимки до 2000 года',
-    en: 'The daily game only uses pictures before 2000',
+    kk: 'Күннің ойыны: 4 тарихи сурет және 1 заманауи сурет',
+    ru: 'Игра дня: 4 исторических снимка и 1 современный',
+    en: 'Daily game: 4 historical pictures and 1 modern one',
   },
   textRoundHint: {
     kk: 'Бұл оқиға қай жылы және қай жерде болды?',
@@ -104,8 +104,67 @@ export const STRINGS = {
     en: 'Coloured dot: event. White dot: photo. Dashed edge: approximate location.',
   },
   approxPlace: { kk: 'орны шамамен', ru: 'место указано примерно', en: 'approximate location' },
+  layerMonuments: { kk: 'Ескерткіштер (ашық деректер)', ru: 'Памятники (открытые данные)', en: 'Monuments (open data)' },
+  monumentsNote: {
+    kk: 'Сұр нүктелер – Қостанай облысының тарих және мәдениет ескерткіштері, мемлекеттік ашық деректер порталынан:',
+    ru: 'Серые точки — памятники истории и культуры Костанайской области из государственного портала открытых данных:',
+    en: 'Grey dots: historical and cultural monuments of Kostanay region from the government open data portal:',
+  },
+  monumentsSource: { kk: 'Дереккөз', ru: 'Источник', en: 'Source' },
   timeline: { kk: 'Уақыт желісі', ru: 'Хронология', en: 'Timeline' },
   close: { kk: 'Жабу', ru: 'Закрыть', en: 'Close' },
+
+  modeGuide: { kk: 'ЖИ-гид: сұрақ қою', ru: 'ИИ-гид: задать вопрос', en: 'AI guide: ask a question' },
+  modeQuest: { kk: 'Семей бойынша квест', ru: 'Квест по Семею', en: 'Semey walking quest' },
+  guideTitle: { kk: 'ЖИ-гид', ru: 'ИИ-гид', en: 'AI guide' },
+  guideLead: {
+    kk: 'Қазақстан тарихы туралы кез келген сұрақ қойыңыз – қазақша, орысша немесе ағылшынша.',
+    ru: 'Задайте любой вопрос по истории Казахстана — на казахском, русском или английском.',
+    en: 'Ask anything about the history of Kazakhstan, in Kazakh, Russian or English.',
+  },
+  guideAskAbout: { kk: 'Гидтен сұрау', ru: 'Спросить гида', en: 'Ask the guide' },
+  guideAskMore: { kk: 'Бұл туралы толығырақ айтып беріңізші', ru: 'Расскажите об этом подробнее', en: 'Tell me more about this' },
+  guideEx1: { kk: 'Қазақ хандығы қашан құрылды?', ru: 'Когда образовалось Казахское ханство?', en: 'When was the Kazakh Khanate founded?' },
+  guideEx2: { kk: 'Абылай хан кім болған?', ru: 'Кто такой Абылай-хан?', en: 'Who was Ablai Khan?' },
+  guideEx3: { kk: 'Республика күні не үшін 25 қазанда?', ru: 'Почему День Республики 25 октября?', en: 'Why is Republic Day on 25 October?' },
+  guidePlaceholder: { kk: 'Сұрағыңызды жазыңыз…', ru: 'Напишите вопрос…', en: 'Type your question…' },
+  guideSend: { kk: 'Жіберу', ru: 'Отправить', en: 'Send' },
+  guideOffline: {
+    kk: 'ЖИ-гид қазір қолжетімсіз, ойын базасынан табылғаны:',
+    ru: 'ИИ-гид сейчас недоступен, вот что нашлось в базе игры:',
+    en: 'The AI guide is unavailable right now; here is what the game database has:',
+  },
+  guideNothingFound: {
+    kk: 'Ойын базасынан бұл туралы ештеңе табылмады. Сұрақты басқаша қойып көріңіз.',
+    ru: 'В базе игры об этом ничего не нашлось. Попробуйте спросить иначе.',
+    en: 'Nothing about this in the game database. Try asking another way.',
+  },
+  guideRefused: {
+    kk: 'Бұл сұраққа жауап бере алмаймын. Тарих туралы басқа сұрақ қойыңыз.',
+    ru: 'На этот вопрос я ответить не могу. Спросите о чём-нибудь другом из истории.',
+    en: "I can't answer that. Ask me something else about history.",
+  },
+  questTitle: { kk: 'Семей: тарихи жол', ru: 'Семей: исторический маршрут', en: 'Semey: a history walk' },
+  questLead: {
+    kk: 'Қаланың бес тарихи орнын аралаңыз. Әр аялдамада оқиғаны оқып, сұраққа жауап беріңіз немесе сол жерде «Мен осындамын» батырмасын басыңыз.',
+    ru: 'Пройдите пять исторических мест города. На каждой остановке прочитайте историю и ответьте на вопрос — или нажмите «Я на месте», стоя рядом.',
+    en: 'Visit five historic places in the city. At each stop read the story and answer the question, or tap "I\'m here" when you are on site.',
+  },
+  questProgress: { kk: 'Өтілді: {n} / {total}', ru: 'Пройдено: {n} из {total}', en: 'Visited: {n} of {total}' },
+  questFinished: {
+    kk: 'Құттықтаймыз! Сіз Семейдің тарихи жолынан толық өттіңіз.',
+    ru: 'Поздравляем! Вы прошли весь исторический маршрут Семея.',
+    en: "Congratulations! You've completed Semey's history walk.",
+  },
+  questWrong: { kk: 'Дұрыс емес, мәтінді қайта оқып көріңіз', ru: 'Неверно — перечитайте историю и попробуйте ещё', en: 'Not quite — reread the story and try again' },
+  questImHere: { kk: 'Мен осындамын', ru: 'Я на месте', en: "I'm here" },
+  questTooFar: { kk: 'Сіз бұл жерден {n} м қашықтасыз', ru: 'Вы в {n} м от этого места', en: 'You are {n} m away from this place' },
+  questNoGeo: {
+    kk: 'Орналасқан жерді анықтау мүмкін болмады. Сұраққа жауап беріңіз.',
+    ru: 'Не удалось определить местоположение. Ответьте на вопрос.',
+    en: "Couldn't get your location. Answer the question instead.",
+  },
+  questReset: { kk: 'Квесті басынан бастау', ru: 'Начать квест заново', en: 'Restart the quest' },
 } satisfies Record<string, L10n>;
 
 export type StringKey = keyof typeof STRINGS;

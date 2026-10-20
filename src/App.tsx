@@ -1,17 +1,20 @@
 import { useState } from 'react';
 import Atlas from './atlas/Atlas';
+import Guide from './guide/Guide';
+import Quest from './quest/Quest';
 import { QUIZ_EVENTS, eventToCard } from './atlas/events';
 import { cardsForPack, DEV_MODE } from './game/cards';
 import Game from './game/Game';
 import { pickDaily, pickRandom, todayKey } from './game/pick';
+import { ROUNDS } from './game/scoring';
 import type { Card, Pack } from './game/types';
 import { LANGS, useI18n } from './i18n';
 import { mistakeIds } from './progress/storage';
 
 type Mode = 'daily' | 'random' | 'training' | 'khans';
 
-// Modern photos stay in free play; the daily game keeps to older history
-const DAILY_MAX_YEAR = 2000;
+// The daily game is mostly history: 4 older pictures and 1 from after this year
+const MODERN_FROM = 2001;
 
 interface Session {
   cards: Card[];
@@ -25,7 +28,7 @@ export default function App() {
   const [pack, setPack] = useState<Pack>('kz');
   const [session, setSession] = useState<Session | null>(null);
   const [notice, setNotice] = useState('');
-  const [atlas, setAtlas] = useState(false);
+  const [screen, setScreen] = useState<'home' | 'atlas' | 'guide' | 'quest'>('home');
 
   const pool = cardsForPack(pack);
 
@@ -33,7 +36,10 @@ export default function App() {
     let cards: Card[];
     if (mode === 'daily')
       cards = pickDaily(
-        pool.filter((c) => c.year <= DAILY_MAX_YEAR),
+        [
+          ...pickDaily(pool.filter((c) => c.year < MODERN_FROM), `${todayKey()}-${pack}-old`).slice(0, ROUNDS - 1),
+          ...pickDaily(pool.filter((c) => c.year >= MODERN_FROM), `${todayKey()}-${pack}-new`).slice(0, 1),
+        ],
         `${todayKey()}-${pack}`,
       );
     else if (mode === 'khans') cards = pickRandom(QUIZ_EVENTS.map(eventToCard));
@@ -57,7 +63,7 @@ export default function App() {
         className="link"
         onClick={() => {
           setSession(null);
-          setAtlas(false);
+          setScreen('home');
         }}
       >
         {t('appTitle')}
@@ -77,12 +83,19 @@ export default function App() {
     </header>
   );
 
-  if (atlas) {
+  if (screen !== 'home') {
     return (
       <>
         {header}
         <main>
-          <Atlas />
+          {screen === 'atlas' && <Atlas />}
+          {screen === 'quest' && <Quest />}
+          {screen === 'guide' && (
+            <div className="screen">
+              <h1>{t('guideTitle')}</h1>
+              <Guide />
+            </div>
+          )}
         </main>
       </>
     );
@@ -142,8 +155,14 @@ export default function App() {
         )}
 
         <div className="menu">
-          <button type="button" className="primary" onClick={() => setAtlas(true)}>
+          <button type="button" className="primary" onClick={() => setScreen('atlas')}>
             🗺 {t('modeAtlas')}
+          </button>
+          <button type="button" className="secondary" onClick={() => setScreen('guide')}>
+            💬 {t('modeGuide')}
+          </button>
+          <button type="button" className="secondary" onClick={() => setScreen('quest')}>
+            🚶 {t('modeQuest')}
           </button>
           <button type="button" className="secondary" onClick={() => start('khans')}>
             {t('modeKhans')}
