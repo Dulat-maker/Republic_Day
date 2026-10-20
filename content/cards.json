@@ -42,528 +42,44 @@
     "verified_by": "Claude (сверено по источникам)"
   },
   {
-    "id": "verny-earthquake-1911",
-    "pack": [
-      "kz"
-    ],
-    "year": 1911,
-    "lat": 43.256,
-    "lng": 76.945,
-    "place": {
-      "kk": "Верный (Алматы)",
-      "ru": "Верный (Алматы)",
-      "en": "Verny (Almaty)"
-    },
-    "image": "images/placeholder.svg",
-    "image_credit": {
-      "author": "",
-      "license": "",
-      "source_url": ""
-    },
-    "title": {
-      "kk": "1911 жылғы Кемин жер сілкінісі",
-      "ru": "Кеминское землетрясение 1911 года",
-      "en": "The 1911 Kemin earthquake"
-    },
-    "explanation": {
-      "kk": "1911 жылдың қаңтарында болған қуатты жер сілкінісі Верный қаласының көптеген кірпіш үйлерін қиратты. Ағаштан салынған Вознесенский соборы аман қалды — бұл қала құрылысында сейсмикалық қауіпті ескеруге мысал болды.",
-      "ru": "Мощное землетрясение в январе 1911 года разрушило многие кирпичные дома города Верный. Деревянный Вознесенский собор устоял — пример того, почему в городе стали учитывать сейсмическую опасность.",
-      "en": "A powerful earthquake in January 1911 destroyed many brick buildings in the town of Verny. The wooden Ascension Cathedral survived, showing why the city began to build with earthquakes in mind."
-    },
-    "clue": {
-      "kk": "Қираған кірпіш үйлер, ат арбалар, артында Іле Алатауы.",
-      "ru": "Разрушенные кирпичные дома, конные повозки, на фоне горы Заилийского Алатау.",
-      "en": "Ruined brick houses, horse carts, the Trans-Ili Alatau mountains behind."
-    },
-    "sources": [
-      "https://ru.wikipedia.org/wiki/Кеминское_землетрясение"
-    ],
-    "difficulty": 2,
-    "verified_by": ""
-  },
-  {
-    "id": "rds1-test-1949",
-    "pack": [
-      "kz",
-      "semey"
-    ],
-    "year": 1949,
-    "lat": 50.438,
-    "lng": 77.815,
-    "place": {
-      "kk": "Семей полигоны",
-      "ru": "Семипалатинский полигон",
-      "en": "Semipalatinsk Test Site"
-    },
-    "image": "images/placeholder.svg",
-    "image_credit": {
-      "author": "",
-      "license": "",
-      "source_url": ""
-    },
-    "title": {
-      "kk": "Алғашқы кеңестік атом бомбасының сынағы",
-      "ru": "Испытание первой советской атомной бомбы",
-      "en": "First Soviet atomic bomb test"
-    },
-    "explanation": {
-      "kk": "1949 жылғы 29 тамызда Семей полигонында КСРО-ның алғашқы атом бомбасы РДС-1 жарылды. Келесі 40 жылда мұнда жүздеген ядролық сынақ өткізіліп, өңір тұрғындарының денсаулығына ауыр зардап тиді.",
-      "ru": "29 августа 1949 года на Семипалатинском полигоне взорвали первую советскую атомную бомбу РДС-1. За следующие 40 лет здесь провели сотни ядерных испытаний, которые тяжело отразились на здоровье жителей региона.",
-      "en": "On 29 August 1949 the first Soviet atomic bomb, RDS-1, was detonated at the Semipalatinsk Test Site. Hundreds of nuclear tests followed over 40 years, with severe health consequences for the region's people."
-    },
-    "clue": {
-      "kk": "Жалаң дала, ақ-қара сурет, жарылыс бұлты.",
-      "ru": "Голая степь, чёрно-белый снимок, облако взрыва.",
-      "en": "Bare steppe, black-and-white image, explosion cloud."
-    },
-    "sources": [
-      "https://ru.wikipedia.org/wiki/РДС-1",
-      "https://ru.wikipedia.org/wiki/Семипалатинский_испытательный_полигон"
-    ],
-    "difficulty": 2,
-    "verified_by": ""
-  },
-  {
-    "id": "virgin-lands-1954",
-    "pack": [
-      "kz"
-    ],
-    "year": 1954,
-    "lat": 51.169,
-    "lng": 71.449,
-    "place": {
-      "kk": "Ақмола облысы",
-      "ru": "Акмолинская область",
-      "en": "Akmola Region"
-    },
-    "image": "images/placeholder.svg",
-    "image_credit": {
-      "author": "",
-      "license": "",
-      "source_url": ""
-    },
-    "title": {
-      "kk": "Тың игеру басталды",
-      "ru": "Начало освоения целины",
-      "en": "Start of the Virgin Lands Campaign"
-    },
-    "explanation": {
-      "kk": "1954 жылы КСРО Солтүстік Қазақстанның тың жерлерін жыртып, астық егуге кірісті. Республикаға жүз мыңдаған адам келіп, жаңа совхоздар мен қалалар пайда болды, ал Ақмола кейін Целиноград деп аталды.",
-      "ru": "В 1954 году СССР начал распахивать целинные земли Северного Казахстана под зерно. В республику приехали сотни тысяч человек, появились новые совхозы и посёлки, а Акмолинск позже переименовали в Целиноград.",
-      "en": "In 1954 the USSR began ploughing the virgin steppe of northern Kazakhstan for grain. Hundreds of thousands of people arrived, new state farms and towns appeared, and Akmolinsk was later renamed Tselinograd."
-    },
-    "clue": {
-      "kk": "Тракторлар мен шатырлар, шексіз жазық дала.",
-      "ru": "Тракторы и палатки посреди бескрайней равнины.",
-      "en": "Tractors and tents on an endless plain."
-    },
-    "sources": [
-      "https://ru.wikipedia.org/wiki/Освоение_целины"
-    ],
-    "difficulty": 1,
-    "verified_by": ""
-  },
-  {
-    "id": "sputnik-1957",
-    "pack": [
-      "kz"
-    ],
-    "year": 1957,
-    "lat": 45.92,
-    "lng": 63.342,
-    "place": {
-      "kk": "Байқоңыр",
-      "ru": "Байконур",
-      "en": "Baikonur"
-    },
-    "image": "images/placeholder.svg",
-    "image_credit": {
-      "author": "",
-      "license": "",
-      "source_url": ""
-    },
-    "title": {
-      "kk": "Алғашқы жасанды Жер серігі",
-      "ru": "Первый искусственный спутник Земли",
-      "en": "The first artificial satellite"
-    },
-    "explanation": {
-      "kk": "1957 жылғы 4 қазанда Байқоңырдан әлемдегі алғашқы жасанды Жер серігі ұшырылды. Осы күннен бастап ғарыш дәуірі басталды, ал қазақ даласындағы ғарыш айлағы бүкіл әлемге белгілі болды.",
-      "ru": "4 октября 1957 года с Байконура запустили первый в мире искусственный спутник Земли. С этого дня началась космическая эра, а космодром в казахской степи стал известен всему миру.",
-      "en": "On 4 October 1957 the world's first artificial satellite was launched from Baikonur. It opened the space age and made the cosmodrome in the Kazakh steppe known worldwide."
-    },
-    "clue": {
-      "kk": "Р-7 зымыраны, ұшыру алаңы, айналасы жалпақ шөл дала.",
-      "ru": "Ракета Р-7, стартовая площадка, вокруг плоская пустынная степь.",
-      "en": "An R-7 rocket on its pad, flat desert steppe all around."
-    },
-    "sources": [
-      "https://ru.wikipedia.org/wiki/Спутник-1"
-    ],
-    "difficulty": 1,
-    "verified_by": ""
-  },
-  {
-    "id": "gagarin-1961",
-    "pack": [
-      "kz"
-    ],
-    "year": 1961,
-    "lat": 45.92,
-    "lng": 63.342,
-    "place": {
-      "kk": "Байқоңыр",
-      "ru": "Байконур",
-      "en": "Baikonur"
-    },
-    "image": "images/placeholder.svg",
-    "image_credit": {
-      "author": "",
-      "license": "",
-      "source_url": ""
-    },
-    "title": {
-      "kk": "Гагариннің ғарышқа ұшуы",
-      "ru": "Полёт Гагарина",
-      "en": "Gagarin's flight"
-    },
-    "explanation": {
-      "kk": "1961 жылғы 12 сәуірде Юрий Гагарин «Восток-1» кемесімен Байқоңырдан ұшып, ғарышқа шыққан алғашқы адам атанды. Ол ұшырылған алаң кейін «Гагарин старты» деп аталды.",
-      "ru": "12 апреля 1961 года Юрий Гагарин на корабле «Восток-1» стартовал с Байконура и стал первым человеком в космосе. Площадку, с которой он улетел, называют «Гагаринским стартом».",
-      "en": "On 12 April 1961 Yuri Gagarin lifted off from Baikonur aboard Vostok 1 and became the first human in space. His launch pad is still known as Gagarin's Start."
-    },
-    "clue": {
-      "kk": "Скафандрдағы ғарышкер немесе «Восток» зымыраны.",
-      "ru": "Космонавт в скафандре или ракета «Восток».",
-      "en": "A cosmonaut in a spacesuit or the Vostok rocket."
-    },
-    "sources": [
-      "https://ru.wikipedia.org/wiki/Восток-1"
-    ],
-    "difficulty": 1,
-    "verified_by": ""
-  },
-  {
-    "id": "medeu-1972",
-    "pack": [
-      "kz"
-    ],
-    "year": 1972,
-    "lat": 43.157,
-    "lng": 77.059,
-    "place": {
-      "kk": "Медеу, Алматы",
-      "ru": "Медеу, Алматы",
-      "en": "Medeu, Almaty"
-    },
-    "image": "images/placeholder.svg",
-    "image_credit": {
-      "author": "",
-      "license": "",
-      "source_url": ""
-    },
-    "title": {
-      "kk": "«Медеу» биік таулы мұз айдыны",
-      "ru": "Высокогорный каток «Медеу»",
-      "en": "Medeu high-altitude skating rink"
-    },
-    "explanation": {
-      "kk": "Алматы маңындағы «Медеу» мұз айдыны 1972 жылы ашылды. Теңіз деңгейінен 1600 метрдей биіктікте орналасқан бұл айдында жүздеген әлемдік рекорд орнатылды.",
-      "ru": "Каток «Медеу» под Алматы открылся в 1972 году. На высоте около 1600 метров над уровнем моря здесь были установлены сотни мировых рекордов по конькобежному спорту.",
-      "en": "The Medeu rink near Almaty opened in 1972. Set at about 1,600 metres above sea level, it has seen hundreds of speed-skating world records."
-    },
-    "clue": {
-      "kk": "Таулар арасындағы үлкен мұз алаңы, кеңестік трибуналар.",
-      "ru": "Большое ледовое поле между гор, советские трибуны.",
-      "en": "A large ice field among mountains, Soviet-era stands."
-    },
-    "sources": [
-      "https://ru.wikipedia.org/wiki/Медеу_(каток)"
-    ],
-    "difficulty": 2,
-    "verified_by": ""
-  },
-  {
-    "id": "zheltoqsan-1986",
-    "pack": [
-      "kz"
-    ],
-    "year": 1986,
-    "lat": 43.238,
-    "lng": 76.945,
-    "place": {
-      "kk": "Алматы, Республика алаңы",
-      "ru": "Алматы, площадь Республики",
-      "en": "Almaty, Republic Square"
-    },
-    "image": "images/placeholder.svg",
-    "image_credit": {
-      "author": "",
-      "license": "",
-      "source_url": ""
-    },
-    "title": {
-      "kk": "Желтоқсан көтерілісі",
-      "ru": "Желтоксан",
-      "en": "Jeltoqsan (December 1986 protests)"
-    },
-    "explanation": {
-      "kk": "1986 жылдың желтоқсанында Қазақстан Компартиясының басшысы Дінмұхамед Қонаев орнына Мәскеу Геннадий Колбинді тағайындады. Наразылыққа шыққан жастар күшпен қуылды; бұл оқиға тәуелсіздікке апарған жолдың маңызды белесі саналады.",
-      "ru": "В декабре 1986 года Москва заменила главу Компартии Казахстана Динмухамеда Кунаева на Геннадия Колбина. Вышедшую на протест молодёжь разогнали силой; эти события считают важной вехой на пути к независимости.",
-      "en": "In December 1986 Moscow replaced Kazakhstan's Communist Party leader Dinmukhamed Kunaev with Gennady Kolbin. Young protesters were dispersed by force; the events are seen as a milestone on the road to independence."
-    },
-    "clue": {
-      "kk": "Қысқы киімдегі жастар, үлкен алаң, кеңестік үкімет ғимараты.",
-      "ru": "Молодёжь в зимней одежде, большая площадь, советское здание власти.",
-      "en": "Young people in winter clothes, a large square, a Soviet government building."
-    },
-    "sources": [
-      "https://ru.wikipedia.org/wiki/Желтоксан"
-    ],
-    "difficulty": 2,
-    "verified_by": ""
-  },
-  {
-    "id": "polygon-closure-1991",
-    "pack": [
-      "kz",
-      "semey"
-    ],
-    "year": 1991,
-    "lat": 50.755,
-    "lng": 78.54,
-    "place": {
-      "kk": "Семей полигоны (Курчатов)",
-      "ru": "Семипалатинский полигон (Курчатов)",
-      "en": "Semipalatinsk Test Site (Kurchatov)"
-    },
-    "image": "images/placeholder.svg",
-    "image_credit": {
-      "author": "",
-      "license": "",
-      "source_url": ""
-    },
-    "title": {
-      "kk": "Семей ядролық полигонының жабылуы",
-      "ru": "Закрытие Семипалатинского полигона",
-      "en": "Closure of the Semipalatinsk Test Site"
-    },
-    "explanation": {
-      "kk": "1991 жылғы 29 тамызда Семей ядролық полигоны Жарлықпен жабылды. Бұған Олжас Сүлейменов бастаған «Невада — Семей» қозғалысы үлкен ықпал етті; 29 тамыз кейін БҰҰ-да ядролық сынақтарға қарсы халықаралық күн болып бекітілді.",
-      "ru": "29 августа 1991 года Семипалатинский ядерный полигон закрыли указом. Большую роль сыграло движение «Невада — Семипалатинск» во главе с Олжасом Сулейменовым; позже ООН объявила 29 августа Международным днём действий против ядерных испытаний.",
-      "en": "On 29 August 1991 the Semipalatinsk nuclear test site was closed by decree. The Nevada–Semipalatinsk movement led by Olzhas Suleimenov played a major role; the UN later made 29 August the International Day against Nuclear Tests."
-    },
-    "clue": {
-      "kk": "Қозғалыс белгілері бар митинг немесе бос қалған полигон нысандары.",
-      "ru": "Митинг с символикой движения или заброшенные объекты полигона.",
-      "en": "A rally with the movement's symbols, or abandoned test-site structures."
-    },
-    "sources": [
-      "https://ru.wikipedia.org/wiki/Семипалатинский_испытательный_полигон",
-      "https://ru.wikipedia.org/wiki/Невада_—_Семипалатинск"
-    ],
-    "difficulty": 2,
-    "verified_by": ""
-  },
-  {
-    "id": "aubakirov-1991",
-    "pack": [
-      "kz"
-    ],
-    "year": 1991,
-    "lat": 45.92,
-    "lng": 63.342,
-    "place": {
-      "kk": "Байқоңыр",
-      "ru": "Байконур",
-      "en": "Baikonur"
-    },
-    "image": "images/placeholder.svg",
-    "image_credit": {
-      "author": "",
-      "license": "",
-      "source_url": ""
-    },
-    "title": {
-      "kk": "Тоқтар Әубәкіров — алғашқы қазақ ғарышкері",
-      "ru": "Токтар Аубакиров — первый казахский космонавт",
-      "en": "Toktar Aubakirov, the first Kazakh cosmonaut"
-    },
-    "explanation": {
-      "kk": "1991 жылдың қазанында сынақшы ұшқыш Тоқтар Әубәкіров «Союз ТМ-13» кемесімен Байқоңырдан ғарышқа ұшты. Ол ғарышқа шыққан алғашқы қазақ болды.",
-      "ru": "В октябре 1991 года лётчик-испытатель Токтар Аубакиров стартовал с Байконура на корабле «Союз ТМ-13». Он стал первым казахом в космосе.",
-      "en": "In October 1991 test pilot Toktar Aubakirov launched from Baikonur aboard Soyuz TM-13, becoming the first Kazakh in space."
-    },
-    "clue": {
-      "kk": "«Союз» зымыраны, 1990-жылдардың басындағы түрлі-түсті сурет.",
-      "ru": "Ракета «Союз», цветной снимок начала 1990-х.",
-      "en": "A Soyuz rocket, a colour photo from the early 1990s."
-    },
-    "sources": [
-      "https://ru.wikipedia.org/wiki/Аубакиров,_Токтар_Онгарбаевич"
-    ],
-    "difficulty": 3,
-    "verified_by": ""
-  },
-  {
-    "id": "independence-1991",
-    "pack": [
-      "kz"
-    ],
-    "year": 1991,
-    "lat": 43.238,
-    "lng": 76.945,
-    "place": {
-      "kk": "Алматы",
-      "ru": "Алматы",
-      "en": "Almaty"
-    },
-    "image": "images/placeholder.svg",
-    "image_credit": {
-      "author": "",
-      "license": "",
-      "source_url": ""
-    },
-    "title": {
-      "kk": "Қазақстан тәуелсіздігі",
-      "ru": "Независимость Казахстана",
-      "en": "Independence of Kazakhstan"
-    },
-    "explanation": {
-      "kk": "1991 жылғы 16 желтоқсанда Жоғарғы Кеңес «Қазақстан Республикасының мемлекеттік тәуелсіздігі туралы» Конституциялық заң қабылдады. Ол кезде астана Алматы болатын.",
-      "ru": "16 декабря 1991 года Верховный Совет принял Конституционный закон «О государственной независимости Республики Казахстан». Столицей тогда была Алматы.",
-      "en": "On 16 December 1991 the Supreme Council adopted the Constitutional Law on the State Independence of the Republic of Kazakhstan. Almaty was the capital at the time."
-    },
-    "clue": {
-      "kk": "Жаңа мемлекеттік рәміздер, Алматыдағы үкімет ғимараты.",
-      "ru": "Новая государственная символика, здание власти в Алматы.",
-      "en": "New state symbols, a government building in Almaty."
-    },
-    "sources": [
-      "https://ru.wikipedia.org/wiki/День_независимости_Казахстана"
-    ],
-    "difficulty": 1,
-    "verified_by": ""
-  },
-  {
-    "id": "capital-move-1997",
-    "pack": [
-      "kz"
-    ],
-    "year": 1997,
-    "lat": 51.128,
-    "lng": 71.43,
-    "place": {
-      "kk": "Астана",
-      "ru": "Астана",
-      "en": "Astana"
-    },
-    "image": "images/placeholder.svg",
-    "image_credit": {
-      "author": "",
-      "license": "",
-      "source_url": ""
-    },
-    "title": {
-      "kk": "Астананың Ақмолаға көшуі",
-      "ru": "Перенос столицы в Акмолу",
-      "en": "Capital moves to Akmola"
-    },
-    "explanation": {
-      "kk": "1997 жылғы 10 желтоқсанда Қазақстанның астанасы Алматыдан Ақмолаға көшірілді. 1998 жылы қала Астана деп аталып, жаңа астана ретінде халықаралық деңгейде таныстырылды.",
-      "ru": "10 декабря 1997 года столицу Казахстана перенесли из Алматы в Акмолу. В 1998 году город переименовали в Астану и представили миру как новую столицу.",
-      "en": "On 10 December 1997 Kazakhstan's capital moved from Almaty to Akmola. In 1998 the city was renamed Astana and presented internationally as the new capital."
-    },
-    "clue": {
-      "kk": "Есіл жағалауы, құрылыс крандары, әлі бос жатқан сол жағалау.",
-      "ru": "Берег Ишима, строительные краны, ещё пустой левый берег.",
-      "en": "The Ishim riverbank, construction cranes, a still-empty left bank."
-    },
-    "sources": [
-      "https://ru.wikipedia.org/wiki/Астана"
-    ],
-    "difficulty": 2,
-    "verified_by": ""
-  },
-  {
-    "id": "baiterek-2002",
-    "pack": [
-      "kz"
-    ],
-    "year": 2002,
-    "lat": 51.128,
-    "lng": 71.43,
-    "place": {
-      "kk": "Астана",
-      "ru": "Астана",
-      "en": "Astana"
-    },
-    "image": "images/placeholder.svg",
-    "image_credit": {
-      "author": "",
-      "license": "",
-      "source_url": ""
-    },
-    "title": {
-      "kk": "«Бәйтерек» монументі",
-      "ru": "Монумент «Байтерек»",
-      "en": "Baiterek monument"
-    },
-    "explanation": {
-      "kk": "«Бәйтерек» — жаңа астананың басты символы, өмір ағашы мен Самұрық құс салған алтын жұмыртқа туралы аңызды бейнелейді. Монумент сол жағалаудың жаңа орталығында тұрғызылды.",
-      "ru": "«Байтерек» — главный символ новой столицы, он изображает легенду о древе жизни и золотом яйце птицы Самрук. Монумент построен в новом центре на левом берегу.",
-      "en": "Baiterek is the main symbol of the new capital, depicting the legend of the tree of life and the golden egg of the Samruk bird. It stands in the new centre on the left bank."
-    },
-    "clue": {
-      "kk": "Төбесінде алтын шары бар ақ мұнара.",
-      "ru": "Белая башня с золотым шаром наверху.",
-      "en": "A white tower topped with a golden sphere."
-    },
-    "sources": [
-      "https://ru.wikipedia.org/wiki/Байтерек_(монумент)"
-    ],
-    "difficulty": 3,
-    "verified_by": ""
-  },
-  {
     "id": "expo-2017",
     "pack": [
       "kz"
     ],
     "year": 2017,
-    "lat": 51.089,
+    "lat": 51.09,
     "lng": 71.416,
     "place": {
       "kk": "Астана",
       "ru": "Астана",
       "en": "Astana"
     },
-    "image": "images/placeholder.svg",
+    "image": "images/expo-2017.jpg",
     "image_credit": {
-      "author": "",
-      "license": "",
-      "source_url": ""
+      "author": "颲風",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Expo_2017_EXPO_Park.jpg"
     },
     "title": {
-      "kk": "EXPO-2017 «Болашақ энергиясы»",
+      "kk": "ЭКСПО-2017 «Болашақ энергиясы»",
       "ru": "EXPO-2017 «Энергия будущего»",
-      "en": "EXPO 2017 \"Future Energy\""
+      "en": "EXPO 2017 'Future Energy'"
     },
     "explanation": {
-      "kk": "2017 жылғы маусым–қыркүйекте Астанада «Болашақ энергиясы» тақырыбымен халықаралық EXPO көрмесі өтті. Оның символы — «Нұр Әлем» шар тәрізді павильоны.",
-      "ru": "С июня по сентябрь 2017 года в Астане прошла международная выставка EXPO на тему «Энергия будущего». Её символом стал шарообразный павильон «Нур Алем».",
-      "en": "From June to September 2017 Astana hosted the international EXPO on the theme \"Future Energy\". Its symbol is the spherical Nur Alem pavilion."
+      "kk": "2017 жылы 10 маусым – 10 қыркүйек аралығында Астанада «Болашақ энергиясы» тақырыбымен халықаралық ЭКСПО көрмесі өтті. Оның басты нысаны – «Нұр Әлем» шар павильоны; сурет көрме аумағын жоғарыдан көрсетеді.",
+      "ru": "С 10 июня по 10 сентября 2017 года в Астане прошла международная выставка EXPO на тему «Энергия будущего». Её главный символ — павильон-шар «Нур Алем»; на снимке территория выставки сверху.",
+      "en": "From 10 June to 10 September 2017 Astana hosted the international EXPO exhibition on the theme 'Future Energy'. Its centrepiece was the spherical Nur Alem pavilion; the photo shows the exhibition grounds from above."
     },
     "clue": {
-      "kk": "Шыны шар тәрізді ғимарат, заманауи сәулет.",
-      "ru": "Стеклянное здание-шар, современная архитектура.",
-      "en": "A glass sphere-shaped building, modern architecture."
+      "kk": "Жаңа павильондар, шыны құрылыстар, алыстағы биік үйлер.",
+      "ru": "Новые павильоны, стеклянные конструкции, высотки на горизонте.",
+      "en": "New pavilions, glass structures, high-rises on the horizon."
     },
     "sources": [
-      "https://ru.wikipedia.org/wiki/Экспо-2017"
+      "https://ru.wikipedia.org/wiki/EXPO_2017"
     ],
     "difficulty": 1,
-    "verified_by": ""
+    "verified_by": "Claude (сверено по источникам)"
   },
   {
     "id": "semipalatinsk-bazaar-1885",
@@ -704,7 +220,7 @@
       "ru": "Верный (Алма-Ата)",
       "en": "Verny (Almaty)"
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ascension_Cathedral_in_Verny88.jpg",
+    "image": "images/verny-cathedral-construction-1906.jpg",
     "image_credit": {
       "author": "Фото неизвестного мастера",
       "license": "Public domain",
@@ -729,7 +245,7 @@
       "https://ru.wikipedia.org/wiki/Вознесенский_собор_(Алма-Ата)"
     ],
     "difficulty": 2,
-    "verified_by": ""
+    "verified_by": "Claude (сверено по источникам)"
   },
   {
     "id": "verny-romanov-tercentenary-1913",
@@ -1338,47 +854,6 @@
     "verified_by": "Claude (сверено по источникам)"
   },
   {
-    "id": "zhangiztobe-silo-dismantlement-1995",
-    "pack": [
-      "kz"
-    ],
-    "year": 1995,
-    "lat": 49.22,
-    "lng": 81.214,
-    "place": {
-      "kk": "Жаңғызтөбе",
-      "ru": "Жангизтобе",
-      "en": "Zhangiztobe"
-    },
-    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/WMD_Dismantlement_-_Zhangiz_Tobe%2C_Kazakhstan_-_DPLA_-_7c05f949a7b6b8b58b9fbded3cf07d7b.JPG/960px-WMD_Dismantlement_-_Zhangiz_Tobe%2C_Kazakhstan_-_DPLA_-_7c05f949a7b6b8b58b9fbded3cf07d7b.JPG",
-    "image_credit": {
-      "author": "Department of Defense. Defense Threat Reduction Agency. 10/1/1998",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:WMD_Dismantlement_-_Zhangiz_Tobe,_Kazakhstan_-_DPLA_-_7c05f949a7b6b8b58b9fbded3cf07d7b.JPG"
-    },
-    "title": {
-      "kk": "Ядролық зымыран шахталарын жою",
-      "ru": "Ликвидация шахт ядерных ракет",
-      "en": "Dismantling nuclear missile silos"
-    },
-    "explanation": {
-      "kk": "КСРО ыдырағаннан кейін Қазақстан әлемдегі ең ірі ядролық арсеналдардың біріне ие болды, бірақ одан бас тартты. 1995 жылы Жаңғызтөбе маңында АҚШ-пен бірлескен бағдарлама бойынша ауыр баллистикалық зымырандардың шахталары жойыла бастады.",
-      "ru": "После распада СССР у Казахстана оказался один из крупнейших в мире ядерных арсеналов, но страна добровольно от него отказалась. В 1995 году под Жангизтобе по совместной с США программе начали уничтожать шахты тяжёлых баллистических ракет.",
-      "en": "After the USSR collapsed, Kazakhstan inherited one of the world's largest nuclear arsenals but chose to give it up. In 1995, near Zhangiztobe, silos for heavy ballistic missiles began to be dismantled under a joint programme with the USA."
-    },
-    "clue": {
-      "kk": "Бетон шахталар, техника және 1990-жылдардың түсті суреті.",
-      "ru": "Бетонные шахты, техника и цветной снимок 1990-х.",
-      "en": "Concrete silos, machinery and a 1990s colour photo."
-    },
-    "sources": [
-      "https://en.wikipedia.org/wiki/Nunn–Lugar_Cooperative_Threat_Reduction",
-      "https://ru.wikipedia.org/wiki/Жангизтобе"
-    ],
-    "difficulty": 3,
-    "verified_by": ""
-  },
-  {
     "id": "kokaral-dam-breach-1999",
     "pack": [
       "kz"
@@ -1719,7 +1194,7 @@
       "ru": "Аулиеколь, Тургайская область",
       "en": "Auliekol, Turgay region"
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/%D0%90%D1%83%D0%BB%D0%B8%D0%B5%D0%BA%D1%83%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0_%D0%A2%D1%83%D1%80%D0%B3%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8_%281896_%D0%B3.%29.jpg",
+    "image": "images/auliekol-volost-school-1896.jpg",
     "image_credit": {
       "author": "Unknown author",
       "license": "Public domain",
@@ -1745,7 +1220,7 @@
       "https://ru.wikipedia.org/wiki/Аулиеколь"
     ],
     "difficulty": 3,
-    "verified_by": ""
+    "verified_by": "Claude (сверено по источникам)"
   },
   {
     "id": "aulie-ata-citadel-1871",
@@ -1784,6 +1259,2805 @@
     "sources": [
       "https://www.loc.gov/collections/turkestan-album/",
       "https://ru.wikipedia.org/wiki/Тараз"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "kazakhs-semipalatinsk-region-1879",
+    "pack": [
+      "kz",
+      "semey"
+    ],
+    "year": 1879,
+    "lat": 50.411,
+    "lng": 80.227,
+    "place": {
+      "kk": "Семей облысы",
+      "ru": "Семипалатинская область",
+      "en": "Semipalatinsk region"
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Kazakhs_19th_Century_1.jpg",
+    "image_credit": {
+      "author": "Поляков И. С. , Дудин С. М. имена остальных фотографов не известны. Polyakov I.S. , Dudin S.M. ,the names of other photographers are not known",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kazakhs_19th_Century_1.jpg"
+    },
+    "title": {
+      "kk": "Ұлттық киімдегі қазақтар",
+      "ru": "Казахи в национальной одежде",
+      "en": "Kazakhs in traditional dress"
+    },
+    "explanation": {
+      "kk": "1879 жылы Семей облысында түсірілген ерлі-зайыптылардың портреті. XIX ғасырдағы саяхатшылар мен ғалымдар қазақтардың киімі мен тұрмысын суретке түсіріп, кейінгі ұрпаққа құнды деректер қалдырды.",
+      "ru": "Портрет мужчины и женщины, снятый в Семипалатинской области в 1879 году. Путешественники и учёные XIX века фотографировали одежду и быт казахов и оставили ценные свидетельства для потомков.",
+      "en": "A portrait of a man and a woman taken in Semipalatinsk region in 1879. Nineteenth-century travellers and scholars photographed Kazakh dress and daily life, leaving valuable records for later generations."
+    },
+    "clue": {
+      "kk": "Ақ кимешек, терімен әшекейленген шапан және ерте студиялық портрет.",
+      "ru": "Белый кимешек, шапан с меховой отделкой и ранний студийный портрет.",
+      "en": "A white kimeshek headdress, a fur-trimmed chapan and an early studio portrait."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Kazakhs_19th_Century_1.jpg"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "dudin-kazakh-family-1899",
+    "pack": [
+      "kz",
+      "semey"
+    ],
+    "year": 1899,
+    "lat": 50.411,
+    "lng": 80.227,
+    "place": {
+      "kk": "Семей облысы",
+      "ru": "Семипалатинская область",
+      "en": "Semipalatinsk region"
+    },
+    "image": "images/dudin-kazakh-family-1899.jpg",
+    "image_credit": {
+      "author": "Дудин С. М., Де-Лазари Константин Николаевич.имена остальных фотографов не известно. Dudin S.M., De-Lazari Konstantin Nikolaevich. The names of other photographers are not known.",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kazakhs_19th_Century_7.jpg"
+    },
+    "title": {
+      "kk": "Ауқатты қазақ әйелі балаларымен",
+      "ru": "Состоятельная казашка с детьми",
+      "en": "A wealthy Kazakh woman with her children"
+    },
+    "explanation": {
+      "kk": "Бұл суретті 1899 жылы Семей облысында этнограф әрі фотограф Самуил Дудин түсірген. Дудин қазақ даласында көп жүріп, халықтың тұрмысы мен киімін бейнелейтін жүздеген фотосурет жасады.",
+      "ru": "Снимок сделал в 1899 году в Семипалатинской области этнограф и фотограф Самуил Дудин. Он много ездил по казахской степи и создал сотни фотографий быта и одежды местных жителей.",
+      "en": "The photo was taken in 1899 in Semipalatinsk region by ethnographer and photographer Samuil Dudin. He travelled widely across the Kazakh steppe and made hundreds of photographs of local life and dress."
+    },
+    "clue": {
+      "kk": "Әшекейлі киімдер, балалар және XIX ғасыр соңындағы портрет.",
+      "ru": "Нарядная одежда с украшениями, дети и портрет конца XIX века.",
+      "en": "Ornate clothing, children and a late 19th-century portrait."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Kazakhs_19th_Century_7.jpg",
+      "https://ru.wikipedia.org/wiki/Дудин,_Самуил_Мартынович"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "koyandy-fair-1910s",
+    "pack": [
+      "kz"
+    ],
+    "year": 1910,
+    "lat": 49.868,
+    "lng": 75.671,
+    "place": {
+      "kk": "Қоянды жәрмеңкесі, Қарқаралы маңы",
+      "ru": "Кояндинская ярмарка, близ Каркаралинска",
+      "en": "Koyandy Fair, near Karkaralinsk"
+    },
+    "image": "images/koyandy-fair-1910s.jpg",
+    "image_credit": {
+      "author": "Фото-издательство Ирик, Семипалатинск",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Arrival_to_Koyandino-Botovskaya_Fair.tif"
+    },
+    "title": {
+      "kk": "Қоянды жәрмеңкесіне келу",
+      "ru": "Прибытие на Кояндинскую ярмарку",
+      "en": "Arriving at the Koyandy Fair"
+    },
+    "explanation": {
+      "kk": "Қарқаралы маңындағы Қоянды (Ботов) жәрмеңкесі қазақ даласындағы ең ірі жәрмеңкелердің бірі болды: мұнда мал, жүн, тері және өнеркәсіп тауарлары сатылды. Бұл ашықхат 1910-жылдарда шыққан.",
+      "ru": "Кояндинская (Ботовская) ярмарка под Каркаралинском была одной из крупнейших в казахской степи: здесь торговали скотом, шерстью, кожами и фабричными товарами. Открытка относится к 1910-м годам.",
+      "en": "The Koyandy (Botov) Fair near Karkaralinsk was one of the largest fairs in the Kazakh steppe, trading livestock, wool, hides and manufactured goods. This postcard dates from the 1910s."
+    },
+    "clue": {
+      "kk": "Киіз үйлер, түйелер мен арбалар, ескі ашықхат.",
+      "ru": "Юрты, верблюды и повозки, старая почтовая открытка.",
+      "en": "Yurts, camels and carts on an old postcard."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Кояндинская_ярмарка"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "chagan-air-base-1965",
+    "pack": [
+      "kz",
+      "semey"
+    ],
+    "year": 1965,
+    "lat": 50.533,
+    "lng": 79.183,
+    "place": {
+      "kk": "Шаған әуе базасы, Семей маңы",
+      "ru": "Авиабаза Чаган, под Семипалатинском",
+      "en": "Chagan Air Base, near Semipalatinsk"
+    },
+    "image": "images/chagan-air-base-1965.jpg",
+    "image_credit": {
+      "author": "Unknown author",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chagan_Air_Base_1965.jpg"
+    },
+    "title": {
+      "kk": "Шаған әуе базасы ғарыштан",
+      "ru": "Авиабаза Чаган из космоса",
+      "en": "Chagan Air Base from space"
+    },
+    "explanation": {
+      "kk": "Семей маңындағы Шаған (Долон) – алыс қашықтықтағы стратегиялық бомбалаушылардың кеңестік базасы, ол Семей ядролық полигонымен байланысты болды. 1965 жылы қазанда оны американың KH-7 барлау спутнигі суретке түсірді.",
+      "ru": "Чаган (Долонь) под Семипалатинском — советская база стратегических бомбардировщиков дальней авиации, связанная с Семипалатинским ядерным полигоном. В октябре 1965 года её сфотографировал американский разведывательный спутник KH-7.",
+      "en": "Chagan (Dolon) near Semipalatinsk was a Soviet base for long-range strategic bombers, linked to the Semipalatinsk nuclear test site. In October 1965 it was photographed by an American KH-7 reconnaissance satellite."
+    },
+    "clue": {
+      "kk": "Жоғарыдан түсірілген ұзын ұшу-қону жолағы, ақ-қара спутник суреті.",
+      "ru": "Длинная взлётная полоса сверху, чёрно-белый спутниковый снимок.",
+      "en": "A long runway from above, a black-and-white satellite image."
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chagan_Air_Base"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "leninsk-baikonur-1975",
+    "pack": [
+      "kz"
+    ],
+    "year": 1975,
+    "lat": 45.63,
+    "lng": 63.304,
+    "place": {
+      "kk": "Ленинск (Байқоңыр қаласы)",
+      "ru": "Ленинск (город Байконур)",
+      "en": "Leninsk (Baikonur city)"
+    },
+    "image": "images/leninsk-baikonur-1975.jpg",
+    "image_credit": {
+      "author": "Vyacheslav Argenberg / Transfer from A. S.",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%A1%D0%A1%D0%A0,_1975,_%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D1%81%D0%BA,_%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80,_%D0%A1%D1%82%D0%B5%D0%BB%D0%B0_%D0%9D%D0%B0%D1%83%D0%BA%D0%B0_%D0%B8_%D0%9A%D0%BE%D1%81%D0%BC%D0%BE%D1%81,_Leninsk,_Baikonur,_Soviet_Union.jpg"
+    },
+    "title": {
+      "kk": "Ленинск қаласы",
+      "ru": "Город Ленинск",
+      "en": "The town of Leninsk"
+    },
+    "explanation": {
+      "kk": "Ленинск – ғарыш айлағына қызмет көрсететін адамдар тұрған жабық қала, ол 1995 жылы Байқоңыр болып аталды. 1975 жылғы сурет «Ғылым мен ғарыш» стеласын көрсетеді.",
+      "ru": "Ленинск — закрытый город, где жили люди, обслуживавшие космодром; в 1995 году его переименовали в Байконур. На снимке 1975 года — стела «Наука и космос».",
+      "en": "Leninsk was a closed town where the cosmodrome's staff lived; in 1995 it was renamed Baikonur. This 1975 photo shows the 'Science and Space' stele."
+    },
+    "clue": {
+      "kk": "Ғарыш тақырыбындағы ескерткіш және 1970-жылдардың түсті суреті.",
+      "ru": "Памятник на космическую тему и цветное фото 1970-х.",
+      "en": "A space-themed monument and a 1970s colour photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Байконур_(город)"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "pavlodar-pioneer-camp-1978",
+    "pack": [
+      "kz"
+    ],
+    "year": 1978,
+    "lat": 52.287,
+    "lng": 76.967,
+    "place": {
+      "kk": "Павлодар маңы, Ертіс өзені",
+      "ru": "Под Павлодаром, река Иртыш",
+      "en": "Near Pavlodar, Irtysh River"
+    },
+    "image": "images/pavlodar-pioneer-camp-1978.jpg",
+    "image_credit": {
+      "author": "Фёдор Фёдорович Любезнов",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9B%D1%8E%D0%B1%D0%B5%D0%B7%D0%BD%D0%BE%D0%B2-%D0%BF%D0%B8%D0%BE%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9-%D0%BB%D0%B0%D0%B3%D0%B5%D1%80%D1%8C.jpg"
+    },
+    "title": {
+      "kk": "Ертіс жағасындағы пионер лагері",
+      "ru": "Пионерский лагерь на Иртыше",
+      "en": "A Pioneer camp on the Irtysh"
+    },
+    "explanation": {
+      "kk": "1978 жылы шілдеде Павлодар маңындағы Ертіс жағасында орналасқан пионер лагері. Кеңес заманында мектеп оқушылары жазғы демалысты осындай лагерьлерде өткізетін.",
+      "ru": "Июль 1978 года, пионерский лагерь на берегу Иртыша под Павлодаром. В советское время школьники проводили летние каникулы в таких лагерях.",
+      "en": "July 1978: a Pioneer camp on the bank of the Irtysh near Pavlodar. In Soviet times schoolchildren spent their summer holidays in camps like this."
+    },
+    "clue": {
+      "kk": "Пионер галстуктары, өзен жағасы және 1970-жылдардың түсті суреті.",
+      "ru": "Пионерские галстуки, берег реки и цветное фото 1970-х.",
+      "en": "Pioneer neckerchiefs, a riverbank and a 1970s colour photo."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Любезнов-пионерский-лагерь.jpg",
+      "https://ru.wikipedia.org/wiki/Павлодар"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "semey-suspension-bridge-2005",
+    "pack": [
+      "kz",
+      "semey"
+    ],
+    "year": 2005,
+    "lat": 50.42,
+    "lng": 80.27,
+    "place": {
+      "kk": "Семей, Ертіс өзені",
+      "ru": "Семей, река Иртыш",
+      "en": "Semey, Irtysh River"
+    },
+    "image": "images/semey-suspension-bridge-2005.jpg",
+    "image_credit": {
+      "author": "Evgeny Gerashchenko",
+      "license": "CC BY 2.5",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Semipalatinsk_Bridge.jpg"
+    },
+    "title": {
+      "kk": "Семейдегі аспалы көпір",
+      "ru": "Подвесной мост в Семее",
+      "en": "The suspension bridge in Semey"
+    },
+    "explanation": {
+      "kk": "Ертіс арқылы өтетін 750 метрлік аспалы көпір 2000 жылдың қазанында пайдалануға берілді, оны жапон және түрік компаниялары салды. Көпір Семейдің символына айналды; сурет 2005 жылы түсірілген.",
+      "ru": "Подвесной мост через Иртыш длиной 750 метров сдали в октябре 2000 года, его строили при участии японских и турецких компаний. Мост стал символом Семея; снимок сделан в 2005 году.",
+      "en": "The 750-metre suspension bridge across the Irtysh opened in October 2000, built with Japanese and Turkish companies. It became a symbol of Semey; the photo was taken in 2005."
+    },
+    "clue": {
+      "kk": "Биік пилондар мен аспалы арқандар, кең өзен.",
+      "ru": "Высокие пилоны, ванты и широкая река.",
+      "en": "Tall pylons, suspension cables and a wide river."
+    },
+    "sources": [
+      "https://tengrinews.kz/kazakhstan_news/simvolu-semeya-podvesnomu-mostu-irtyish-trebuetsya-polnaya-466226/"
+    ],
+    "difficulty": 1,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "aral-expedition-schooners-1848",
+    "pack": [
+      "kz"
+    ],
+    "year": 1848,
+    "lat": 46.1,
+    "lng": 61.1,
+    "place": {
+      "kk": "Сырдария сағасы, Арал теңізі",
+      "ru": "Устье Сырдарьи, Аральское море",
+      "en": "Syr Darya mouth, Aral Sea"
+    },
+    "image": "images/aral-expedition-schooners-1848.jpg",
+    "image_credit": {
+      "author": "Т. Г. Шевченко",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%A8%D1%85%D1%83%D0%BD%D1%8B_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%B8_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB.jpg"
+    },
+    "title": {
+      "kk": "Арал экспедициясының шхуналары",
+      "ru": "Шхуны Аральской экспедиции",
+      "en": "Schooners of the Aral expedition"
+    },
+    "explanation": {
+      "kk": "1848 жылы лейтенант Алексей Бутаков басқарған экспедиция «Константин» шхунасымен Арал теңізін алғаш рет толық зерттеп, картасын жасады. Экспедицияға жер аударылған ақын әрі суретші Тарас Шевченко қатысып, теңіз бен жағалауды суретке салды.",
+      "ru": "В 1848 году экспедиция лейтенанта Алексея Бутакова на шхуне «Константин» впервые подробно исследовала и нанесла на карту Аральское море. В ней участвовал ссыльный поэт и художник Тарас Шевченко, который зарисовывал море и берега.",
+      "en": "In 1848 Lieutenant Alexey Butakov's expedition aboard the schooner Konstantin made the first detailed survey and map of the Aral Sea. The exiled poet and artist Taras Shevchenko took part and sketched the sea and its shores."
+    },
+    "clue": {
+      "kk": "Желкенді кемелер және фотосуреттен бұрынғы қолмен салынған сурет.",
+      "ru": "Парусные суда и рисунок от руки — ещё до эпохи фотографии.",
+      "en": "Sailing ships in a hand-drawn picture from before photography."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Аральская_флотилия",
+      "https://kazpravda.kz/n/kobzar-i-step"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "alma-ata-mudflow-1921",
+    "pack": [
+      "kz"
+    ],
+    "year": 1921,
+    "lat": 43.256,
+    "lng": 76.95,
+    "place": {
+      "kk": "Алматы",
+      "ru": "Алма-Ата",
+      "en": "Alma-Ata (Almaty)"
+    },
+    "image": "images/alma-ata-mudflow-1921.jpg",
+    "image_credit": {
+      "author": "Unknown author",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Almaty1921_Sel_Malaya_Almatinka.jpg"
+    },
+    "title": {
+      "kk": "1921 жылғы сел Алматыда",
+      "ru": "Сель 1921 года в Алма-Ате",
+      "en": "The 1921 mudflow in Alma-Ata"
+    },
+    "explanation": {
+      "kk": "1921 жылы шілдеде Іле Алатауындағы жаңбырдан кейін пайда болған сел Алматы көшелерін басып, қаланы қатты қиратты. Дәл сол жылы Верный қаласы Алматы болып аталды; кейін қаланы селден қорғау үшін Медеу бөгеті салынды.",
+      "ru": "Летом 1921 года сель, сформировавшийся после дождей в горах Заилийского Алатау, прошёл по улицам Алма-Аты и сильно разрушил город. В том же году Верный переименовали в Алма-Ату; позже для защиты от селей построили плотину в Медеу.",
+      "en": "In summer 1921 a mudflow, formed after rains in the Trans-Ili Alatau, swept through the streets of Alma-Ata and caused heavy damage. That same year Verny was renamed Alma-Ata; later the Medeu dam was built to protect the city from mudflows."
+    },
+    "clue": {
+      "kk": "Лаймен көмілген көше, бір қабатты үйлер, ескі ақ-қара сурет.",
+      "ru": "Улица, заваленная грязью и камнями, одноэтажные дома, старый чёрно-белый снимок.",
+      "en": "A street buried in mud and rocks, low houses, an old black-and-white photo."
+    },
+    "sources": [
+      "https://tengrinews.kz/mixnews/muzcinu-proneslo-potokom-ves-gorod-samye-razrusitelnye-seli-376452/"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "aktobe-january-protests-2022",
+    "pack": [
+      "kz"
+    ],
+    "year": 2022,
+    "lat": 50.283,
+    "lng": 57.167,
+    "place": {
+      "kk": "Ақтөбе",
+      "ru": "Актобе",
+      "en": "Aktobe"
+    },
+    "image": "images/aktobe-january-protests-2022.jpg",
+    "image_credit": {
+      "author": "Esetok",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2022_Kazakhstan_protests_%E2%80%94_Aqtobe,_January_4_(01).jpg"
+    },
+    "title": {
+      "kk": "Ақтөбедегі қаңтар наразылығы",
+      "ru": "Январские протесты в Актобе",
+      "en": "January protests in Aktobe"
+    },
+    "explanation": {
+      "kk": "2022 жылдың қаңтарында Жаңаөзенде сұйытылған газ бағасының өсуіне қарсы басталған наразылық бүкіл елге тарады. 4 қаңтарда Ақтөбенің орталық алаңына да көп адам жиналды; бұл оқиғалар Қазақстанның жаңа тарихындағы ең қайғылы оқиғалардың бірі болды.",
+      "ru": "В январе 2022 года протесты против роста цен на сжиженный газ начались в Жанаозене и быстро охватили всю страну. 4 января люди вышли и на центральную площадь Актобе; эти события стали одними из самых трагических в новейшей истории Казахстана.",
+      "en": "In January 2022 protests against rising liquefied gas prices began in Zhanaozen and quickly spread across the country. On 4 January people also gathered on the central square of Aktobe; these events became among the most tragic in Kazakhstan's recent history."
+    },
+    "clue": {
+      "kk": "Түнгі алаң, алау оттары, көп адам, заманауи сандық сурет.",
+      "ru": "Ночная площадь, костры, толпа людей, современное цифровое фото.",
+      "en": "A square at night, bonfires, a crowd, a modern digital photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Протесты_в_Казахстане_(2022)"
+    ],
+    "difficulty": 1,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "temirtau-karmet-2013",
+    "pack": [
+      "kz"
+    ],
+    "year": 2013,
+    "lat": 50.068,
+    "lng": 73.015,
+    "place": {
+      "kk": "Теміртау",
+      "ru": "Темиртау",
+      "en": "Temirtau"
+    },
+    "image": "images/temirtau-karmet-2013.jpg",
+    "image_credit": {
+      "author": "Nikolay Olkhovoy",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%A2%D1%80%D0%B0%D0%BC%D0%B2%D0%B0%D0%B9_%D0%B8_%D1%82%D1%80%D1%83%D0%B1%D1%8B_%D0%9A%D0%B0%D1%80%D0%BC%D0%B5%D1%82%D0%BA%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B0%D1%82%D0%B0_%D0%B2_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D1%83.jpg"
+    },
+    "title": {
+      "kk": "Теміртау: трамвай мен Қармет мұржалары",
+      "ru": "Темиртау: трамвай и трубы Карметкомбината",
+      "en": "Temirtau: a tram and the Karmet chimneys"
+    },
+    "explanation": {
+      "kk": "Теміртау – Қарағанды металлургиялық комбинатының айналасында өскен қала, оны «қазақ Магниткасы» деп атаған. Қаланың трамвайы зауыт пен тұрғын аудандарды байланыстырды; сурет 2013 жылы түсірілген.",
+      "ru": "Темиртау вырос вокруг Карагандинского металлургического комбината — его называли «казахстанской Магниткой». Городской трамвай связывал завод с жилыми районами; снимок сделан в 2013 году.",
+      "en": "Temirtau grew up around the Karaganda Metallurgical Combine, nicknamed the 'Kazakh Magnitka'. The city's tram connected the plant with residential districts; the photo was taken in 2013."
+    },
+    "clue": {
+      "kk": "Зауыт мұржалары, ескі трамвай, сандық түсті сурет.",
+      "ru": "Заводские трубы, старый трамвай, цифровое цветное фото.",
+      "en": "Factory chimneys, an old tram, a digital colour photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Карагандинский_металлургический_комбинат",
+      "https://ru.wikipedia.org/wiki/Темиртау"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "balkhash-copper-smelter-2004",
+    "pack": [
+      "kz"
+    ],
+    "year": 2004,
+    "lat": 46.843,
+    "lng": 74.977,
+    "place": {
+      "kk": "Балқаш",
+      "ru": "Балхаш",
+      "en": "Balkhash"
+    },
+    "image": "images/balkhash-copper-smelter-2004.jpg",
+    "image_credit": {
+      "author": "Юрий Иванков at Russian Wikipedia",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%9E_%D0%91%D0%B0%D0%BB%D1%85%D0%B0%D1%88%D1%86%D0%B2%D0%B5%D1%82%D0%BC%D0%B5%D1%82.jpg"
+    },
+    "title": {
+      "kk": "Балқаш тау-кен металлургия комбинаты",
+      "ru": "Балхашский горно-металлургический комбинат",
+      "en": "Balkhash Mining and Metallurgical Combine"
+    },
+    "explanation": {
+      "kk": "Балқаш мыс балқыту зауыты алғашқы мысты 1938 жылы 24 қарашада берді – бұл Қазақстанның алғашқы қара мысы еді. 1958 жылы оның негізінде комбинат құрылды; сурет 2004 жылы түсірілген, алдыңғы жоспарда – Балқаш ЖЭО.",
+      "ru": "Балхашский медеплавильный завод выдал первую медь 24 ноября 1938 года — это была первая черновая медь Казахстана. В 1958 году на его базе создали комбинат; снимок сделан в 2004 году, на переднем плане — Балхашская ТЭЦ.",
+      "en": "The Balkhash copper smelter produced its first copper on 24 November 1938, the first blister copper in Kazakhstan. In 1958 a combine was formed on its basis; the photo was taken in 2004, with the Balkhash power plant in front."
+    },
+    "clue": {
+      "kk": "Үлкен зауыт пен мұржалар, шөлейт жер, түсті сурет.",
+      "ru": "Огромный завод с трубами в полупустыне, цветное фото.",
+      "en": "A huge plant with chimneys in semi-desert, a colour photo."
+    },
+    "sources": [
+      "https://ru.ruwiki.ru/wiki/Балхашцветмет",
+      "https://www.nur.kz/nurfin/economy/2011156-kak-zabilos-serdtse-bmz-metallurgi-otmetili-85-letie-pervoy-balhashskoy-medi/"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "cis-heads-alma-ata-1991",
+    "pack": [
+      "kz"
+    ],
+    "year": 1991,
+    "lat": 43.238,
+    "lng": 76.946,
+    "place": {
+      "kk": "Алматы",
+      "ru": "Алма-Ата",
+      "en": "Alma-Ata (Almaty)"
+    },
+    "image": "images/cis-heads-alma-ata-1991.jpg",
+    "image_credit": {
+      "author": "Dmitryi Donskoy / Дмитрий Донской",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RIAN_archive_41059_CIS_heads_of_state.jpg"
+    },
+    "title": {
+      "kk": "Алматы кездесуі: ТМД басшылары",
+      "ru": "Алма-Атинская встреча глав СНГ",
+      "en": "The Alma-Ata meeting of CIS leaders"
+    },
+    "explanation": {
+      "kk": "1991 жылы 21 желтоқсанда Алматыда 11 республиканың басшылары Тәуелсіз Мемлекеттер Достастығын құру туралы декларацияға қол қойды. Бұл КСРО-ның өмір сүруін іс жүзінде тоқтатты; Қазақстан өз тәуелсіздігін бес күн бұрын, 16 желтоқсанда жариялаған еді.",
+      "ru": "21 декабря 1991 года в Алма-Ате лидеры 11 республик подписали декларацию о создании Содружества Независимых Государств. Это фактически поставило точку в существовании СССР; Казахстан провозгласил независимость за пять дней до этого, 16 декабря.",
+      "en": "On 21 December 1991 in Alma-Ata the leaders of 11 republics signed the declaration establishing the Commonwealth of Independent States. It effectively ended the existence of the USSR; Kazakhstan had declared independence five days earlier, on 16 December."
+    },
+    "clue": {
+      "kk": "Ресми кездесу, костюм киген саясаткерлер, ерте 1990-жылдардың суреті.",
+      "ru": "Официальная встреча, политики в костюмах, снимок начала 1990-х.",
+      "en": "An official meeting, politicians in suits, an early-1990s photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Алма-Атинская_декларация"
+    ],
+    "difficulty": 1,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "kazalinsk-trade-stalls-1870",
+    "pack": [
+      "kz"
+    ],
+    "year": 1870,
+    "lat": 45.762,
+    "lng": 62.107,
+    "place": {
+      "kk": "Қазалы",
+      "ru": "Казалинск",
+      "en": "Kazalinsk (Kazaly)"
+    },
+    "image": "images/kazalinsk-trade-stalls-1870.jpg",
+    "image_credit": {
+      "author": "Kun, Aleksandr L., 1840-1888",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Syr_Darya_Oblast._City_of_Kazalinsk._Trade_Stalls_WDL10926.png"
+    },
+    "title": {
+      "kk": "Қазалыдағы сауда дүкендері",
+      "ru": "Торговые лавки Казалинска",
+      "en": "Trade stalls in Kazalinsk"
+    },
+    "explanation": {
+      "kk": "Қазалы 1853 жылы Сырдария бойындағы әскери бекініс ретінде салынып, Арал теңізі мен Орта Азияға баратын жолдағы маңызды сауда пунктіне айналды. Сурет 1865–1872 жылдардағы «Түркістан альбомынан» алынған.",
+      "ru": "Казалинск возник в 1853 году как военное укрепление на Сырдарье и стал важным торговым пунктом на пути к Аральскому морю и в Среднюю Азию. Снимок из «Туркестанского альбома» 1865–1872 годов.",
+      "en": "Kazalinsk was founded in 1853 as a military fort on the Syr Darya and became an important trading post on the way to the Aral Sea and Central Asia. A photo from the Turkestan Album of 1865–1872."
+    },
+    "clue": {
+      "kk": "Саз балшық дүкендер, сауда адамдары және өте ерте фотосурет.",
+      "ru": "Глинобитные лавки, торговцы и очень ранняя фотография.",
+      "en": "Mud-brick stalls, traders and a very early photograph."
+    },
+    "sources": [
+      "https://www.loc.gov/collections/turkestan-album/",
+      "https://ru.wikipedia.org/wiki/Казалинск"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "aulie-ata-koumis-vendor-1870",
+    "pack": [
+      "kz"
+    ],
+    "year": 1870,
+    "lat": 42.9,
+    "lng": 71.367,
+    "place": {
+      "kk": "Әулиеата (Тараз)",
+      "ru": "Аулие-Ата (Тараз)",
+      "en": "Aulie-Ata (Taraz)"
+    },
+    "image": "images/aulie-ata-koumis-vendor-1870.jpg",
+    "image_credit": {
+      "author": "Kun, Aleksandr L., 1840-1888",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Syr_Darya_Oblast._Aulie-Ata._Vendor_of_Koumis,_Fermented_Mare%27s_Milk_WDL10905.png"
+    },
+    "title": {
+      "kk": "Әулиеатадағы қымыз сатушы",
+      "ru": "Продавец кумыса в Аулие-Ате",
+      "en": "A koumis seller in Aulie-Ata"
+    },
+    "explanation": {
+      "kk": "«Түркістан альбомындағы» (1865–1872) сурет: Әулиеата базарындағы қымыз сатушы. Бие сүтінен ашытылған қымыз – қазақтардың ежелгі және ең сүйікті сусындарының бірі.",
+      "ru": "Снимок из «Туркестанского альбома» (1865–1872): продавец кумыса на базаре Аулие-Аты. Кумыс из кобыльего молока — один из древнейших и самых любимых напитков казахов.",
+      "en": "A photo from the Turkestan Album (1865–1872): a koumis seller at the Aulie-Ata bazaar. Koumis, fermented mare's milk, is one of the oldest and best-loved Kazakh drinks."
+    },
+    "clue": {
+      "kk": "Сусын құятын ыдыстар, дәстүрлі киім және ерте студиялық сурет.",
+      "ru": "Сосуды для напитка, традиционная одежда и ранний снимок.",
+      "en": "Vessels for the drink, traditional dress and an early photograph."
+    },
+    "sources": [
+      "https://www.loc.gov/collections/turkestan-album/",
+      "https://ru.wikipedia.org/wiki/Кумыс"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "vernoe-square-1857",
+    "pack": [
+      "kz"
+    ],
+    "year": 1857,
+    "lat": 43.258,
+    "lng": 76.95,
+    "place": {
+      "kk": "Верное (Алматы)",
+      "ru": "Верное (Алма-Ата)",
+      "en": "Vernoye (Almaty)"
+    },
+    "image": "images/vernoe-square-1857.jpg",
+    "image_credit": {
+      "author": "Pavel Kosharov",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Square_in_the_village_of_Vernoe_(1857).jpg"
+    },
+    "title": {
+      "kk": "Верное бекінісіндегі алаң",
+      "ru": "Площадь в укреплении Верное",
+      "en": "A square in the Vernoye settlement"
+    },
+    "explanation": {
+      "kk": "Верное бекінісі 1854 жылы Іле Алатауының етегінде салынды – бүгінгі Алматының бастауы. Бұл суретті 1857 жылы Тянь-Шаньға барған Пётр Семёновтың экспедициясымен бірге жүрген суретші Павел Кошаров салған.",
+      "ru": "Укрепление Верное основали в 1854 году у подножия Заилийского Алатау — с него началась нынешняя Алма-Ата. Рисунок сделал в 1857 году художник Павел Кошаров, сопровождавший экспедицию Петра Семёнова на Тянь-Шань.",
+      "en": "The Vernoye fort was founded in 1854 at the foot of the Trans-Ili Alatau, the beginning of today's Almaty. This drawing was made in 1857 by artist Pavel Kosharov, who accompanied Pyotr Semyonov's expedition to the Tian Shan."
+    },
+    "clue": {
+      "kk": "Киіз үй мен ағаш үйлер қатар тұр, таулар, фотосуреттен бұрынғы сурет.",
+      "ru": "Юрта рядом с деревянными домами, горы, рисунок до эпохи фотографии.",
+      "en": "A yurt beside wooden houses, mountains, a drawing from before photography."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Верный_(город)",
+      "https://ru.wikipedia.org/wiki/Семёнов-Тян-Шанский,_Пётр_Петрович"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "verny-earthquake-ruins-1887",
+    "pack": [
+      "kz"
+    ],
+    "year": 1887,
+    "lat": 43.258,
+    "lng": 76.95,
+    "place": {
+      "kk": "Верный (Алматы)",
+      "ru": "Верный (Алма-Ата)",
+      "en": "Verny (Almaty)"
+    },
+    "image": "images/verny-earthquake-ruins-1887.jpg",
+    "image_credit": {
+      "author": "Ф. Ордэн",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B5%D1%80%D0%BD%D1%8B%D0%B9._%D0%A0%D0%B0%D0%B7%D0%B2%D0%B0%D0%BB%D0%B8%D0%BD%D1%8B_%D1%81%D0%BE%D0%B1%D0%BE%D1%80%D0%B0.(N1136)%D0%9E%D1%80%D0%B4%D1%8D%D0%BD,1887-1888%D0%B3%D0%B3.%D0%90%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC.1-4.%D0%9A%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7_%D0%B8_%D0%A1%D1%80.%D0%90%D0%B7%D0%B8%D1%8F_147b4f9302_o.jpg"
+    },
+    "title": {
+      "kk": "1887 жылғы жер сілкінісінен кейінгі собор",
+      "ru": "Собор после землетрясения 1887 года",
+      "en": "The cathedral after the 1887 earthquake"
+    },
+    "explanation": {
+      "kk": "1887 жылы мамырда болған Верный жер сілкінісі қаланың тас ғимараттарының көбін қиратты. Осыдан кейін қалада ағаштан салу кең тарады: мысалы, 1904–1907 жылдары салынған жаңа Вознесение соборы да ағаштан тұрғызылды.",
+      "ru": "Верненское землетрясение в мае 1887 года разрушило большинство каменных зданий города. После этого в Верном стали широко строить из дерева — например, новый Вознесенский собор 1904–1907 годов тоже возвели деревянным.",
+      "en": "The Verny earthquake of May 1887 destroyed most of the town's stone buildings. Afterwards timber construction became widespread: the new Ascension Cathedral of 1904–1907, for example, was also built of wood."
+    },
+    "clue": {
+      "kk": "Қираған ғимарат, үйінділер және XIX ғасыр соңындағы фотосурет.",
+      "ru": "Разрушенное здание, завалы и фотография конца XIX века.",
+      "en": "A ruined building, rubble and a late 19th-century photograph."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Верненское_землетрясение"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "pavlodar-tatar-sloboda-1910s",
+    "pack": [
+      "kz"
+    ],
+    "year": 1910,
+    "lat": 52.287,
+    "lng": 76.967,
+    "place": {
+      "kk": "Павлодар",
+      "ru": "Павлодар",
+      "en": "Pavlodar"
+    },
+    "image": "images/pavlodar-tatar-sloboda-1910s.jpg",
+    "image_credit": {
+      "author": "Unknown author",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Panorama_of_the_Tatar_Sloboda_and_market_square_in_pre-revolutionary_Pavlodar.png"
+    },
+    "title": {
+      "kk": "Павлодардағы татар слободасы мен базар алаңы",
+      "ru": "Татарская слобода и базарная площадь Павлодара",
+      "en": "The Tatar quarter and market square of Pavlodar"
+    },
+    "explanation": {
+      "kk": "Революцияға дейінгі Павлодардың көрінісі (1905–1917 жж.): татар слободасы, мешіт мұнарасы және базар алаңы. Ертіс бойындағы бұл қала астық, мал және тұз саудасының орталығы болды, оның көпестерінің көбі татарлар еді.",
+      "ru": "Вид дореволюционного Павлодара (1905–1917): Татарская слобода с минаретом мечети и базарная площадь. Город на Иртыше был центром торговли зерном, скотом и солью, среди его купцов было много татар.",
+      "en": "Pre-revolutionary Pavlodar (1905–1917): the Tatar quarter with a mosque minaret and the market square. The town on the Irtysh was a centre of trade in grain, livestock and salt, and many of its merchants were Tatars."
+    },
+    "clue": {
+      "kk": "Мұнара, бір қабатты үйлер, кең базар алаңы, ескі сурет.",
+      "ru": "Минарет, одноэтажная застройка, широкая базарная площадь, старый снимок.",
+      "en": "A minaret, one-storey buildings, a wide market square, an old photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Павлодар"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "akmolinsk-fortress-1911",
+    "pack": [
+      "kz"
+    ],
+    "year": 1911,
+    "lat": 51.18,
+    "lng": 71.446,
+    "place": {
+      "kk": "Ақмола (Астана)",
+      "ru": "Акмолинск (Астана)",
+      "en": "Akmolinsk (Astana)"
+    },
+    "image": "images/akmolinsk-fortress-1911.jpg",
+    "image_credit": {
+      "author": "Unknown author",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fortress_in_Akmolinsk.jpg"
+    },
+    "title": {
+      "kk": "Ақмола бекінісінің қалдықтары",
+      "ru": "Остатки Акмолинской крепости",
+      "en": "Remains of the Akmolinsk fortress"
+    },
+    "explanation": {
+      "kk": "Ақмола 1830 жылы Есіл жағасындағы казак бекінісі ретінде құрылды, кейін уездік қалаға айналды. 1911 жылғы бұл суретте ескі бекіністен қалған ағаш мұнара көрінеді; бүгін бұл жерде Қазақстанның астанасы – Астана орналасқан.",
+      "ru": "Акмолинск основали в 1830 году как казачье укрепление на Ишиме, позже он стал уездным городом. На снимке 1911 года — деревянная башня, оставшаяся от старой крепости; сегодня на этом месте стоит столица Казахстана Астана.",
+      "en": "Akmolinsk was founded in 1830 as a Cossack fort on the Ishim and later became a district town. This 1911 photo shows a wooden tower left from the old fortress; today the capital of Kazakhstan, Astana, stands here."
+    },
+    "clue": {
+      "kk": "Ағаш мұнара, жартылай тас іргетас, ескі ашықхат.",
+      "ru": "Бревенчатая башня на каменном основании, старая открытка.",
+      "en": "A log tower on a stone base, an old postcard."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Астана",
+      "https://ru.wikipedia.org/wiki/История_Астаны"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "alma-ata-kazan-church-1944",
+    "pack": [
+      "kz"
+    ],
+    "year": 1944,
+    "lat": 43.25,
+    "lng": 76.93,
+    "place": {
+      "kk": "Алматы",
+      "ru": "Алма-Ата",
+      "en": "Alma-Ata (Almaty)"
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%85%D1%80%D0%B0%D0%BC_%D0%B3._%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B_%D0%B2_%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4_1944-1945_%D0%B3%D0%B3.jpg",
+    "image_credit": {
+      "author": "Митрополичий округ в Республике Казахстан",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%85%D1%80%D0%B0%D0%BC_%D0%B3._%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B_%D0%B2_%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4_1944-1945_%D0%B3%D0%B3.jpg"
+    },
+    "title": {
+      "kk": "Соғыс жылдарындағы Алматы",
+      "ru": "Алма-Ата в годы войны",
+      "en": "Alma-Ata during the war"
+    },
+    "explanation": {
+      "kk": "Бұл сурет 1944–1945 жылдары Алматыдағы Қазан шіркеуінде түсірілген. Соғыс жылдары қала жүз мыңдаған эвакуацияланған адамды, ондаған зауыт, театр мен киностудияларды қабылдады.",
+      "ru": "Снимок Казанского храма в Алма-Ате 1944–1945 годов. В годы войны город принял сотни тысяч эвакуированных, десятки заводов, театров и киностудий.",
+      "en": "The Kazan church in Alma-Ata, photographed in 1944–1945. During the war the city took in hundreds of thousands of evacuees and dozens of factories, theatres and film studios."
+    },
+    "clue": {
+      "kk": "Ағаш шіркеу, жапырақсыз ағаштар, 1940-жылдардың суреті.",
+      "ru": "Деревянный храм, голые деревья, снимок 1940-х.",
+      "en": "A wooden church, bare trees, a 1940s photo."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Казанский_храм_г._Алматы_в_период_1944-1945_гг.jpg",
+      "https://ru.wikipedia.org/wiki/Казахская_ССР_в_Великой_Отечественной_войне"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "pavlodar-tatar-school-1925",
+    "pack": [
+      "kz"
+    ],
+    "year": 1925,
+    "lat": 52.287,
+    "lng": 76.967,
+    "place": {
+      "kk": "Павлодар",
+      "ru": "Павлодар",
+      "en": "Pavlodar"
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Group_of_students_and_teachers_of_the_Tatar_seven-year_school_in_Pavlodar.png",
+    "image_credit": {
+      "author": "Unknown author",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Group_of_students_and_teachers_of_the_Tatar_seven-year_school_in_Pavlodar.png"
+    },
+    "title": {
+      "kk": "Павлодардағы татар жетіжылдық мектебі",
+      "ru": "Татарская семилетка в Павлодаре",
+      "en": "The Tatar seven-year school in Pavlodar"
+    },
+    "explanation": {
+      "kk": "1925 жылғы топтық сурет: Павлодардағы татар жетіжылдық мектебінің оқушылары мен мұғалімдері. 1920-жылдары сауатсыздықты жою науқаны жүріп, ұлттық тілдерде мектептер ашылды.",
+      "ru": "Групповой снимок 1925 года: ученики и учителя татарской семилетней школы в Павлодаре. В 1920-е годы шла кампания по ликвидации неграмотности, открывались школы на национальных языках.",
+      "en": "A 1925 group portrait of pupils and teachers of the Tatar seven-year school in Pavlodar. In the 1920s a literacy campaign was under way and schools in national languages were opening."
+    },
+    "clue": {
+      "kk": "Көп балалар мен жасөспірімдер, қарапайым киім, 1920-жылдардың суреті.",
+      "ru": "Много детей и подростков, простая одежда, снимок 1920-х.",
+      "en": "Many children and teenagers, simple clothes, a 1920s photo."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Group_of_students_and_teachers_of_the_Tatar_seven-year_school_in_Pavlodar.png",
+      "https://ru.wikipedia.org/wiki/Ликвидация_безграмотности"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "petropavlovsk-panorama-1914",
+    "pack": [
+      "kz"
+    ],
+    "year": 1914,
+    "lat": 54.866,
+    "lng": 69.15,
+    "place": {
+      "kk": "Петропавл",
+      "ru": "Петропавловск",
+      "en": "Petropavlovsk (Petropavl)"
+    },
+    "image": "images/petropavlovsk-panorama-1914.jpg",
+    "image_credit": {
+      "author": "Unknown author",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%BF%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D1%81%D0%BA._%D0%92%D0%B8%D0%B4_%D1%81_%D0%B2%D0%BE%D0%B4%D0%BE%D0%BD%D0%B0%D0%BF%D0%BE%D1%80%D0%BD%D0%BE%D0%B9_%D0%B1%D0%B0%D1%88%D0%BD%D0%B8._%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F_%D1%87%D0%B0%D1%81%D1%82%D1%8C_%D0%BF%D0%B0%D0%BD%D0%BE%D1%80%D0%B0%D0%BC%D1%8B.jpg"
+    },
+    "title": {
+      "kk": "Петропавлдың су мұнарасынан көрінісі",
+      "ru": "Петропавловск с водонапорной башни",
+      "en": "Petropavlovsk from the water tower"
+    },
+    "explanation": {
+      "kk": "Петропавл 1752 жылы Есіл жағасында Әулие Петр бекінісі ретінде құрылды. 1896 жылы оған Транссібір темір жолы жетіп, қала Дала өлкесінің ірі сауда орталығына айналды; сурет 1914 жылы түсірілген.",
+      "ru": "Петропавловск основан в 1752 году как крепость Святого Петра на Ишиме. В 1896 году сюда пришла Транссибирская магистраль, и город стал крупным торговым центром Степного края; снимок 1914 года.",
+      "en": "Petropavlovsk was founded in 1752 as the fortress of St Peter on the Ishim. The Trans-Siberian Railway reached it in 1896 and it became a major trading centre of the Steppe region; the photo dates from 1914."
+    },
+    "clue": {
+      "kk": "Жоғарыдан көрінген кең көшелер, мұнара, XX ғасыр басындағы сурет.",
+      "ru": "Широкие улицы сверху, минарет, снимок начала XX века.",
+      "en": "Wide streets from above, a minaret, an early 20th-century photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Петропавловск"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "uralsk-harvesters-1972",
+    "pack": [
+      "kz"
+    ],
+    "year": 1972,
+    "lat": 51.233,
+    "lng": 51.367,
+    "place": {
+      "kk": "Орал",
+      "ru": "Уральск",
+      "en": "Uralsk (Oral)"
+    },
+    "image": "images/uralsk-harvesters-1972.jpg",
+    "image_credit": {
+      "author": "Самочеляев И. Ф.",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kombaini.jpg"
+    },
+    "title": {
+      "kk": "Оралдағы комбайндар",
+      "ru": "Комбайны во дворе в Уральске",
+      "en": "Combine harvesters in a Uralsk courtyard"
+    },
+    "explanation": {
+      "kk": "1972 жылғы Орал: институт жатақханасының ауласында егін жинауға дайындалған комбайндар тұр. Орал – Жайық бойындағы Қазақстанның ең көне қалаларының бірі, ал Батыс Қазақстан облысы ірі астық өндіретін аймақ болды.",
+      "ru": "Уральск, 1972 год: во дворе институтского общежития стоят комбайны, подготовленные к уборке урожая. Уральск на Урале (Жайыке) — один из старейших городов Казахстана, а Западно-Казахстанская область была крупным зерновым районом.",
+      "en": "Uralsk in 1972: combine harvesters ready for the harvest stand in the yard of an institute dormitory. Uralsk on the Ural (Zhaiyk) River is one of Kazakhstan's oldest cities, and the region was a major grain producer."
+    },
+    "clue": {
+      "kk": "Көп қабатты кеңестік ғимарат, жеке үйлер, 1970-жылдардың түсті суреті.",
+      "ru": "Советская многоэтажка рядом с частными домами, цветное фото 1970-х.",
+      "en": "A Soviet multi-storey block next to private houses, a 1970s colour photo."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Kombaini.jpg",
+      "https://ru.wikipedia.org/wiki/Уральск"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "tu104-alma-ata-1958",
+    "pack": [
+      "kz"
+    ],
+    "year": 1958,
+    "lat": 43.352,
+    "lng": 77.04,
+    "place": {
+      "kk": "Алматы әуежайы",
+      "ru": "Аэропорт Алма-Аты",
+      "en": "Alma-Ata airport"
+    },
+    "image": "images/tu104-alma-ata-1958.jpg",
+    "image_credit": {
+      "author": "Главархив Москвы",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tu-104_on_Almaty_airport.jpg"
+    },
+    "title": {
+      "kk": "Мәскеуден ұшып келген алғашқы Ту-104",
+      "ru": "Первый Ту-104 из Москвы",
+      "en": "The first Tu-104 from Moscow"
+    },
+    "explanation": {
+      "kk": "1958 жылы қазанда Мәскеуден Алматыға алғашқы Ту-104 реактивті жолаушылар ұшағы келді, оның экипажын салтанатты түрде қарсы алды. Ту-104 – КСРО-ның алғашқы реактивті жолаушылар ұшағы, ол астаналар арасындағы сапарды бірнеше есе қысқартты.",
+      "ru": "В октябре 1958 года в Алма-Ату прилетел первый реактивный пассажирский Ту-104 из Москвы, его экипаж встречали торжественно. Ту-104 был первым советским реактивным лайнером и в разы сократил время в пути между столицами.",
+      "en": "In October 1958 the first Tu-104 jet airliner arrived in Alma-Ata from Moscow, and its crew was welcomed with a ceremony. The Tu-104 was the first Soviet jet airliner and cut travel time between the capitals several times over."
+    },
+    "clue": {
+      "kk": "Ұшқыштардың формасы, аэровокзал, 1950-жылдардың көліктері.",
+      "ru": "Лётная форма, аэровокзал, автомобили 1950-х.",
+      "en": "Pilots' uniforms, an air terminal, 1950s vehicles."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Tu-104_on_Almaty_airport.jpg",
+      "https://ru.wikipedia.org/wiki/Ту-104"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "aktobe-street-1930s",
+    "pack": [
+      "kz"
+    ],
+    "year": 1935,
+    "lat": 50.283,
+    "lng": 57.167,
+    "place": {
+      "kk": "Ақтөбе",
+      "ru": "Актюбинск (Актобе)",
+      "en": "Aktyubinsk (Aktobe)"
+    },
+    "image": "images/aktobe-street-1930s.jpg",
+    "image_credit": {
+      "author": "Unknown author",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Aktobe_1930s_(04).jpg"
+    },
+    "title": {
+      "kk": "Көшедегі түйе керуені",
+      "ru": "Верблюжий караван на улице",
+      "en": "A camel caravan in the street"
+    },
+    "explanation": {
+      "kk": "1930-жылдардағы Ақтөбе: Карл Либкнехт көшесімен түйе керуені өтіп барады. Ақтөбе 1869 жылы әскери бекініс ретінде құрылды, ал 1930-жылдары да түйе мен арба жүк тасудың әдеттегі көлігі болып қала берді.",
+      "ru": "Актюбинск 1930-х: по улице Карла Либкнехта идёт верблюжий караван. Город основан в 1869 году как военное укрепление, и даже в 1930-е годы верблюды и телеги оставались обычным грузовым транспортом.",
+      "en": "Aktyubinsk in the 1930s: a camel caravan walks down Karl Liebknecht Street. The town was founded in 1869 as a military fort, and even in the 1930s camels and carts were still ordinary freight transport."
+    },
+    "clue": {
+      "kk": "Түйелер, кеңестік дүкен маңдайшасы, ескі сурет.",
+      "ru": "Верблюды, вывеска советского магазина, старый снимок.",
+      "en": "Camels, a Soviet shop sign, an old photo."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/Category:Aktobe_in_the_1930s",
+      "https://ru.wikipedia.org/wiki/Актобе"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "pugachev-museum-uralsk-2004",
+    "pack": [
+      "kz"
+    ],
+    "year": 2004,
+    "lat": 51.233,
+    "lng": 51.367,
+    "place": {
+      "kk": "Орал",
+      "ru": "Уральск",
+      "en": "Uralsk (Oral)"
+    },
+    "image": "images/pugachev-museum-uralsk-2004.jpg",
+    "image_credit": {
+      "author": "ArsenG",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pugachev_home.JPG"
+    },
+    "title": {
+      "kk": "Оралдағы Пугачёв үй-мұражайы",
+      "ru": "Дом-музей Пугачёва в Уральске",
+      "en": "Pugachev House Museum in Uralsk"
+    },
+    "explanation": {
+      "kk": "1773–1775 жылдардағы Емельян Пугачёв көтерілісі Жайық казактарының ортасында басталды. Көтеріліс басылғаннан кейін II Екатерина Жайық өзенін Орал деп, ал Жайық қалашығын Орал қаласы деп өзгертті; ағаш үйде қазір мұражай бар, сурет 2004 жылы түсірілген.",
+      "ru": "Восстание Емельяна Пугачёва 1773–1775 годов началось среди яицких казаков. После его подавления Екатерина II переименовала реку Яик в Урал, а Яицкий городок — в Уральск; в бревенчатом доме теперь музей, снимок 2004 года.",
+      "en": "Yemelyan Pugachev's rebellion of 1773–1775 began among the Yaik Cossacks. After it was crushed, Catherine II renamed the Yaik River the Ural and the town of Yaitsky Gorodok became Uralsk; the log house is now a museum, photographed in 2004."
+    },
+    "clue": {
+      "kk": "Ескі бөрене үй, заманауи түсті сурет.",
+      "ru": "Старый бревенчатый дом, современное цветное фото.",
+      "en": "An old log house, a modern colour photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Восстание_Пугачёва",
+      "https://ru.wikipedia.org/wiki/Уральск"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "syr-darya-winter-fishing-2006",
+    "pack": [
+      "kz"
+    ],
+    "year": 2006,
+    "lat": 44.85,
+    "lng": 65.5,
+    "place": {
+      "kk": "Сырдария, Қызылорда облысы",
+      "ru": "Сырдарья, Кызылординская область",
+      "en": "Syr Darya, Kyzylorda region"
+    },
+    "image": "images/syr-darya-winter-fishing-2006.jpg",
+    "image_credit": {
+      "author": "Yuriy75",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Syr_Darya_river_(Qyzylorda_province)_winter_fishing_2006_00.jpg"
+    },
+    "title": {
+      "kk": "Сырдариядағы қысқы балық аулау",
+      "ru": "Зимняя рыбалка на Сырдарье",
+      "en": "Ice fishing on the Syr Darya"
+    },
+    "explanation": {
+      "kk": "2006 жылдың қысында Қызылорда облысында Сырдарияның мұзында балық аулап жатқан балықшылар. Сырдария – Орта Азияның ең ұзын өзендерінің бірі, оның суы Кіші Аралды толтыратын негізгі көз.",
+      "ru": "Зима 2006 года: рыбаки на льду Сырдарьи в Кызылординской области. Сырдарья — одна из самых длинных рек Средней Азии и главный источник воды для Малого Арала.",
+      "en": "Winter 2006: fishermen on the ice of the Syr Darya in Kyzylorda region. The Syr Darya is one of Central Asia's longest rivers and the main source of water for the Small Aral Sea."
+    },
+    "clue": {
+      "kk": "Мұз, ойық, қалың қысқы киім, сандық сурет.",
+      "ru": "Лёд, лунка, тёплая зимняя одежда, цифровое фото.",
+      "en": "Ice, a fishing hole, warm winter clothes, a digital photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Сырдарья"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "kaindy-lake-2006",
+    "pack": [
+      "kz"
+    ],
+    "year": 2006,
+    "lat": 42.985,
+    "lng": 78.466,
+    "place": {
+      "kk": "Қайыңды көлі",
+      "ru": "Озеро Каинды",
+      "en": "Lake Kaindy"
+    },
+    "image": "images/kaindy-lake-2006.jpg",
+    "image_credit": {
+      "author": "Jonas Satkauskas",
+      "license": "Attribution",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kaindy_lake_south-east_Kazakhstan.jpg"
+    },
+    "title": {
+      "kk": "Қайыңды көлі",
+      "ru": "Озеро Каинды",
+      "en": "Lake Kaindy"
+    },
+    "explanation": {
+      "kk": "Қайыңды көлі 1911 жылғы Кемин жер сілкінісінен кейін тау құлауы шатқалды бөгегенде пайда болды. Судан әлі күнге дейін су астында қалған шыршалардың діңдері шығып тұр; сурет 2006 жылы түсірілген.",
+      "ru": "Озеро Каинды образовалось после Кеминского землетрясения 1911 года, когда горный обвал перегородил ущелье. Из воды до сих пор торчат стволы затопленных елей; снимок 2006 года.",
+      "en": "Lake Kaindy formed after the 1911 Kemin earthquake, when a landslide dammed the gorge. Trunks of drowned spruce trees still rise out of the water; the photo dates from 2006."
+    },
+    "clue": {
+      "kk": "Судан шығып тұрған құрғақ діңдер, тау шыршалары.",
+      "ru": "Сухие стволы прямо из воды, горные ели.",
+      "en": "Bare trunks standing in the water, mountain spruces."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Каинды_(озеро)",
+      "https://ru.wikipedia.org/wiki/Кеминское_землетрясение"
+    ],
+    "difficulty": 1,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "korday-border-2007",
+    "pack": [
+      "kz"
+    ],
+    "year": 2007,
+    "lat": 43.04,
+    "lng": 74.71,
+    "place": {
+      "kk": "Қордай",
+      "ru": "Кордай",
+      "en": "Korday"
+    },
+    "image": "images/korday-border-2007.jpg",
+    "image_credit": {
+      "author": "Vmenkov",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:E8398-Korday-entering-KZ.jpg"
+    },
+    "title": {
+      "kk": "Қордай шекара бекеті",
+      "ru": "Пограничный переход Кордай",
+      "en": "Korday border crossing"
+    },
+    "explanation": {
+      "kk": "Қордай – Қазақстан мен Қырғызстан арасындағы ең көп адам өтетін шекара бекеттерінің бірі, ол Бішкекке жақын. 2007 жылғы суретте Қазақстанға кіре берістегі қақпа бейнеленген.",
+      "ru": "Кордай — один из самых оживлённых пограничных переходов между Казахстаном и Кыргызстаном, рядом с Бишкеком. На снимке 2007 года — въездные ворота в Казахстан.",
+      "en": "Korday is one of the busiest border crossings between Kazakhstan and Kyrgyzstan, close to Bishkek. The 2007 photo shows the entrance gate into Kazakhstan."
+    },
+    "clue": {
+      "kk": "Доға қақпа, шекара кедергілері, 2000-жылдардың көліктері.",
+      "ru": "Арка-ворота, пограничные блоки, машины 2000-х.",
+      "en": "An arched gate, border barriers, 2000s cars."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Кордай"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "dolinka-karlag-museum-2013",
+    "pack": [
+      "kz"
+    ],
+    "year": 2013,
+    "lat": 49.678,
+    "lng": 72.678,
+    "place": {
+      "kk": "Долинка, Қарағанды облысы",
+      "ru": "Долинка, Карагандинская область",
+      "en": "Dolinka, Karaganda region"
+    },
+    "image": "images/dolinka-karlag-museum-2013.jpg",
+    "image_credit": {
+      "author": "Yakov Fedorov",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dolinka_Museum_1.JPG"
+    },
+    "title": {
+      "kk": "Долинкадағы Қарлаг мұражайы",
+      "ru": "Музей Карлага в Долинке",
+      "en": "The Karlag museum in Dolinka"
+    },
+    "explanation": {
+      "kk": "Долинка кентінде ГУЛАГ-тың ең ірі лагерьлерінің бірі – Қарлагтың басқармасы орналасқан. Қазір бұл ғимаратта саяси қуғын-сүргін құрбандарына арналған мұражай жұмыс істейді; сурет 2013 жылы түсірілген.",
+      "ru": "В посёлке Долинка находилось управление Карлага — одного из крупнейших лагерей ГУЛАГа. Сейчас в этом здании работает музей памяти жертв политических репрессий; снимок 2013 года.",
+      "en": "The village of Dolinka housed the administration of Karlag, one of the largest camps of the Gulag. The building is now a museum to the victims of political repression; the photo dates from 2013."
+    },
+    "clue": {
+      "kk": "Бағаналы кеңестік ғимарат, қызыл жұлдыз, заманауи сурет.",
+      "ru": "Советское здание с колоннами и красной звездой, современное фото.",
+      "en": "A Soviet building with columns and a red star, a modern photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Карлаг"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "karaganda-miners-palace-2013",
+    "pack": [
+      "kz"
+    ],
+    "year": 2013,
+    "lat": 49.806,
+    "lng": 73.085,
+    "place": {
+      "kk": "Қарағанды",
+      "ru": "Караганда",
+      "en": "Karaganda"
+    },
+    "image": "images/karaganda-miners-palace-2013.jpg",
+    "image_credit": {
+      "author": "Grin1372Go",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%93._%D0%9A%D0%B0%D1%80%D0%B0%D0%B3%D0%B0%D0%BD%D0%B4%D0%B0._%D0%94%D0%B2%D0%BE%D1%80%D0%B5%D1%86_%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D1%8B_%D0%B3%D0%BE%D1%80%D0%BD%D1%8F%D0%BA%D0%BE%D0%B2_%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82_%D0%91-%D0%96%D0%B8%D1%80%D0%B0%D1%83_(%D1%80%D0%B0%D0%BD%D0%B5%D0%B5_%D0%BF%D1%80.%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9).jpg"
+    },
+    "title": {
+      "kk": "Қарағандыдағы Кеншілер мәдениет сарайы",
+      "ru": "Дворец культуры горняков в Караганде",
+      "en": "The Miners' Palace of Culture in Karaganda"
+    },
+    "explanation": {
+      "kk": "Қарағанды Қарағанды көмір бассейнінің арқасында өсті, оны «КСРО-ның үшінші көмір ошағы» деп атаған. Кеншілер мәдениет сарайы – қаланың кеншілік өткенінің символы; сурет 2013 жылы түсірілген.",
+      "ru": "Караганда выросла благодаря Карагандинскому угольному бассейну, который называли «третьей всесоюзной кочегаркой». Дворец культуры горняков — символ шахтёрского прошлого города; снимок 2013 года.",
+      "en": "Karaganda grew thanks to the Karaganda coal basin, called the 'third coal stoker of the USSR'. The Miners' Palace of Culture is a symbol of the city's mining past; the photo dates from 2013."
+    },
+    "clue": {
+      "kk": "Бағаналы сарай, түнгі жарық, фонтан, заманауи сурет.",
+      "ru": "Дворец с колоннами, ночная подсветка, фонтан, современное фото.",
+      "en": "A colonnaded palace, night lighting, a fountain, a modern photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Карагандинский_угольный_бассейн",
+      "https://ru.wikipedia.org/wiki/Караганда"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "korday-wind-farm-2016",
+    "pack": [
+      "kz"
+    ],
+    "year": 2016,
+    "lat": 43.31,
+    "lng": 74.934,
+    "place": {
+      "kk": "Мұзбел, Жамбыл облысы",
+      "ru": "Музбель, Жамбылская область",
+      "en": "Muzbel, Zhambyl region"
+    },
+    "image": "images/korday-wind-farm-2016.jpg",
+    "image_credit": {
+      "author": "МаратД",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Korday_wind_farm_near_Moozbel_village,_Kazakhstan.jpg"
+    },
+    "title": {
+      "kk": "Қордай жел электр станциясы",
+      "ru": "Кордайская ветровая электростанция",
+      "en": "Korday wind farm"
+    },
+    "explanation": {
+      "kk": "Жамбыл облысындағы Мұзбел ауылының маңындағы Қордай жел электр станциясы, сурет 2016 жылы түсірілген. Қазақстан көмірге тәуелділікті азайту үшін жел және күн энергетикасын дамытып келеді.",
+      "ru": "Кордайская ветровая электростанция у посёлка Музбель в Жамбылской области, снимок 2016 года. Казахстан развивает ветровую и солнечную энергетику, чтобы снизить зависимость от угля.",
+      "en": "The Korday wind farm near the village of Muzbel in Zhambyl region, photographed in 2016. Kazakhstan is developing wind and solar power to reduce its dependence on coal."
+    },
+    "clue": {
+      "kk": "Жел турбиналары, кең дала, заманауи сурет.",
+      "ru": "Ветряные турбины в широкой степи, современное фото.",
+      "en": "Wind turbines on open steppe, a modern photo."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Korday_wind_farm_near_Moozbel_village,_Kazakhstan.jpg"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "shymkent-talgo-2021",
+    "pack": [
+      "kz"
+    ],
+    "year": 2021,
+    "lat": 42.31,
+    "lng": 69.6,
+    "place": {
+      "kk": "Шымкент",
+      "ru": "Шымкент",
+      "en": "Shymkent"
+    },
+    "image": "images/shymkent-talgo-2021.jpg",
+    "image_credit": {
+      "author": "TheGreatSteppe",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tulpar-Talgo-in-Train-Station-Shymkent-Kazakhstan.jpg"
+    },
+    "title": {
+      "kk": "Шымкент вокзалындағы «Тұлпар-Тальго»",
+      "ru": "«Тулпар-Тальго» на вокзале Шымкента",
+      "en": "A Tulpar-Talgo train at Shymkent station"
+    },
+    "explanation": {
+      "kk": "«Тұлпар-Тальго» – испандық Talgo технологиясы бойынша Қазақстанда құрастырылған жылдам жолаушылар пойыздары. 2018 жылы Шымкент республикалық маңызы бар қала болды; сурет 2021 жылы түсірілген.",
+      "ru": "«Тулпар-Тальго» — скоростные пассажирские поезда, собранные в Казахстане по испанской технологии Talgo. В 2018 году Шымкент стал городом республиканского значения; снимок 2021 года.",
+      "en": "Tulpar-Talgo are fast passenger trains assembled in Kazakhstan using Spanish Talgo technology. In 2018 Shymkent became a city of republican significance; the photo dates from 2021."
+    },
+    "clue": {
+      "kk": "Заманауи пойыз, перрон, ашық аспан.",
+      "ru": "Современный поезд, перрон, ясное небо.",
+      "en": "A modern train, a platform, a clear sky."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Тулпар-Тальго",
+      "https://ru.wikipedia.org/wiki/Шымкент"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "arystan-bab-mausoleum-2018",
+    "pack": [
+      "kz"
+    ],
+    "year": 2018,
+    "lat": 42.852,
+    "lng": 68.268,
+    "place": {
+      "kk": "Арыстан баб кесенесі, Отырар ауданы",
+      "ru": "Мавзолей Арыстан-баба, Отрарский район",
+      "en": "Arystan Bab Mausoleum, Otrar district"
+    },
+    "image": "images/arystan-bab-mausoleum-2018.jpg",
+    "image_credit": {
+      "author": "Дмитрий Кошелев",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Arystan_Bab_mausoleum_center_01.jpg"
+    },
+    "title": {
+      "kk": "Арыстан баб кесенесі",
+      "ru": "Мавзолей Арыстан-баба",
+      "en": "Mausoleum of Arystan Bab"
+    },
+    "explanation": {
+      "kk": "Арыстан баб – Қожа Ахмет Ясауидің ұстазы; дәстүр бойынша Түркістанға зиярат етушілер алдымен оның басына барады. Кесене бірнеше рет қайта салынды, қазіргі ғимараттың басым бөлігі 1909 жылғы қайта құрылыстан қалған; сурет 2018 жылы түсірілген.",
+      "ru": "Арыстан-баб — наставник Ходжи Ахмеда Ясави; по традиции паломники сначала посещают его мавзолей и лишь потом едут в Туркестан. Здание не раз перестраивали, нынешний облик в основном сложился после реконструкции 1909 года; снимок 2018 года.",
+      "en": "Arystan Bab was the teacher of Khoja Ahmed Yasawi; by tradition pilgrims visit his mausoleum before going on to Turkistan. The building was rebuilt several times and its current form mostly dates from a 1909 reconstruction; the photo was taken in 2018."
+    },
+    "clue": {
+      "kk": "Күмбезді кесене, кірпіш жол, кең шөл дала.",
+      "ru": "Купольный мавзолей, мощёная дорожка, полупустыня вокруг.",
+      "en": "A domed mausoleum, a paved path, semi-desert around it."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Мавзолей_Арыстан-Баба",
+      "https://www.orexca.com/rus/kazakhstan/monuments/arystan_bab.htm"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "atyrau-europe-asia-2012",
+    "pack": [
+      "kz"
+    ],
+    "year": 2012,
+    "lat": 47.107,
+    "lng": 51.92,
+    "place": {
+      "kk": "Атырау, Жайық өзені",
+      "ru": "Атырау, река Урал",
+      "en": "Atyrau, Ural River"
+    },
+    "image": "images/atyrau-europe-asia-2012.jpg",
+    "image_credit": {
+      "author": "Vale81",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Atyrau_-_Europe_bank.jpg"
+    },
+    "title": {
+      "kk": "Атыраудағы «Еуропа» белгісі",
+      "ru": "Знак «Европа» в Атырау",
+      "en": "The 'Europe' marker in Atyrau"
+    },
+    "explanation": {
+      "kk": "Жайық (Орал) өзені Атырауды екіге бөледі: оның бір жағалауы шартты түрде Еуропа, екіншісі Азия саналады. Қазақстан – аумағы екі құрлықта орналасқан елдердің бірі; сурет 2012 жылы түсірілген.",
+      "ru": "Река Урал (Жайык) делит Атырау на две части: один берег условно считается Европой, другой — Азией. Казахстан — одна из стран, территория которой лежит в двух частях света; снимок 2012 года.",
+      "en": "The Ural (Zhaiyk) River divides Atyrau in two: one bank is conventionally Europe, the other Asia. Kazakhstan is one of the countries whose territory lies in two continents; the photo was taken in 2012."
+    },
+    "clue": {
+      "kk": "EUROPE жазуы бар беседка, заманауи сурет.",
+      "ru": "Беседка с надписью EUROPE, современное фото.",
+      "en": "A pavilion marked EUROPE, a modern photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Атырау"
+    ],
+    "difficulty": 1,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "burabay-2014",
+    "pack": [
+      "kz"
+    ],
+    "year": 2014,
+    "lat": 53.083,
+    "lng": 70.31,
+    "place": {
+      "kk": "Бурабай, Ақмола облысы",
+      "ru": "Бурабай (Боровое), Акмолинская область",
+      "en": "Burabay (Borovoe), Akmola region"
+    },
+    "image": "images/burabay-2014.jpg",
+    "image_credit": {
+      "author": "alexandrorodrigez",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Burabay_020000,_Kazakhstan_-_panoramio_(1).jpg"
+    },
+    "title": {
+      "kk": "Бурабай кенті",
+      "ru": "Посёлок Бурабай",
+      "en": "Burabay village"
+    },
+    "explanation": {
+      "kk": "Бурабай – көлдері, қарағайлы ормандары мен гранит жартастарымен белгілі курорттық аймақ, оны «Қазақстанның Швейцариясы» деп атайды. Мұнда Бурабай ұлттық паркі орналасқан; сурет 2014 жылы түсірілген.",
+      "ru": "Бурабай (Боровое) — курортный край озёр, сосновых лесов и гранитных скал, его называют «казахстанской Швейцарией». Здесь находится национальный парк «Бурабай»; снимок 2014 года.",
+      "en": "Burabay (Borovoe) is a resort area of lakes, pine forests and granite rocks, nicknamed 'the Switzerland of Kazakhstan'. It is home to Burabay National Park; the photo was taken in 2014."
+    },
+    "clue": {
+      "kk": "Гранит тастар, қарағайлар, жаңа үй, заманауи сурет.",
+      "ru": "Гранитные валуны, сосны, новый дом, современное фото.",
+      "en": "Granite boulders, pines, a new house, a modern photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Бурабай_(национальный_парк)"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "medeu-2021",
+    "pack": [
+      "kz"
+    ],
+    "year": 2021,
+    "lat": 43.157,
+    "lng": 77.059,
+    "place": {
+      "kk": "Медеу, Алматы маңы",
+      "ru": "Медеу, под Алматы",
+      "en": "Medeu, near Almaty"
+    },
+    "image": "images/medeu-2021.jpg",
+    "image_credit": {
+      "author": "Marat Rysbekov",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:10_%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%9C%D0%B5%D0%B4%D0%B5%D0%BE.jpg"
+    },
+    "title": {
+      "kk": "Медеу биік таулы мұз айдыны",
+      "ru": "Высокогорный каток «Медеу»",
+      "en": "Medeu high-altitude skating rink"
+    },
+    "explanation": {
+      "kk": "Бүгінгі Медеу мұз айдыны 1972 жылы ашылды; биік таудағы мұзда мұнда көптеген әлемдік рекордтар орнатылды. Мұз айдынының жоғарысында қаланы селден қорғайтын Медеу бөгеті тұр; сурет 2021 жылы түсірілген.",
+      "ru": "Нынешний каток «Медеу» открыли в 1972 году; на высокогорном льду здесь установили множество мировых рекордов. Выше катка стоит плотина, защищающая город от селей; снимок 2021 года.",
+      "en": "Today's Medeu rink opened in 1972, and many world records were set on its high-altitude ice. Above the rink stands a dam that protects the city from mudflows; the photo was taken in 2021."
+    },
+    "clue": {
+      "kk": "Таулар арасындағы стадион, шыршалар, заманауи сурет.",
+      "ru": "Стадион среди гор и елей, современное фото.",
+      "en": "A stadium among mountains and spruces, a modern photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Медеу_(спорткомплекс)"
+    ],
+    "difficulty": 1,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "otrar-aerial-2016",
+    "pack": [
+      "kz"
+    ],
+    "year": 2016,
+    "lat": 42.852,
+    "lng": 68.302,
+    "place": {
+      "kk": "Отырар қалашығы",
+      "ru": "Городище Отрар",
+      "en": "Otrar archaeological site"
+    },
+    "image": "images/otrar-aerial-2016.jpg",
+    "image_credit": {
+      "author": "Denis Sorokin",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Otrar_aerial_view_from_May_2016.jpg"
+    },
+    "title": {
+      "kk": "Отырар қалашығы жоғарыдан",
+      "ru": "Городище Отрар сверху",
+      "en": "Otrar from above"
+    },
+    "explanation": {
+      "kk": "Отырар – Ұлы Жібек жолындағы ортағасырлық ірі қала. 1218 жылы мұнда Шыңғыс хан жіберген сауда керуені қырылып, бұл моңғол шапқыншылығына сылтау болды; 1219–1220 жылдары қала қоршауда қалып, қиратылды.",
+      "ru": "Отрар — крупный средневековый город на Великом шёлковом пути. В 1218 году здесь перебили торговый караван Чингисхана, что стало поводом для монгольского нашествия; в 1219–1220 годах город был осаждён и разрушен.",
+      "en": "Otrar was a major medieval city on the Silk Road. In 1218 a trade caravan sent by Genghis Khan was massacred here, giving the pretext for the Mongol invasion; in 1219–1220 the city was besieged and destroyed."
+    },
+    "clue": {
+      "kk": "Жоғарыдан түсірілген қазба жұмыстары, дала, дрон суреті.",
+      "ru": "Раскопки и степь с высоты, снимок с дрона.",
+      "en": "Excavations and steppe from above, a drone shot."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Отрар",
+      "https://ru.wikipedia.org/wiki/Отрарская_катастрофа"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "palace-peace-astana-2012",
+    "pack": [
+      "kz"
+    ],
+    "year": 2012,
+    "lat": 51.123,
+    "lng": 71.464,
+    "place": {
+      "kk": "Астана",
+      "ru": "Астана",
+      "en": "Astana"
+    },
+    "image": "images/palace-peace-astana-2012.jpg",
+    "image_credit": {
+      "author": "jtstewart",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Astana_DSC04101_(7709603174).jpg"
+    },
+    "title": {
+      "kk": "Бейбітшілік және келісім сарайы",
+      "ru": "Дворец мира и согласия",
+      "en": "Palace of Peace and Reconciliation"
+    },
+    "explanation": {
+      "kk": "Пирамида пішінді Бейбітшілік және келісім сарайын британ сәулетшісі Норман Фостер жобалады, ол 2006 жылы ашылды. Мұнда Әлемдік және дәстүрлі діндер көшбасшыларының съездері өтеді; сурет 2012 жылы түсірілген.",
+      "ru": "Пирамиду Дворца мира и согласия спроектировал британский архитектор Норман Фостер, здание открыли в 2006 году. Здесь проходят съезды лидеров мировых и традиционных религий; снимок 2012 года.",
+      "en": "The pyramid-shaped Palace of Peace and Reconciliation was designed by British architect Norman Foster and opened in 2006. It hosts the Congress of Leaders of World and Traditional Religions; the photo was taken in 2012."
+    },
+    "clue": {
+      "kk": "Пирамида, жас саябақ, жаңа көп қабатты үйлер.",
+      "ru": "Пирамида, молодой парк, новые многоэтажки.",
+      "en": "A pyramid, a young park, new high-rises."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Дворец_мира_и_согласия"
+    ],
+    "difficulty": 1,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "shymbulak-2012",
+    "pack": [
+      "kz"
+    ],
+    "year": 2012,
+    "lat": 43.128,
+    "lng": 77.081,
+    "place": {
+      "kk": "Шымбұлақ, Алматы маңы",
+      "ru": "Шымбулак, под Алматы",
+      "en": "Shymbulak, near Almaty"
+    },
+    "image": "images/shymbulak-2012.jpg",
+    "image_credit": {
+      "author": "Екатерина Борисова",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2012_Shymbulak_01.jpg"
+    },
+    "title": {
+      "kk": "Шымбұлақ тау шаңғысы курорты",
+      "ru": "Горнолыжный курорт Шымбулак",
+      "en": "Shymbulak ski resort"
+    },
+    "explanation": {
+      "kk": "Шымбұлақ – Медеудің жоғарысындағы Іле Алатауындағы тау шаңғысы курорты. 2011 жылы мұнда VII қысқы Азия ойындарының тау шаңғысы жарыстары өтті; сурет 2012 жылы мамырда түсірілген.",
+      "ru": "Шымбулак — горнолыжный курорт в Заилийском Алатау, выше Медеу. В 2011 году здесь прошли соревнования по горным лыжам VII зимних Азиатских игр; снимок сделан в мае 2012 года.",
+      "en": "Shymbulak is a ski resort in the Trans-Ili Alatau above Medeu. In 2011 it hosted the alpine skiing events of the 7th Asian Winter Games; the photo was taken in May 2012."
+    },
+    "clue": {
+      "kk": "Қарлы шыңдар, шыршалар, тау үйлері.",
+      "ru": "Снежные вершины, ели, горные постройки.",
+      "en": "Snowy peaks, spruces, mountain buildings."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Шымбулак",
+      "https://ru.wikipedia.org/wiki/Зимние_Азиатские_игры_2011"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "tamgaly-petroglyphs-2012",
+    "pack": [
+      "kz"
+    ],
+    "year": 2012,
+    "lat": 43.777,
+    "lng": 75.58,
+    "place": {
+      "kk": "Тамғалы шатқалы",
+      "ru": "Урочище Тамгалы",
+      "en": "Tamgaly gorge"
+    },
+    "image": "images/tamgaly-petroglyphs-2012.jpg",
+    "image_credit": {
+      "author": "Ninara from Helsinki, Finland",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Almaty_IMG_9675_(8415353756).jpg"
+    },
+    "title": {
+      "kk": "Тамғалы петроглифтері",
+      "ru": "Петроглифы Тамгалы",
+      "en": "Tamgaly petroglyphs"
+    },
+    "explanation": {
+      "kk": "Тамғалы шатқалында шамамен 5 мың петроглиф бар, олардың көбі қола дәуірінде салынған. 2004 жылы бұл орын ЮНЕСКО-ның Бүкіләлемдік мұра тізіміне енген Орталық Азиядағы алғашқы жартас суреттері болды; сурет 2012 жылы түсірілген.",
+      "ru": "В урочище Тамгалы около 5 тысяч петроглифов, многие из них созданы в эпоху бронзы. В 2004 году это место стало первым памятником наскального искусства Центральной Азии в списке Всемирного наследия ЮНЕСКО; снимок 2012 года.",
+      "en": "The Tamgaly gorge holds about 5,000 petroglyphs, many from the Bronze Age. In 2004 it became the first rock-art site in Central Asia on the UNESCO World Heritage List; the photo was taken in 2012."
+    },
+    "clue": {
+      "kk": "Тасқа қашалған суреттер, қара жартастар.",
+      "ru": "Рисунки, выбитые на тёмных скалах.",
+      "en": "Images pecked into dark rocks."
+    },
+    "sources": [
+      "https://whc.unesco.org/en/list/1145",
+      "https://en.wikipedia.org/wiki/Tamgaly"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "taraz-shahristan-2023",
+    "pack": [
+      "kz"
+    ],
+    "year": 2023,
+    "lat": 42.9,
+    "lng": 71.367,
+    "place": {
+      "kk": "Тараз",
+      "ru": "Тараз",
+      "en": "Taraz"
+    },
+    "image": "images/taraz-shahristan-2023.jpg",
+    "image_credit": {
+      "author": "Bekbal",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%22Shahristan%22_kesheni_jane_sagat_munarasy._Photo_bir.jpg"
+    },
+    "title": {
+      "kk": "Тараздағы «Шахристан» кешені",
+      "ru": "Комплекс «Шахристан» в Таразе",
+      "en": "The Shahristan complex in Taraz"
+    },
+    "explanation": {
+      "kk": "Тараз – Қазақстанның ең көне қалаларының бірі, Ұлы Жібек жолының маңызды орталығы болған. Қала орталығында ежелгі Тараздың тарихына арналған «Шахристан» (Көне Тараз) кешені мен сағат мұнарасы салынған; сурет 2023 жылы түсірілген.",
+      "ru": "Тараз — один из древнейших городов Казахстана и важный центр Великого шёлкового пути. В центре города построен этно-исторический комплекс «Шахристан» (Көне Тараз) с часовой башней; снимок 2023 года.",
+      "en": "Taraz is one of Kazakhstan's oldest cities and was an important centre on the Silk Road. In the city centre stands the Shahristan (Kone Taraz) ethno-historical complex with a clock tower; the photo was taken in 2023."
+    },
+    "clue": {
+      "kk": "Сағат мұнарасы, жалаулар, жаңа алаң.",
+      "ru": "Часовая башня, флаги, новая площадь.",
+      "en": "A clock tower, flags, a new square."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Тараз"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "zharkent-mosque-2011",
+    "pack": [
+      "kz"
+    ],
+    "year": 2011,
+    "lat": 44.163,
+    "lng": 80.0,
+    "place": {
+      "kk": "Жаркент",
+      "ru": "Жаркент",
+      "en": "Zharkent"
+    },
+    "image": "images/zharkent-mosque-2011.jpg",
+    "image_credit": {
+      "author": "Yakov Fedorov",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zharkent_Mosque_2.jpg"
+    },
+    "title": {
+      "kk": "Жаркент мешіті",
+      "ru": "Жаркентская мечеть",
+      "en": "Zharkent Mosque"
+    },
+    "explanation": {
+      "kk": "Жаркент мешітін көпес Уәли Ахун Юлдашевтің тапсырысымен қытай сәулетшісі Хон Пик салған, құрылыс 1880–1890 жылдарға жатады. Мешіт қытай пагодасы мен Орта Азия сәулетін ұштастырады; сурет 2011 жылы түсірілген.",
+      "ru": "Жаркентскую мечеть построил китайский архитектор Хон Пик по заказу купца Вали Ахуна Юлдашева, строительство относят к 1880–1890-м годам. Здание сочетает черты китайской пагоды и среднеазиатской архитектуры; снимок 2011 года.",
+      "en": "The Zharkent Mosque was built by Chinese architect Hon Pik for the merchant Vali Akhun Yuldashev, with construction dated to the 1880s–1890s. It blends features of a Chinese pagoda and Central Asian architecture; the photo was taken in 2011."
+    },
+    "clue": {
+      "kk": "Пагода тәрізді шатыр, ағаш бағаналар, мұнара.",
+      "ru": "Крыша как у пагоды, деревянные колонны, минарет.",
+      "en": "A pagoda-like roof, wooden columns, a minaret."
+    },
+    "sources": [
+      "https://www.inform.kz/ru/v-chem-unikal-nost-130-letney-zharkentskoy-mecheti_a3995820",
+      "https://ru.wikipedia.org/wiki/Жаркентская_мечеть"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "zhezkazgan-2005",
+    "pack": [
+      "kz"
+    ],
+    "year": 2005,
+    "lat": 47.783,
+    "lng": 67.767,
+    "place": {
+      "kk": "Жезқазған",
+      "ru": "Жезказган",
+      "en": "Zhezkazgan"
+    },
+    "image": "images/zhezkazgan-2005.jpg",
+    "image_credit": {
+      "author": "Roman Plischke",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:City_of_Zhez.JPG"
+    },
+    "title": {
+      "kk": "Жезқазған – мыс қаласы",
+      "ru": "Жезказган — город меди",
+      "en": "Zhezkazgan, the copper city"
+    },
+    "explanation": {
+      "kk": "Жезқазған мыс кен орнының айналасында өсті, оның атауы «жез қазған жер» дегенді білдіреді. Қалада «Қазақмыс» компаниясының кәсіпорындары орналасқан; сурет 2005 жылы Металлургтер алаңында түсірілген.",
+      "ru": "Жезказган вырос вокруг медного месторождения, само название означает «место, где копали медь». В городе работают предприятия компании «Казахмыс»; снимок 2005 года сделан на площади Металлургов.",
+      "en": "Zhezkazgan grew around a copper deposit; its name means 'the place where copper was dug'. The city is home to Kazakhmys company enterprises; the photo was taken on Metallurgists' Square in 2005."
+    },
+    "clue": {
+      "kk": "Шыны кеңсе ғимараты, ескі кеңестік үй, 2000-жылдардың суреті.",
+      "ru": "Стеклянное офисное здание рядом со старым советским домом, фото 2000-х.",
+      "en": "A glass office building next to an old Soviet house, a 2000s photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Жезказган"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "aktau-caspian-fisherman-2016",
+    "pack": [
+      "kz"
+    ],
+    "year": 2016,
+    "lat": 43.65,
+    "lng": 51.17,
+    "place": {
+      "kk": "Ақтау, Каспий теңізі",
+      "ru": "Актау, Каспийское море",
+      "en": "Aktau, Caspian Sea"
+    },
+    "image": "images/aktau-caspian-fisherman-2016.jpg",
+    "image_credit": {
+      "author": "JPetrlík",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Aktau_fisherman.jpg"
+    },
+    "title": {
+      "kk": "Каспий жағасындағы жас балықшы",
+      "ru": "Юный рыбак на Каспии",
+      "en": "A young fisherman on the Caspian"
+    },
+    "explanation": {
+      "kk": "Ақтау Каспий теңізінің жағасында 1960-жылдары уран мен мұнай өндірушілердің қаласы ретінде салынды, 1991 жылға дейін Шевченко деп аталды. Бүгін ол Қазақстанның жалғыз теңіз порты бар облыс орталығы; сурет 2016 жылы түсірілген.",
+      "ru": "Актау построили на берегу Каспия в 1960-е годы как город добытчиков урана и нефти, до 1991 года он назывался Шевченко. Сегодня это главный морской порт Казахстана; снимок 2016 года.",
+      "en": "Aktau was built on the Caspian shore in the 1960s as a town for uranium and oil workers and was called Shevchenko until 1991. Today it is Kazakhstan's main seaport; the photo was taken in 2016."
+    },
+    "clue": {
+      "kk": "Теңіз, ескі пирс, алыстағы мұнай платформасы.",
+      "ru": "Море, старый пирс, вдали нефтяная платформа.",
+      "en": "The sea, an old pier, an oil rig in the distance."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Актау"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "bozjyra-mangystau-2023",
+    "pack": [
+      "kz"
+    ],
+    "year": 2023,
+    "lat": 43.42,
+    "lng": 54.07,
+    "place": {
+      "kk": "Бозжыра, Маңғыстау",
+      "ru": "Бозжыра, Мангистау",
+      "en": "Bozzhyra, Mangystau"
+    },
+    "image": "images/bozjyra-mangystau-2023.jpg",
+    "image_credit": {
+      "author": "Avventure nel Mangystau",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bozjira_morning_1.jpg"
+    },
+    "title": {
+      "kk": "Бозжыра шатқалы",
+      "ru": "Урочище Бозжыра",
+      "en": "Bozzhyra valley"
+    },
+    "explanation": {
+      "kk": "Бозжыра – Маңғыстаудағы Үстірт шыңының ақ әктас жартастары, олар миллиондаған жыл бұрын ежелгі Тетис мұхитының түбі болған. Бүгін бұл – Қазақстанның ең танымал табиғи көрікті жерлерінің бірі; сурет 2023 жылы түсірілген.",
+      "ru": "Бозжыра — белые известняковые останцы чинка Устюрта в Мангистау; миллионы лет назад здесь было дно древнего океана Тетис. Сегодня это одно из самых известных природных мест Казахстана; снимок 2023 года.",
+      "en": "Bozzhyra is a set of white limestone outliers on the Ustyurt escarpment in Mangystau; millions of years ago this was the floor of the ancient Tethys Ocean. Today it is one of Kazakhstan's best-known natural sights; the photo was taken in 2023."
+    },
+    "clue": {
+      "kk": "Ақ жартастар мен шыңдар, шөл, ашық көк аспан.",
+      "ru": "Белые скалы-пики, пустыня, ярко-синее небо.",
+      "en": "White rock pinnacles, desert, a deep blue sky."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Бозжыра"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "zhanaozen-street-2020",
+    "pack": [
+      "kz"
+    ],
+    "year": 2020,
+    "lat": 43.34,
+    "lng": 52.86,
+    "place": {
+      "kk": "Жаңаөзен",
+      "ru": "Жанаозен",
+      "en": "Zhanaozen"
+    },
+    "image": "images/zhanaozen-street-2020.jpg",
+    "image_credit": {
+      "author": "Liquorkaru",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Central_street_in_Zhanaozen.jpg"
+    },
+    "title": {
+      "kk": "Жаңаөзеннің орталық көшесі",
+      "ru": "Центральная улица Жанаозена",
+      "en": "Main street of Zhanaozen"
+    },
+    "explanation": {
+      "kk": "Жаңаөзен Өзен мұнай кен орнының маңында 1960-жылдары пайда болған мұнайшылар қаласы. 2011 жылы желтоқсанда мұнда мұнайшылар ереуілі қайғылы оқиғамен аяқталды, ал 2022 жылғы қаңтар наразылықтары да осы қаладан басталды; сурет 2020 жылы түсірілген.",
+      "ru": "Жанаозен — город нефтяников, выросший в 1960-е годы у месторождения Узень. В декабре 2011 года здесь трагически закончилась забастовка нефтяников, а в январе 2022 года именно отсюда начались общенациональные протесты; снимок 2020 года.",
+      "en": "Zhanaozen is an oil workers' town that grew up in the 1960s by the Uzen oil field. In December 2011 an oil workers' strike here ended in tragedy, and the nationwide protests of January 2022 also began here; the photo was taken in 2020."
+    },
+    "clue": {
+      "kk": "Кең көше, жарқыраған күн, шөлейт қала, заманауи сурет.",
+      "ru": "Широкая улица, слепящее солнце, город в полупустыне, современное фото.",
+      "en": "A wide street, glaring sun, a semi-desert town, a modern photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Жанаозен",
+      "https://ru.wikipedia.org/wiki/Беспорядки_в_Жанаозене"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "alma-ata-canteen-1934",
+    "pack": [
+      "kz"
+    ],
+    "year": 1934,
+    "lat": 43.256,
+    "lng": 76.945,
+    "place": {
+      "kk": "Алматы",
+      "ru": "Алма-Ата",
+      "en": "Alma-Ata (Almaty)"
+    },
+    "image": "images/alma-ata-canteen-1934.jpg",
+    "image_credit": {
+      "author": "Eleazar Langman",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1934._%D0%90%D0%BB%D0%BC%D0%B0-%D0%90%D1%82%D0%B0.jpg"
+    },
+    "title": {
+      "kk": "Алматыдағы асхана",
+      "ru": "Столовая в Алма-Ате",
+      "en": "A canteen in Alma-Ata"
+    },
+    "explanation": {
+      "kk": "1934 жылғы суретті кеңес фотографы Елеазар Лангман түсірген. 1929 жылы Қазақ АКСР-інің астанасы Қызылордадан Алматыға көшірілді, ал 1930-жылдары қала жаңа мекемелер мен қоғамдық орындарға толы жас астанаға айналды.",
+      "ru": "Снимок 1934 года сделал советский фотограф Елеазар Лангман. В 1929 году столицу Казахской АССР перенесли из Кзыл-Орды в Алма-Ату, и в 1930-е годы город быстро превращался в молодую столицу с новыми учреждениями.",
+      "en": "This 1934 photo was taken by Soviet photographer Eleazar Langman. In 1929 the capital of the Kazakh ASSR moved from Kzyl-Orda to Alma-Ata, and in the 1930s the city quickly grew into a young capital with new institutions."
+    },
+    "clue": {
+      "kk": "Ақ дастарқандар, үстелдер, ақ халаттылар, 1930-жылдардың суреті.",
+      "ru": "Столы с белыми скатертями, люди в белом, снимок 1930-х.",
+      "en": "Tables with white cloths, people in white, a 1930s photo."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:1934._Алма-Ата.jpg",
+      "https://ru.wikipedia.org/wiki/Алма-Ата"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "alma-ata-central-stadium-1957",
+    "pack": [
+      "kz"
+    ],
+    "year": 1957,
+    "lat": 43.235,
+    "lng": 76.922,
+    "place": {
+      "kk": "Алматы",
+      "ru": "Алма-Ата",
+      "en": "Alma-Ata (Almaty)"
+    },
+    "image": "images/alma-ata-central-stadium-1957.jpg",
+    "image_credit": {
+      "author": "IskanderOraz",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE_%D0%BF%D1%83%D1%82%D0%B8_%D0%9E%D1%80%D0%B0%D0%B7_%D0%9C%D0%B0%D0%BA%D0%B0%D0%B5%D0%B2%D0%B8%D1%87%D0%B0_%D1%86%D1%81.png"
+    },
+    "title": {
+      "kk": "Орталық стадион құрылысында",
+      "ru": "На стройке Центрального стадиона",
+      "en": "Building the Central Stadium"
+    },
+    "explanation": {
+      "kk": "1957 жылы қыркүйекте Алматыдағы Орталық стадион құрылысындағы жұмысшылар бригадасы. Стадион 1958 жылы ашылып, ұзақ жылдар бойы республиканың басты спорт аренасы болды.",
+      "ru": "Сентябрь 1957 года: бригада строителей на трибунах будущего Центрального стадиона Алма-Аты. Стадион открылся в 1958 году и долгие годы был главной спортивной ареной республики.",
+      "en": "September 1957: a construction brigade on the stands of Alma-Ata's future Central Stadium. The stadium opened in 1958 and for many years was the republic's main sports arena."
+    },
+    "clue": {
+      "kk": "Трибуналар, құрылыс краны, 1950-жылдардың киімі.",
+      "ru": "Трибуны, строительный кран, одежда 1950-х.",
+      "en": "Stands, a construction crane, 1950s clothing."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Центральный_стадион_(Алма-Ата)"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "pavlodar-derov-house-1912",
+    "pack": [
+      "kz"
+    ],
+    "year": 1912,
+    "lat": 52.287,
+    "lng": 76.967,
+    "place": {
+      "kk": "Павлодар",
+      "ru": "Павлодар",
+      "en": "Pavlodar"
+    },
+    "image": "images/pavlodar-derov-house-1912.jpg",
+    "image_credit": {
+      "author": "Dmitry Polikarpovich Bagayev",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%BE%D0%BC_%D0%BA%D1%83%D0%BF%D1%86%D0%B0_%D0%94%D0%B5%D1%80%D0%BE%D0%B2%D0%B0,_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B4%D0%B0%D1%80.jpg"
+    },
+    "title": {
+      "kk": "Павлодардағы көпес Деровтың үйі",
+      "ru": "Дом купца Дерова в Павлодаре",
+      "en": "Merchant Derov's house in Pavlodar"
+    },
+    "explanation": {
+      "kk": "1912 жылғы ашықхат: Павлодардағы Телеграф көшесіндегі көпес Артемий Деровтың үйі. Суретті қаланың белгілі фотографы Дмитрий Багаев түсірген; ғасыр басында Павлодар Ертіс бойындағы сауда арқасында тез өсті.",
+      "ru": "Открытка 1912 года: дом купца Артемия Дерова на Телеграфной улице Павлодара. Снимок сделал известный павлодарский фотограф Дмитрий Багаев; в начале века город быстро рос благодаря торговле на Иртыше.",
+      "en": "A 1912 postcard: merchant Artemy Derov's house on Telegraph Street in Pavlodar. The photo was taken by the noted local photographer Dmitry Bagaev; in the early 1900s the town grew fast on Irtysh river trade."
+    },
+    "clue": {
+      "kk": "Көпестің тас үйі, арбалар, ескі ашықхат.",
+      "ru": "Каменный купеческий дом, телеги, старая открытка.",
+      "en": "A stone merchant's house, carts, an old postcard."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Дом_купца_Дерова,_Павлодар.jpg",
+      "https://ru.wikipedia.org/wiki/Павлодар"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "petropavlovsk-lower-town-1902",
+    "pack": [
+      "kz"
+    ],
+    "year": 1902,
+    "lat": 54.875,
+    "lng": 69.16,
+    "place": {
+      "kk": "Петропавл",
+      "ru": "Петропавловск",
+      "en": "Petropavlovsk (Petropavl)"
+    },
+    "image": "images/petropavlovsk-lower-town-1902.jpg",
+    "image_credit": {
+      "author": "Кочешев Алексей Иванович",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%9F%D0%BE%D0%B4%D0%B3%D0%BE%D1%80%D0%BD%D1%83%D1%8E_%D1%87%D0%B0%D1%81%D1%82%D1%8C_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%BF%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B0.png"
+    },
+    "title": {
+      "kk": "Петропавлдың төменгі бөлігі",
+      "ru": "Подгорная часть Петропавловска",
+      "en": "The lower town of Petropavlovsk"
+    },
+    "explanation": {
+      "kk": "1902 жылғы сурет: Петропавлдың Есіл жағасындағы төменгі (Подгорная) бөлігі, алдыңғы жоспарда – сауда қатарлары. Транссібір темір жолы жеткеннен кейін қала Дала өлкесінің ірі сауда орталығына айналды.",
+      "ru": "Снимок 1902 года: Подгорная часть Петропавловска у Ишима, на переднем плане — торговые ряды. После прихода Транссибирской магистрали город стал крупным торговым центром Степного края.",
+      "en": "A 1902 photo of the lower town of Petropavlovsk by the Ishim, with market stalls in the foreground. After the Trans-Siberian Railway arrived, the town became a major trading centre of the Steppe region."
+    },
+    "clue": {
+      "kk": "Шіркеу, ұзын ғимарат, сауда дүкендері, ескі сурет.",
+      "ru": "Церковь, длинное здание, торговые лавки, старый снимок.",
+      "en": "A church, a long building, market stalls, an old photo."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Вид_на_Подгорную_часть_Петропавловска.png",
+      "https://ru.wikipedia.org/wiki/Петропавловск"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "hazrat-sultan-construction-2011",
+    "pack": [
+      "kz"
+    ],
+    "year": 2011,
+    "lat": 51.125,
+    "lng": 71.472,
+    "place": {
+      "kk": "Астана",
+      "ru": "Астана",
+      "en": "Astana"
+    },
+    "image": "images/hazrat-sultan-construction-2011.jpg",
+    "image_credit": {
+      "author": "Jirka Dl",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Construction_of_new_mosque_close_to_Palace_of_Peace_and_Reconciliation.jpg"
+    },
+    "title": {
+      "kk": "Әзірет Сұлтан мешітінің құрылысы",
+      "ru": "Строительство мечети «Хазрет Султан»",
+      "en": "Building the Hazrat Sultan Mosque"
+    },
+    "explanation": {
+      "kk": "2011 жылы Астанада Бейбітшілік және келісім сарайының жанында Әзірет Сұлтан мешіті салынып жатты. Мешіт 2012 жылы ашылып, Орталық Азиядағы ең ірі мешіттердің біріне айналды.",
+      "ru": "В 2011 году в Астане рядом с Дворцом мира и согласия строили мечеть «Хазрет Султан». Её открыли в 2012 году, и она стала одной из крупнейших мечетей Центральной Азии.",
+      "en": "In 2011 the Hazrat Sultan Mosque was under construction in Astana next to the Palace of Peace and Reconciliation. It opened in 2012 and became one of the largest mosques in Central Asia."
+    },
+    "clue": {
+      "kk": "Мұнаралар мен күмбез, құрылыс крандары, кең даңғыл.",
+      "ru": "Минареты и купол, строительные краны, широкий проспект.",
+      "en": "Minarets and a dome, construction cranes, a wide avenue."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Хазрет_Султан_(мечеть)"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "astana-opera-2019",
+    "pack": [
+      "kz"
+    ],
+    "year": 2019,
+    "lat": 51.136,
+    "lng": 71.412,
+    "place": {
+      "kk": "Астана",
+      "ru": "Астана",
+      "en": "Astana"
+    },
+    "image": "images/astana-opera-2019.jpg",
+    "image_credit": {
+      "author": "Davide Mauro",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Astana_Opera_02.jpg"
+    },
+    "title": {
+      "kk": "«Астана Опера» және сол жағалау",
+      "ru": "«Астана Опера» и левый берег",
+      "en": "Astana Opera and the Left Bank"
+    },
+    "explanation": {
+      "kk": "«Астана Опера» мемлекеттік опера және балет театры 2013 жылы ашылды. Оның артында Есілдің сол жағалауындағы жаңа іскерлік аудан көрінеді – Астана 1997 жылы астана болғаннан кейін салынған қала бөлігі; сурет 2019 жылы түсірілген.",
+      "ru": "Государственный театр оперы и балета «Астана Опера» открылся в 2013 году. За ним — новый деловой район левого берега Ишима, выросший после переноса столицы в 1997 году; снимок 2019 года.",
+      "en": "The Astana Opera house opened in 2013. Behind it rises the new business district on the left bank of the Ishim, built after the capital moved here in 1997; the photo was taken in 2019."
+    },
+    "clue": {
+      "kk": "Бағаналы театр, шыны зәулім үйлер, ашық көк аспан.",
+      "ru": "Театр с колоннами, стеклянные высотки, ярко-синее небо.",
+      "en": "A colonnaded theatre, glass skyscrapers, a bright blue sky."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Астана_Опера",
+      "https://ru.wikipedia.org/wiki/Астана"
+    ],
+    "difficulty": 1,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "chimkent-nikolsky-cathedral-1915",
+    "pack": [
+      "kz"
+    ],
+    "year": 1915,
+    "lat": 42.317,
+    "lng": 69.596,
+    "place": {
+      "kk": "Шымкент",
+      "ru": "Чимкент (Шымкент)",
+      "en": "Chimkent (Shymkent)"
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%A8%D1%8B%D0%BC%D0%BA%D0%B5%D0%BD%D1%82.jpg",
+    "image_credit": {
+      "author": "Anonymous photographer from Russian Empire (before 1917) Public domain image (according to PD-Russia-expired)",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%A8%D1%8B%D0%BC%D0%BA%D0%B5%D0%BD%D1%82.jpg"
+    },
+    "title": {
+      "kk": "Шымкенттегі Никольский соборы",
+      "ru": "Никольский собор в Чимкенте",
+      "en": "St Nicholas Cathedral in Chimkent"
+    },
+    "explanation": {
+      "kk": "1915 жылдың көктеміндегі сурет: Шымкенттегі Никольский соборы. 1864 жылы Шымкентті орыс әскері алғаннан кейін қалада жаңа орыс бөлігі пайда болды, ол уездік қалаға айналды.",
+      "ru": "Снимок весны 1915 года: Никольский собор в Чимкенте. После того как в 1864 году город заняли русские войска, в нём вырос новый русский квартал, а Чимкент стал уездным городом.",
+      "en": "A spring 1915 photo of St Nicholas Cathedral in Chimkent. After Russian troops took the town in 1864, a new Russian quarter grew up and Chimkent became a district town."
+    },
+    "clue": {
+      "kk": "Қоңырау мұнарасы мен күмбездер, жапырақсыз ағаштар, ескі сурет.",
+      "ru": "Колокольня и купола, голые деревья, старый снимок.",
+      "en": "A bell tower and domes, bare trees, an old photo."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Никольский_кафедральный_собор_Шымкент.jpg",
+      "https://ru.wikipedia.org/wiki/Шымкент"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "petropavlovsk-oblispolkom-1984",
+    "pack": [
+      "kz"
+    ],
+    "year": 1984,
+    "lat": 54.866,
+    "lng": 69.15,
+    "place": {
+      "kk": "Петропавл",
+      "ru": "Петропавловск",
+      "en": "Petropavlovsk (Petropavl)"
+    },
+    "image": "images/petropavlovsk-oblispolkom-1984.jpg",
+    "image_credit": {
+      "author": "ГАСКО. Ф. 158 « Личный фонд Бенюха М. И.».",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_Administrative_building_of_the_North-Kazakhstan_regional_executive_committee_XX.jpg"
+    },
+    "title": {
+      "kk": "Солтүстік Қазақстан облатқару комитетінің ғимараты",
+      "ru": "Здание Северо-Казахстанского облисполкома",
+      "en": "North Kazakhstan regional executive committee building"
+    },
+    "explanation": {
+      "kk": "1984 жылғы Петропавл: Солтүстік Қазақстан облыстық атқару комитетінің ғимараты. Кеңес заманында облатқаркомдар облыстардағы жергілікті биліктің басты органы болды, бүгін олардың орнын әкімдіктер алды.",
+      "ru": "Петропавловск, 1984 год: здание Северо-Казахстанского облисполкома. В советское время облисполкомы были главными органами местной власти в областях, сегодня их роль выполняют акиматы.",
+      "en": "Petropavlovsk in 1984: the building of the North Kazakhstan regional executive committee. In Soviet times such committees were the main organs of local government; today regional akimats fill that role."
+    },
+    "clue": {
+      "kk": "Кеңестік әкімшілік ғимарат, «Жигули» көлігі, ақ-қара сурет.",
+      "ru": "Советское административное здание, «Жигули», чёрно-белый снимок.",
+      "en": "A Soviet administrative building, a Lada car, a black-and-white photo."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:The_Administrative_building_of_the_North-Kazakhstan_regional_executive_committee._1984.jpg",
+      "https://ru.wikipedia.org/wiki/Петропавловск"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "kokshetau-last-ussr-match-1991",
+    "pack": [
+      "kz"
+    ],
+    "year": 1991,
+    "lat": 53.283,
+    "lng": 69.383,
+    "place": {
+      "kk": "Көкшетау",
+      "ru": "Кокчетав (Кокшетау)",
+      "en": "Kokchetav (Kokshetau)"
+    },
+    "image": "images/kokshetau-last-ussr-match-1991.jpg",
+    "image_credit": {
+      "author": "StasiQ",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BA%D1%87%D0%B5%D1%82%D0%B0%D0%B2,_%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_%22%D0%96%D0%B0%D1%81%D1%82%D0%B0%D1%80%22._%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE_%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B5%D0%B3%D0%BE_%D0%BC%D0%B0%D1%82%D1%87%D0%B0_%22%D0%9A%D0%BE%D0%BA%D1%88%D0%B5%D1%82%D0%B0%D1%83%22_%D0%B2_%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0%D1%82%D0%B5_%D0%A1%D0%A1%D0%A1%D0%A0_%D0%BF%D0%BE_%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%83_(04.11.1991).jpg"
+    },
+    "title": {
+      "kk": "КСРО чемпионатындағы соңғы матч",
+      "ru": "Последний матч в чемпионате СССР",
+      "en": "The last match in the USSR championship"
+    },
+    "explanation": {
+      "kk": "1991 жылы «Жастар» стадионында «Көкшетау» командасы КСРО чемпионатындағы соңғы матчын ойнады. Сол жылы Кеңес Одағы ыдырап, келесі маусымнан бастап Қазақстан өз футбол чемпионатын өткізді.",
+      "ru": "1991 год: на стадионе «Жастар» команда «Кокшетау» играет свой последний матч в чемпионате СССР. В том же году Советский Союз распался, и со следующего сезона Казахстан проводил собственный футбольный чемпионат.",
+      "en": "1991: at the Zhastar stadium the Kokshetau team plays its last match in the USSR championship. That same year the Soviet Union collapsed, and from the next season Kazakhstan held its own football championship."
+    },
+    "clue": {
+      "kk": "Қарлы футбол алаңы, кеңестік табло, ескі сурет.",
+      "ru": "Футбольное поле в снегу, советское табло, старый снимок.",
+      "en": "A snowy football pitch, a Soviet scoreboard, an old photo."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/Category:1991_in_Kazakhstan",
+      "https://ru.wikipedia.org/wiki/Чемпионат_Казахстана_по_футболу_1992"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "pavlodar-tram-depot-2004",
+    "pack": [
+      "kz"
+    ],
+    "year": 2004,
+    "lat": 52.287,
+    "lng": 76.967,
+    "place": {
+      "kk": "Павлодар",
+      "ru": "Павлодар",
+      "en": "Pavlodar"
+    },
+    "image": "images/pavlodar-tram-depot-2004.jpg",
+    "image_credit": {
+      "author": "Makoska",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B5_%D1%82%D1%80%D0%B0%D0%BC%D0%B2%D0%B0%D0%B9%D0%BD%D0%BE%D0%B5_%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B4%D0%B0%D1%80%D0%B0,_2004_%D0%B3%D0%BE%D0%B4.jpg"
+    },
+    "title": {
+      "kk": "Павлодар трамвай басқармасы",
+      "ru": "Трамвайное управление Павлодара",
+      "en": "Pavlodar tram administration"
+    },
+    "explanation": {
+      "kk": "Павлодар – Қазақстанда трамвай әлі күнге дейін жүретін санаулы қалалардың бірі, оның желісінің ұзындығы шамамен 90 шақырым. Алматыда трамвай жабылғанда, Павлодарда ол қаланың басты көлігінің бірі болып қалды; сурет 2004 жылы түсірілген.",
+      "ru": "Павлодар — один из немногих городов Казахстана, где до сих пор ходит трамвай, длина сети около 90 километров. Когда в Алма-Ате трамвай закрыли, в Павлодаре он остался одним из главных видов городского транспорта; снимок 2004 года.",
+      "en": "Pavlodar is one of the few Kazakh cities where trams still run, on a network of about 90 kilometres. While Almaty's trams were shut down, in Pavlodar they remained a key form of city transport; the photo was taken in 2004."
+    },
+    "clue": {
+      "kk": "Трамвай сымдары мен рельстер, әкімшілік ғимарат, «Жигули».",
+      "ru": "Трамвайные провода и рельсы, административное здание, «Жигули».",
+      "en": "Tram wires and rails, an office building, a Lada car."
+    },
+    "sources": [
+      "https://inbusiness.kz/ru/last/pavlodar-tam-gde-zhivet-tramvaj",
+      "https://ru.wikipedia.org/wiki/Павлодарский_трамвай"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "oskemen-view-2005",
+    "pack": [
+      "kz"
+    ],
+    "year": 2005,
+    "lat": 49.948,
+    "lng": 82.628,
+    "place": {
+      "kk": "Өскемен",
+      "ru": "Усть-Каменогорск",
+      "en": "Ust-Kamenogorsk (Oskemen)"
+    },
+    "image": "images/oskemen-view-2005.jpg",
+    "image_credit": {
+      "author": "User Maonya on en.wikipedia",
+      "license": "CC BY 1.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ust1.jpg"
+    },
+    "title": {
+      "kk": "Өскемен көрінісі",
+      "ru": "Вид Усть-Каменогорска",
+      "en": "A view of Ust-Kamenogorsk"
+    },
+    "explanation": {
+      "kk": "Өскемен 1720 жылы Ертіс пен Үлбі өзендерінің құйылысында бекініс ретінде құрылды. Кеңес заманында ол түсті металлургияның – қорғасын, мырыш және титанның ірі орталығына айналды; сурет 2005 жылы түсірілген.",
+      "ru": "Усть-Каменогорск основан в 1720 году как крепость при слиянии Иртыша и Ульбы. В советское время он стал крупным центром цветной металлургии — свинца, цинка и титана; снимок 2005 года.",
+      "en": "Ust-Kamenogorsk was founded in 1720 as a fortress at the confluence of the Irtysh and Ulba rivers. In Soviet times it became a major centre of non-ferrous metallurgy: lead, zinc and titanium; the photo was taken in 2005."
+    },
+    "clue": {
+      "kk": "Көп қабатты үйлер, жасыл ағаштар, алыстағы таулар.",
+      "ru": "Многоэтажки, много зелени, горы на горизонте.",
+      "en": "Apartment blocks, lots of greenery, mountains on the horizon."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Усть-Каменогорск"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "karaganda-seifullin-theatre-2008",
+    "pack": [
+      "kz"
+    ],
+    "year": 2008,
+    "lat": 49.806,
+    "lng": 73.085,
+    "place": {
+      "kk": "Қарағанды",
+      "ru": "Караганда",
+      "en": "Karaganda"
+    },
+    "image": "images/karaganda-seifullin-theatre-2008.jpg",
+    "image_credit": {
+      "author": "Kaiyr",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B0%D1%80%D0%B0%D0%B3%D0%B0%D0%BD%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%B9_%D0%BA%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%B5%D0%B0%D1%82%D1%80_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8_%D0%A1.%D0%A1%D0%B5%D0%B9%D1%84%D1%83%D0%BB%D0%BB%D0%B8%D0%BD%D0%B0.jpg"
+    },
+    "title": {
+      "kk": "С. Сейфуллин атындағы драма театры",
+      "ru": "Драмтеатр имени Сакена Сейфуллина",
+      "en": "Saken Seifullin Drama Theatre"
+    },
+    "explanation": {
+      "kk": "Қарағанды облыстық қазақ драма театры қазақ ақыны әрі мемлекет қайраткері Сәкен Сейфуллиннің атымен аталған. Сейфуллин 1938 жылы саяси қуғын-сүргін кезінде атылған, кейін ақталған; сурет 2008 жылы түсірілген.",
+      "ru": "Карагандинский областной казахский драмтеатр носит имя поэта и государственного деятеля Сакена Сейфуллина. Сейфуллин был расстрелян в 1938 году во время репрессий и позже реабилитирован; снимок 2008 года.",
+      "en": "The Karaganda regional Kazakh drama theatre is named after poet and statesman Saken Seifullin. Seifullin was executed in 1938 during the purges and later rehabilitated; the photo was taken in 2008."
+    },
+    "clue": {
+      "kk": "Дөңгелек шыны фасад, қар, заманауи сурет.",
+      "ru": "Круглый стеклянный фасад, снег, современное фото.",
+      "en": "A round glass facade, snow, a modern photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Сейфуллин,_Сакен"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "almaty-presidential-election-2011",
+    "pack": [
+      "kz"
+    ],
+    "year": 2011,
+    "lat": 43.238,
+    "lng": 76.946,
+    "place": {
+      "kk": "Алматы",
+      "ru": "Алматы",
+      "en": "Almaty"
+    },
+    "image": "images/almaty-presidential-election-2011.jpg",
+    "image_credit": {
+      "author": "Молодёжная информационная служба Казахстана",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kazakhstan_Presidential_Elections-1.jpg"
+    },
+    "title": {
+      "kk": "2011 жылғы президент сайлауы",
+      "ru": "Президентские выборы 2011 года",
+      "en": "The 2011 presidential election"
+    },
+    "explanation": {
+      "kk": "2011 жылы 3 сәуірде Қазақстанда мерзімінен бұрын президент сайлауы өтті. Суретте Алматыдағы сайлау учаскесіндегі кезек; бұл сайлауда Нұрсұлтан Назарбаев қайта сайланды.",
+      "ru": "3 апреля 2011 года в Казахстане прошли досрочные президентские выборы. На снимке — очередь на избирательном участке в Алма-Ате; на этих выборах Нурсултан Назарбаев был переизбран.",
+      "en": "On 3 April 2011 Kazakhstan held an early presidential election. The photo shows a queue at a polling station in Almaty; Nursultan Nazarbayev was re-elected."
+    },
+    "clue": {
+      "kk": "Үстел басындағы кезек, құжаттар, 2010-жылдардың киімі.",
+      "ru": "Очередь у столов с документами, одежда 2010-х.",
+      "en": "A queue at tables with papers, 2010s clothing."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Президентские_выборы_в_Казахстане_(2011)"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "big-almaty-lake-2016",
+    "pack": [
+      "kz"
+    ],
+    "year": 2016,
+    "lat": 43.05,
+    "lng": 76.985,
+    "place": {
+      "kk": "Үлкен Алматы көлі",
+      "ru": "Большое Алматинское озеро",
+      "en": "Big Almaty Lake"
+    },
+    "image": "images/big-almaty-lake-2016.jpg",
+    "image_credit": {
+      "author": "Martin de Lusenet from Heemskerk, Netherlands",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Almaty_(2)_(30064026530).jpg"
+    },
+    "title": {
+      "kk": "Үлкен Алматы көлі",
+      "ru": "Большое Алматинское озеро",
+      "en": "Big Almaty Lake"
+    },
+    "explanation": {
+      "kk": "Үлкен Алматы көлі Іле Алатауында теңіз деңгейінен шамамен 2,5 шақырым биіктікте орналасқан. Көл Алматыны ауыз сумен қамтамасыз етеді, ал оның көгілдір түсі мұздық суының арқасында; сурет 2016 жылы түсірілген.",
+      "ru": "Большое Алматинское озеро лежит в Заилийском Алатау на высоте около 2,5 километра над уровнем моря. Оно снабжает Алматы питьевой водой, а бирюзовый цвет ему дают ледниковые воды; снимок 2016 года.",
+      "en": "Big Almaty Lake lies in the Trans-Ili Alatau at about 2.5 kilometres above sea level. It supplies Almaty with drinking water, and glacial meltwater gives it its turquoise colour; the photo was taken in 2016."
+    },
+    "clue": {
+      "kk": "Көгілдір таулы көл, қарлы шыңдар.",
+      "ru": "Бирюзовое горное озеро, снежные вершины.",
+      "en": "A turquoise mountain lake, snowy peaks."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Большое_Алматинское_озеро"
+    ],
+    "difficulty": 1,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "zhitikara-2016",
+    "pack": [
+      "kz"
+    ],
+    "year": 2016,
+    "lat": 52.19,
+    "lng": 61.2,
+    "place": {
+      "kk": "Жітіқара, Қостанай облысы",
+      "ru": "Житикара, Костанайская область",
+      "en": "Zhitikara, Kostanay region"
+    },
+    "image": "images/zhitikara-2016.jpg",
+    "image_credit": {
+      "author": "Talgautb",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%97%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%90%D0%9E_%D0%9A%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B5_%D0%BC%D0%B8%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%8B.jpg"
+    },
+    "title": {
+      "kk": "Жітіқарадағы «Қостанай минералдары»",
+      "ru": "«Костанайские минералы» в Житикаре",
+      "en": "Kostanay Minerals in Zhitikara"
+    },
+    "explanation": {
+      "kk": "Жітіқара – хризотил-асбест кен орнының маңында өскен шағын қала, «Қостанай минералдары» компаниясы – оның басты кәсіпорны. 2016 жылғы суретте компания ғимараты алдындағы алаңда мереке өтіп жатыр.",
+      "ru": "Житикара — небольшой город, выросший у месторождения хризотил-асбеста; компания «Костанайские минералы» — его главное предприятие. На снимке 2016 года — праздник на площади перед зданием компании.",
+      "en": "Zhitikara is a small town that grew up around a chrysotile asbestos deposit; the Kostanay Minerals company is its main employer. The 2016 photo shows a celebration on the square in front of the company building."
+    },
+    "clue": {
+      "kk": "Кеңсе ғимараты, алаңдағы адамдар, бұлтты аспан.",
+      "ru": "Офисное здание, люди на площади, пасмурное небо.",
+      "en": "An office building, people on a square, an overcast sky."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Житикара"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "kyzylorda-station-2022",
+    "pack": [
+      "kz"
+    ],
+    "year": 2022,
+    "lat": 44.848,
+    "lng": 65.482,
+    "place": {
+      "kk": "Қызылорда",
+      "ru": "Кызылорда",
+      "en": "Kyzylorda"
+    },
+    "image": "images/kyzylorda-station-2022.jpg",
+    "image_credit": {
+      "author": "Nikolai Bulykin",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%8B%D0%B7%D1%8B%D0%BB%D0%BE%D1%80%D0%B4%D0%B0,_%D0%B2%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB.jpg"
+    },
+    "title": {
+      "kk": "Қызылорда вокзалы",
+      "ru": "Вокзал Кызылорды",
+      "en": "Kyzylorda railway station"
+    },
+    "explanation": {
+      "kk": "Қызылорда (бұрынғы Ақмешіт пен Перовск) 1925–1929 жылдары Қазақ АКСР-інің астанасы болды. Қала Орынбор – Ташкент темір жолының бойында орналасқан; сурет 2022 жылы түсірілген.",
+      "ru": "Кызылорда (бывшие Ак-Мечеть и Перовск) в 1925–1929 годах была столицей Казахской АССР. Город стоит на железной дороге Оренбург — Ташкент; снимок 2022 года.",
+      "en": "Kyzylorda (formerly Ak-Mechet and Perovsk) was the capital of the Kazakh ASSR in 1925–1929. The city lies on the Orenburg–Tashkent railway; the photo was taken in 2022."
+    },
+    "clue": {
+      "kk": "Ақ-сары вокзал ғимараты, заманауи көліктер, ашық аспан.",
+      "ru": "Бело-жёлтое здание вокзала, современные машины, ясное небо.",
+      "en": "A white-and-yellow station building, modern cars, a clear sky."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Кызылорда"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "baiterek-handprint-2017",
+    "pack": [
+      "kz"
+    ],
+    "year": 2017,
+    "lat": 51.128,
+    "lng": 71.43,
+    "place": {
+      "kk": "Астана",
+      "ru": "Астана",
+      "en": "Astana"
+    },
+    "image": "images/baiterek-handprint-2017.jpg",
+    "image_credit": {
+      "author": "t_y_l",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kazakhstan_P9130304_(26212733458).jpg"
+    },
+    "title": {
+      "kk": "Бәйтеректегі алақан ізі",
+      "ru": "Отпечаток ладони в Байтереке",
+      "en": "The handprint in Baiterek"
+    },
+    "explanation": {
+      "kk": "Бәйтерек монументі 2002 жылы ашылды; оның биіктігі 97 метр – астананың Астанаға көшкен 1997 жылын білдіреді. Жоғарғы шардағы шолу залында Тұңғыш Президенттің алтын алақан ізі бар; сурет 2017 жылы түсірілген.",
+      "ru": "Монумент «Байтерек» открыт в 2002 году; его высота 97 метров — в честь 1997 года, когда столицу перенесли в Астану. В смотровом зале верхнего шара находится золотой отпечаток ладони первого президента; снимок 2017 года.",
+      "en": "The Baiterek monument opened in 2002; its 97-metre height marks 1997, when the capital moved to Astana. In the observation hall of its top sphere is the first president's golden handprint; the photo was taken in 2017."
+    },
+    "clue": {
+      "kk": "Алтын алақан ізі, жылтыр металл, заманауи сурет.",
+      "ru": "Золотой отпечаток ладони, блестящий металл, современное фото.",
+      "en": "A golden handprint, shiny metal, a modern photo."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Байтерек_(монумент)"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "kokshetau-zhdanov-cinema-1951",
+    "pack": [
+      "kz"
+    ],
+    "year": 1951,
+    "lat": 53.283,
+    "lng": 69.383,
+    "place": {
+      "kk": "Көкшетау",
+      "ru": "Кокчетав (Кокшетау)",
+      "en": "Kokchetav (Kokshetau)"
+    },
+    "image": "images/kokshetau-zhdanov-cinema-1951.jpg",
+    "image_credit": {
+      "author": "UnknownUnknown",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zhdanov_Cinema_(Kokshetau,_Kazakhstan).jpg"
+    },
+    "title": {
+      "kk": "Көкшетаудағы Жданов атындағы кинотеатр",
+      "ru": "Кинотеатр имени Жданова в Кокчетаве",
+      "en": "The Zhdanov Cinema in Kokchetav"
+    },
+    "explanation": {
+      "kk": "1951 жылғы Көкшетау: қасбеті кеңес басшыларының портреттерімен безендірілген Жданов атындағы кинотеатр. 1944 жылдан бастап Көкшетау облыс орталығы болды, ал соғыстан кейінгі жылдары кино қалалықтардың басты ойын-сауығы еді.",
+      "ru": "Кокчетав, 1951 год: кинотеатр имени Жданова, фасад украшен портретами советских руководителей. С 1944 года город был центром Кокчетавской области, а в послевоенные годы кино было главным развлечением горожан.",
+      "en": "Kokchetav in 1951: the Zhdanov Cinema, its facade decorated with portraits of Soviet leaders. From 1944 the town was the centre of Kokchetav region, and in the post-war years cinema was the townspeople's main entertainment."
+    },
+    "clue": {
+      "kk": "Қасбеттегі портреттер, бағаналар, 1950-жылдардың ақ-қара суреті.",
+      "ru": "Портреты на фасаде, колонны, чёрно-белый снимок 1950-х.",
+      "en": "Portraits on the facade, columns, a 1950s black-and-white photo."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Zhdanov_Cinema_(Kokshetau,_Kazakhstan).jpg",
+      "https://ru.wikipedia.org/wiki/Кокчетавская_область"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "kokshetau-military-hospital-1963",
+    "pack": [
+      "kz"
+    ],
+    "year": 1963,
+    "lat": 53.283,
+    "lng": 69.383,
+    "place": {
+      "kk": "Көкшетау",
+      "ru": "Кокчетав (Кокшетау)",
+      "en": "Kokchetav (Kokshetau)"
+    },
+    "image": "images/kokshetau-military-hospital-1963.jpg",
+    "image_credit": {
+      "author": "Jehonatan Roletschek",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Military_hospital_in_Kokshetau_(Kokchetav),_Kazakhstan.jpg"
+    },
+    "title": {
+      "kk": "Көкшетаудағы әскери госпиталь",
+      "ru": "Военный госпиталь в Кокчетаве",
+      "en": "The military hospital in Kokchetav"
+    },
+    "explanation": {
+      "kk": "1963 жылғы сурет: Көкшетаудағы әскери госпиталь ғимараты. Көкшетау облысы 1997 жылы таратылды, ал 1999 жылдан бастап Көкшетау Ақмола облысының орталығы болды.",
+      "ru": "Снимок 1963 года: здание военного госпиталя в Кокчетаве. Кокчетавскую область упразднили в 1997 году, а с 1999 года Кокшетау стал центром Акмолинской области.",
+      "en": "A 1963 photo of the military hospital building in Kokchetav. Kokchetav region was abolished in 1997, and since 1999 Kokshetau has been the centre of Akmola region."
+    },
+    "clue": {
+      "kk": "Кірпіш ғимарат, бетон бағаналы қоршау, ескі сурет.",
+      "ru": "Кирпичное здание, забор с бетонными столбами, старый снимок.",
+      "en": "A brick building, a fence with concrete posts, an old photo."
+    },
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Military_hospital_in_Kokshetau_(Kokchetav),_Kazakhstan.jpg",
+      "https://ru.wikipedia.org/wiki/Кокшетау"
+    ],
+    "difficulty": 3,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "shymkent-aerial-2025",
+    "pack": [
+      "kz"
+    ],
+    "year": 2025,
+    "lat": 42.317,
+    "lng": 69.596,
+    "place": {
+      "kk": "Шымкент",
+      "ru": "Шымкент",
+      "en": "Shymkent"
+    },
+    "image": "images/shymkent-aerial-2025.jpg",
+    "image_credit": {
+      "author": "Rassim",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Shymkent.jpg"
+    },
+    "title": {
+      "kk": "Шымкент жоғарыдан",
+      "ru": "Шымкент с высоты",
+      "en": "Shymkent from above"
+    },
+    "explanation": {
+      "kk": "Шымкент – халқы миллионнан асқан Қазақстанның үш мегаполисінің бірі. 2018 жылы ол республикалық маңызы бар қала болды; сурет 2025 жылы түсірілген.",
+      "ru": "Шымкент — один из трёх городов-миллионников Казахстана. В 2018 году он получил статус города республиканского значения; снимок 2025 года.",
+      "en": "Shymkent is one of Kazakhstan's three cities with over a million people. In 2018 it became a city of republican significance; the photo was taken in 2025."
+    },
+    "clue": {
+      "kk": "Кең даңғыл, жаңа көп қабатты үйлер, көп жасыл ағаш.",
+      "ru": "Широкий проспект, новые многоэтажки, много зелени.",
+      "en": "A wide avenue, new high-rises, lots of greenery."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Шымкент"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "kapchagay-beach-2009",
+    "pack": [
+      "kz"
+    ],
+    "year": 2009,
+    "lat": 43.87,
+    "lng": 77.07,
+    "place": {
+      "kk": "Қапшағай су қоймасы",
+      "ru": "Капчагайское водохранилище",
+      "en": "Kapchagay Reservoir"
+    },
+    "image": "images/kapchagay-beach-2009.jpg",
+    "image_credit": {
+      "author": "Ds02006",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:KZKapchagay2.JPG"
+    },
+    "title": {
+      "kk": "Қапшағай жағажайы",
+      "ru": "Пляж на Капчагае",
+      "en": "A beach on the Kapchagay Reservoir"
+    },
+    "explanation": {
+      "kk": "Қапшағай су қоймасы Іле өзеніне ГЭС бөгеті салынғаннан кейін пайда болды, ол Алматы тұрғындарының сүйікті демалыс орнына айналды. 2022 жылы Қапшағай қаласы Қонаев болып аталды; сурет 2009 жылы түсірілген.",
+      "ru": "Капчагайское водохранилище появилось после строительства плотины ГЭС на реке Или и стало любимым местом отдыха алматинцев. В 2022 году город Капчагай переименовали в Конаев; снимок 2009 года.",
+      "en": "The Kapchagay Reservoir formed after a hydroelectric dam was built on the Ili River and became a favourite getaway for Almaty residents. In 2022 the town of Kapchagay was renamed Konaev; the photo was taken in 2009."
+    },
+    "clue": {
+      "kk": "Құмды жағажай, демалушылар, үлкен су айдыны.",
+      "ru": "Песчаный пляж, отдыхающие, большая вода.",
+      "en": "A sandy beach, holidaymakers, a big body of water."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Капчагайское_водохранилище",
+      "https://ru.wikipedia.org/wiki/Конаев_(город)"
+    ],
+    "difficulty": 2,
+    "verified_by": "Claude (сверено по источникам)"
+  },
+  {
+    "id": "karaganda-street-2011",
+    "pack": [
+      "kz"
+    ],
+    "year": 2011,
+    "lat": 49.806,
+    "lng": 73.085,
+    "place": {
+      "kk": "Қарағанды",
+      "ru": "Караганда",
+      "en": "Karaganda"
+    },
+    "image": "images/karaganda-street-2011.jpg",
+    "image_credit": {
+      "author": "Валерий Парфёнов",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:-_panoramio_(2148).jpg"
+    },
+    "title": {
+      "kk": "Қарағанды көшесі",
+      "ru": "Улица Караганды",
+      "en": "A street in Karaganda"
+    },
+    "explanation": {
+      "kk": "Қарағанды 1930–1950 жылдары көмір бассейнінің астанасы ретінде қарқынды салынды, орталықта сол кездің көп үйлері сақталған. 2011 жылғы суретте – ескі тұрғын үйлер мен ағашты аула.",
+      "ru": "Караганду активно строили в 1930–1950-е годы как столицу угольного бассейна, в центре сохранилось много домов той эпохи. На снимке 2011 года — старые жилые дома и тенистый двор.",
+      "en": "Karaganda was built up rapidly in the 1930s–1950s as the capital of the coal basin, and many houses from that era survive in the centre. The 2011 photo shows old apartment buildings and a shady courtyard."
+    },
+    "clue": {
+      "kk": "Ескі кірпіш үйлер, биік ағаштар, 1990-жылдардың көлігі.",
+      "ru": "Старые кирпичные дома, высокие деревья, машина 1990-х.",
+      "en": "Old brick houses, tall trees, a 1990s car."
+    },
+    "sources": [
+      "https://ru.wikipedia.org/wiki/Караганда"
     ],
     "difficulty": 3,
     "verified_by": "Claude (сверено по источникам)"
