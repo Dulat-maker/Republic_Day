@@ -55,7 +55,8 @@ const TUNNEL = tunnel as TunnelEntry[];
 const TUNNEL_IMAGES = TUNNEL.map((e) => ({ src: import.meta.env.BASE_URL + e.image, title: e.title }));
 
 // written by scripts/import_monuments.py, so the counter needs no points loaded
-const MONUMENTS = monumentsMeta.count;
+// the size of the state list; the map shows the ones with a reliable point (monumentsMeta.count)
+const MONUMENTS = monumentsMeta.listed;
 
 const STEPS: TextItem[] = [
   { id: 'look', icon: Image, title: 'step1Title', text: 'step1Text' },

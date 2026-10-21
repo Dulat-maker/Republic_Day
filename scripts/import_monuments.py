@@ -5,16 +5,21 @@ content/monuments.json: the ~276 monuments the state itself ranks as the country
 The list is the order of the Minister of Culture and Information of 11.07.2025 No. 318-НҚ
 (Adilet code G25KS000318). Adilet is a JavaScript app, so the text is read from its mirror
 zakon.uchet.kz, in Russian and in Kazakh. The list gives addresses, not coordinates, so each
-monument is placed with OpenStreetMap (Nominatim), in this order:
-  1. osm        - an object of a historic/tourist/building kind with the monument's name, in its region;
-  2. address    - the street address, for monuments in towns (approximate);
-  3. settlement - the settlement named in the description ("12 km south of the village of X"),
+monument is placed, in this order:
+  1. osm        - an OpenStreetMap object of a historic/tourist/building kind with the monument's name,
+                  in its region (Nominatim);
+  2. wikidata   - a Wikidata item found by the monument's name, with coordinates in its region
+                  (one small search per monument, only for those OSM does not have);
+  3. address    - the street address, for monuments in towns: exact when OpenStreetMap has the
+                  building with that house number, approximate (the street) otherwise;
+  4. settlement - the settlement named in the description ("12 km south of the village of X"),
                   only when it is within 15 km (approximate).
 Anything else is left off the map and reported.
 
 Usage: python3 scripts/import_monuments.py [--geocode]
-  --geocode  ask Nominatim (1 request per second) for anything not in scripts/geocode-cache.json yet.
-The cache is committed, so a rerun without --geocode gives the same result with no lookups.
+  --geocode  ask Nominatim (1 request per second) and Wikidata for anything not cached yet.
+The caches (scripts/geocode-cache.json, scripts/wikidata-cache.json) are committed, so a rerun
+without --geocode gives the same result with no lookups.
 """
 import html
 import json
@@ -32,6 +37,7 @@ OUT = ROOT / "content" / "monuments.json"
 META = ROOT / "content" / "monuments-meta.json"
 REGIONS_GEO = ROOT / "content" / "geo" / "kz-regions.geojson"
 CACHE = ROOT / "scripts" / "geocode-cache.json"
+WIKIDATA_CACHE = ROOT / "scripts" / "wikidata-cache.json"
 CODE = "G25KS000318"
 SOURCE = f"https://adilet.zan.kz/rus/docs/{CODE}"
 UA = {"User-Agent": "Mozilla/5.0 (TarihGuessr open-data import)"}
@@ -227,6 +233,27 @@ def distance_km(text):
     return best
 
 
+DISTRICT = re.compile(r"([А-ЯЁӘҒҚҢӨҰҮҺІ][а-яёәғқңөұүһі-]+?)(?:ский|ской|ского|ск)? район|район ([А-ЯЁӘҒҚҢӨҰҮҺІ][\w-]+)")
+
+
+def consonants(text):
+    """Consonants only: Russian and Kazakh spellings of a name differ mostly in vowels (Отырар/Отрар, Созак/Сузак)."""
+    return re.sub(r"[^бвгджзйклмнпрстфхцчшщ]", "", text.lower().translate(KZ_TO_RU))
+
+
+def district_key(text):
+    """Consonants of the district named in a description ("Созакский район" -> "сзк"), or ""."""
+    m = DISTRICT.search(text)
+    name = (m.group(1) or m.group(2)) if m else ""
+    key = consonants(name)[:4]
+    return key if len(key) >= 3 else ""
+
+
+def in_district(display_name, key):
+    """OpenStreetMap's address line mentions the district (in Russian or Kazakh spelling)."""
+    return not key or any(consonants(part).startswith(key) for part in re.split(r"[,\s]+", display_name))
+
+
 class Geocoder:
     def __init__(self, online):
         self.online = online
@@ -246,7 +273,8 @@ class Geocoder:
                 hits = json.loads(urllib.request.urlopen(req, timeout=60).read())
             except OSError:
                 return None
-            self.cache[query] = [[float(h["lat"]), float(h["lon"]), h.get("class", ""), h.get("type", ""), h.get("name", "")] for h in hits]
+            self.cache[query] = [[float(h["lat"]), float(h["lon"]), h.get("class", ""), h.get("type", ""), h.get("name", ""),
+                                  h.get("display_name", "")] for h in hits]
             self.asked += 1
             if self.asked % 50 == 0:
                 self.save()
@@ -257,24 +285,33 @@ class Geocoder:
         CACHE.write_text(json.dumps(self.cache, ensure_ascii=False, indent=0, sort_keys=True) + "\n", encoding="utf-8")
 
     def place(self, text, act):
-        """Approximate point for a description, or None when it cannot be placed honestly."""
+        """(lat, lng, exact) for a description, or None when it cannot be placed honestly.
+        exact: OpenStreetMap has the very building of the address (same street and house number)."""
         flat = re.sub(r"\s+", " ", text)
+        house = None
         city = act.get("city")
         if city or (STREET.search(flat) and SETTLEMENT.search(flat) and "город" in flat.lower()):
             # a street address: geocode it inside its city
             town = city or SETTLEMENT.search(flat).group(1)
             street = STREET_PART.search(re.sub(r"\(.*?\)", "", flat))
             queries = [f"{street.group(1).strip(' ,.')}, {town}", town] if street else [town]
+            m = street and re.search(r",\s*№?\s*(\d+[\w/]*)$", street.group(1).strip(' ,.'))
+            house = (queries[0], m.group(1).lower()) if m else None
         else:
             m = SETTLEMENT.search(flat)
             if not m or distance_km(flat) > MAX_KM_FROM_SETTLEMENT:
                 return None
             queries = [f"{m.group(1)}, {act['region']['ru']}", m.group(1)]
+        # a village name repeats across the country: when the description names a district, stay in it
+        key = "" if city else district_key(flat)
         for q in queries:
-            for lat, lng, cls, typ, *_ in self.lookup(q) or []:
+            for lat, lng, cls, typ, *rest in self.lookup(q) or []:
+                display = rest[1] if len(rest) > 1 else ""
                 if cls in ("place", "boundary", "highway", "building", "amenity", "tourism", "historic", "landuse") \
-                        and in_regions(lat, lng, act["geo"]):
-                    return round(lat, 5), round(lng, 5)
+                        and in_regions(lat, lng, act["geo"]) and in_district(display, key):
+                    exact = bool(house) and q == house[0] and cls != "highway" \
+                        and house[1] in [part.strip().lower() for part in display.split(",")[:3]]
+                    return round(lat, 5), round(lng, 5), exact
         return None
 
 
@@ -309,6 +346,8 @@ STOP = {
     "могила", "архитекторы", "архитектор", "скульптор", "мастера", "города", "город", "улица", "годы", "года",
     "века", "век", "имени", "казахской", "республики", "казахстан", "казахстана", "государственный", "наскальные",
     "изображения", "петроглифы", "купца", "церкви", "дома",
+    # parts of many saints' names: "Баба ата", "Айша биби" - not distinctive on their own
+    "баба", "биби", "бибі", "әулие", "аулие",
 }
 
 
@@ -320,7 +359,7 @@ def search_name(name):
 
 
 def tokens(text):
-    words = re.findall(r"[а-яёa-z0-9-]{4,}", text.lower().translate(KZ_TO_RU).replace("ё", "е"))
+    words = re.findall(r"[а-яёa-z0-9]{4,}", text.lower().translate(KZ_TO_RU).replace("ё", "е"))
     return {w[:5] for w in words if w not in STOP}
 
 
@@ -338,7 +377,7 @@ def distinct_name(name):
     return " ".join(keep)
 
 
-def from_osm(names, region_ru, geo_ids, geo):
+def from_osm(names, region_ru, geo_ids, geo, place=""):
     """An OpenStreetMap object named like the monument (Russian or Kazakh name), inside its region."""
     want = set().union(*(tokens(search_name(n)) for n in names if n))
     if not want:
@@ -352,8 +391,95 @@ def from_osm(names, region_ru, geo_ids, geo):
             hit_name = rest[0] if rest else ""
             # necropolises are mapped as cemeteries, remote sites as named localities
             kind_ok = cls in OSM_OBJECT or (cls, typ) in {("landuse", "cemetery"), ("place", "locality")}
-            if kind_ok and in_regions(lat, lng, geo_ids) and tokens(hit_name) & want:
+            display = rest[1] if len(rest) > 1 else ""
+            if kind_ok and in_regions(lat, lng, geo_ids) and tokens(hit_name) & want and in_district(display, district_key(place)):
                 return round(lat, 5), round(lng, 5)
+    return None
+
+
+# All names in one query (VALUES): the public endpoint may allow as little as one request a minute
+WD_SEARCH = """SELECT ?term ?item ?label ?coord ?desc WHERE {
+  VALUES ?term { %s }
+  SERVICE wikibase:mwapi { bd:serviceParam wikibase:endpoint "www.wikidata.org"; wikibase:api "EntitySearch";
+    mwapi:search ?term; mwapi:language "%s". ?item wikibase:apiOutputItem mwapi:item. }
+  ?item wdt:P625 ?coord.
+  OPTIONAL { ?item rdfs:label ?label FILTER(LANG(?label) = "ru") }
+  OPTIONAL { ?item schema:description ?desc FILTER(LANG(?desc) = "ru") }
+}"""
+NOT_THE_OBJECT = re.compile(r"\b(село|посёлок|поселок|аул|город в|населённый пункт|район|область|улица|станция|озеро|река|гора)\b", re.I)
+
+
+class Wikidata:
+    def __init__(self, online):
+        self.online = online
+        self.cache = json.loads(WIKIDATA_CACHE.read_text(encoding="utf-8")) if WIKIDATA_CACHE.exists() else {}
+
+    def prefetch(self, texts, lang):
+        """Search Wikidata for every text not cached yet, in one request."""
+        todo = sorted({t for t in texts if t and f"{lang}:{t}" not in self.cache})
+        if not todo or not self.online:
+            return
+        values = " ".join('"' + t.replace('"', "").replace("\\", "") + '"' for t in todo)
+        url = "https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": WD_SEARCH % (values, lang)})
+        req = urllib.request.Request(url, headers={**NOMINATIM_UA, "Accept": "application/sparql-results+json"})
+        for attempt in range(5):
+            try:
+                data = json.loads(urllib.request.urlopen(req, timeout=300).read())
+                break
+            except OSError as e:
+                print(f"  wikidata: {e}; waiting a minute", flush=True)
+                time.sleep(65)
+        else:
+            return
+        found = {t: [] for t in todo}
+        for b in data["results"]["bindings"]:
+            m = re.match(r"Point\(([-\d.]+) ([-\d.]+)\)", b["coord"]["value"])
+            if m and b["term"]["value"] in found:
+                found[b["term"]["value"]].append([
+                    b["item"]["value"].rsplit("/", 1)[1], b.get("label", {}).get("value", ""),
+                    round(float(m.group(2)), 5), round(float(m.group(1)), 5), b.get("desc", {}).get("value", ""),
+                ])
+        for t, hits in found.items():
+            self.cache[f"{lang}:{t}"] = hits
+
+    def search(self, text, lang):
+        return self.cache.get(f"{lang}:{text}", [])
+
+    def save(self):
+        WIKIDATA_CACHE.write_text(json.dumps(self.cache, ensure_ascii=False, indent=0, sort_keys=True) + "\n", encoding="utf-8")
+
+
+# the kind of object named first in the list -> words that must appear in the Wikidata label or description
+SAME_KIND = {
+    "мавзо": ("мавзол", "кесене"), "городи": ("городищ", "древн", "қалашы"), "археол": ("городищ", "археолог", "древн"),
+    "курга": ("курган", "могильн"), "могил": ("могильн", "курган", "некропол"), "некро": ("некропол", "кладбищ", "могильн"),
+    "мечет": ("мечет",), "подзе": ("мечет",), "собор": ("собор",), "церко": ("церк", "храм"), "петро": ("петроглиф", "наскальн"),
+    "башня": ("башн",), "дворе": ("дворец",), "памят": ("памятник", "монумент", "скульптур"), "бюст": ("бюст", "памятник"),
+}
+
+
+def same_kind(name, label, desc):
+    first = search_name(name).split()[0].lower()[:6] if search_name(name) else ""
+    for key, words in SAME_KIND.items():
+        if first.startswith(key):
+            text = f"{label} {desc}".lower()
+            return any(w in text for w in words)
+    return False  # a kind we cannot check: do not trust a match by name alone
+
+
+def from_wikidata(names, geo_ids, wd):
+    """(lat, lng, qid) of the Wikidata item for the object itself, in its region, or None."""
+    want = set().union(*(tokens(search_name(n)) for n in names if n))
+    for n, lang in zip(names, ("ru", "kk")):
+        text = distinct_name(n) if n else ""
+        if not text:
+            continue
+        for qid, label, lat, lng, desc in wd.search(text, lang):
+            # a village or a district that shares the name is not the monument
+            if NOT_THE_OBJECT.search(desc) or NOT_THE_OBJECT.search(label):
+                continue
+            if in_regions(lat, lng, geo_ids) and tokens(label) & want and same_kind(names[0], label, desc):
+                return lat, lng, qid
     return None
 
 
@@ -361,7 +487,14 @@ def main():
     ru = list_rows(fetch(f"https://zakon.uchet.kz/rus/docs/{CODE}"))
     kk = list_rows(fetch(f"https://zakon.uchet.kz/kaz/docs/{CODE}"))
     geo = Geocoder(online="--geocode" in sys.argv)
+    wd = Wikidata(online="--geocode" in sys.argv)
     out, missed, how_count = [], [], {}
+    if wd.online:
+        need = [(r, kk.get(num, {})) for num, r in ru.items() if r["section"] in SECTIONS
+                and not from_osm([r["name"], kk.get(num, {}).get("name", "")], SECTIONS[r["section"]][0]["ru"],
+                                 SECTIONS[r["section"]][1], geo)]
+        wd.prefetch([distinct_name(r["name"]) for r, _ in need], "ru")
+        wd.prefetch([distinct_name(k.get("name", "")) for _, k in need], "kk")
     try:
         for num, r in sorted(ru.items()):
             if r["section"] not in SECTIONS:
@@ -380,13 +513,19 @@ def main():
             }
             how = None
             # the Kazakh name keeps letters like қ and ұ, which OpenStreetMap names often use
-            o = from_osm([r["name"], k.get("name", "")], region["ru"], geo_ids, geo)
+            o = from_osm([r["name"], k.get("name", "")], region["ru"], geo_ids, geo, r["place"])
+            w = None if o else from_wikidata([r["name"], k.get("name", "")], geo_ids, wd)
             if o:
                 (lat, lng), approx, how = o, False, "osm"
+            elif w:
+                lat, lng, qid = w
+                approx, how = False, "wikidata"
+                entry["wikidata"] = f"https://www.wikidata.org/wiki/{qid}"
             else:
                 p = geo.place(r["place"], {"region": region, "geo": geo_ids, "city": city})
                 if p:
-                    (lat, lng), approx = p, True
+                    lat, lng, exact = p
+                    approx = not exact
                     how = "address" if STREET.search(r["place"]) else "settlement"
             if not how:
                 missed.append((num, r["name"], r["place"]))
@@ -396,6 +535,7 @@ def main():
             out.append(entry)
     finally:
         geo.save()
+        wd.save()
 
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     kinds = {}
