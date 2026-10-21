@@ -34,7 +34,7 @@ import { PerspectiveTunnelHero } from '../ui/TunnelHero';
 import { Eras, Honesty, HowItWorks, SectionHead, SectionShell, Sources, useReveal, type SourceItem, type TextItem } from './Sections';
 
 export type Mode = 'daily' | 'random' | 'training' | 'khans' | 'satellite';
-export type Place = 'atlas' | 'guide' | 'quest';
+export type Place = 'atlas' | 'guide' | 'quest' | 'sources';
 
 interface Props {
   pack: Pack;
@@ -72,7 +72,7 @@ const HONESTY: TextItem[] = [
   { id: 'disputed', icon: Scale, title: 'honesty3Title', text: 'honesty3Text' },
 ];
 
-const SOURCES: SourceItem[] = [
+export const SOURCES: SourceItem[] = [
   { id: 'commons', name: 'Wikimedia Commons', license: 'PD / CC BY / CC BY-SA', what: 'srcCommons', url: 'https://commons.wikimedia.org' },
   {
     id: 'adilet',
@@ -135,7 +135,7 @@ export default function Landing({ pack, onPack, poolSize, notice, onStart, onOpe
   ];
 
   const open = (key: Mode | Place) => {
-    if (key === 'atlas' || key === 'guide' || key === 'quest') onOpen(key);
+    if (key === 'atlas' || key === 'guide' || key === 'quest' || key === 'sources') onOpen(key);
     else onStart(key);
   };
 
@@ -143,7 +143,7 @@ export default function Landing({ pack, onPack, poolSize, notice, onStart, onOpe
     const Icon = m.icon;
     const disabled = PHOTO_MODES.has(m.key) && poolSize === 0;
     return (
-      <motion.li key={m.key} {...reveal(i * 0.05)} className={cn(m.wide && 'sm:col-span-2')}>
+      <motion.li key={m.key} {...reveal(i * 0.05)} data-tour={m.key} className={cn(m.wide && 'sm:col-span-2')}>
         <button
           type="button"
           disabled={disabled}
@@ -181,11 +181,13 @@ export default function Landing({ pack, onPack, poolSize, notice, onStart, onOpe
         <button
           type="button"
           onClick={() => modesRef.current?.scrollIntoView({ behavior: 'smooth' })}
-          className="min-h-12 rounded-xl border border-border/80 bg-card/70 px-4 font-display text-lg font-bold backdrop-blur-xl"
+          className="min-h-12 rounded-xl border border-border/80 bg-card/70 px-3 font-display text-base font-bold whitespace-nowrap backdrop-blur-xl max-[380px]:hidden sm:px-4 sm:text-lg"
         >
           {t('appTitle')}
         </button>
-        <LangSwitch />
+        <div data-tour="comfort">
+          <LangSwitch />
+        </div>
       </div>
 
       <PerspectiveTunnelHero
@@ -260,15 +262,20 @@ export default function Landing({ pack, onPack, poolSize, notice, onStart, onOpe
             </p>
           )}
 
-          <ul className="grid gap-4 sm:grid-cols-2">{GAME_MODES.map(card)}</ul>
+          <ul data-tour="modes" className="grid gap-4 sm:grid-cols-2">
+            {GAME_MODES.map(card)}
+          </ul>
           <ul className="mt-4 grid gap-4 sm:grid-cols-3">{PLACES.map((m, i) => card(m, i + GAME_MODES.length))}</ul>
         </SectionShell>
       </div>
 
-      <HowItWorks steps={STEPS} />
+      <HowItWorks steps={STEPS} tour="how" />
       <Eras />
       <Honesty points={HONESTY} />
       <Sources sources={SOURCES}>
+        <Button variant="outline" className="mt-8" onClick={() => onOpen('sources')}>
+          {t('srcAll')} →
+        </Button>
         <p className="mt-10 text-xs leading-relaxed text-muted-foreground/80">
           {TUNNEL.map((e, i) => (
             <span key={e.image}>

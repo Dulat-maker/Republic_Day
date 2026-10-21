@@ -1,10 +1,12 @@
 import { LANGS, useI18n } from '../i18n';
 import type { Lang } from '../game/types';
 import { cn } from './cn';
+import { ComfortButton } from './ComfortPanel';
 
 const LABEL: Record<Lang, string> = { kk: 'ҚАЗ', ru: 'РУС', en: 'ENG' };
 
-export function LangSwitch({ className }: { className?: string }) {
+// The three language buttons; also used inside the site tour, which covers the page
+export function LangButtons({ className }: { className?: string }) {
   const { lang, setLang } = useI18n();
   return (
     <div
@@ -20,12 +22,24 @@ export function LangSwitch({ className }: { className?: string }) {
           aria-pressed={code === lang}
           className={cn(
             'min-h-10 rounded-lg px-2.5 text-xs font-semibold tracking-wide transition-colors',
-            code === lang ? 'bg-primary text-primary-foreground' : 'text-muted-foreground hover:bg-accent hover:text-foreground',
+            code === lang
+              ? 'bg-primary text-primary-foreground'
+              : 'text-muted-foreground hover:bg-accent hover:text-foreground',
           )}
         >
           {LABEL[code]}
         </button>
       ))}
+    </div>
+  );
+}
+
+// The language switch, with the comfortable view button beside it on every screen
+export function LangSwitch({ className }: { className?: string }) {
+  return (
+    <div className={cn('flex items-start gap-2', className)}>
+      <ComfortButton />
+      <LangButtons />
     </div>
   );
 }

@@ -14,6 +14,7 @@ import { mistakeIds } from './progress/storage';
 const Atlas = lazy(() => import('./atlas/Atlas'));
 const Game = lazy(() => import('./game/Game'));
 const Quest = lazy(() => import('./quest/Quest'));
+const SourcesPage = lazy(() => import('./landing/SourcesPage'));
 
 const Loading = ({ children }: { children: ReactNode }) => (
   <Suspense fallback={<div className="grid h-full place-items-center text-muted-foreground">…</div>}>{children}</Suspense>
@@ -108,6 +109,12 @@ export default function App() {
       </Loading>
     );
   if (place === 'guide') return <GuideScreen onBack={home} />;
+  if (place === 'sources')
+    return (
+      <Loading>
+        <SourcesPage onBack={home} />
+      </Loading>
+    );
 
   return (
     <Landing
