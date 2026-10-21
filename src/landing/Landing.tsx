@@ -18,6 +18,7 @@ import {
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
+import monumentsMeta from '../../content/monuments-meta.json';
 import tunnel from '../../content/tunnel.json';
 import { EVENTS } from '../atlas/events';
 import { PERIODS } from '../atlas/periods';
@@ -53,8 +54,8 @@ interface TunnelEntry {
 const TUNNEL = tunnel as TunnelEntry[];
 const TUNNEL_IMAGES = TUNNEL.map((e) => ({ src: import.meta.env.BASE_URL + e.image, title: e.title }));
 
-// Monument count is fixed by the open-data import; loading 600 points just for a number is not worth it
-const MONUMENTS = 592;
+// written by scripts/import_monuments.py, so the counter needs no points loaded
+const MONUMENTS = monumentsMeta.count;
 
 const STEPS: TextItem[] = [
   { id: 'look', icon: Image, title: 'step1Title', text: 'step1Text' },
@@ -73,11 +74,11 @@ const HONESTY: TextItem[] = [
 const SOURCES: SourceItem[] = [
   { id: 'commons', name: 'Wikimedia Commons', license: 'PD / CC BY / CC BY-SA', what: 'srcCommons', url: 'https://commons.wikimedia.org' },
   {
-    id: 'egov',
-    name: 'data.egov.kz',
-    license: 'Open data',
-    what: 'srcEgov',
-    url: 'https://data.egov.kz/datasets/view?index=respublikalyk_manyzy_bar_tarih',
+    id: 'adilet',
+    name: 'Әділет (adilet.zan.kz)',
+    license: 'Official acts',
+    what: 'srcAdilet',
+    url: 'https://adilet.zan.kz/rus/docs/G25KS000318',
   },
   { id: 'ne', name: 'Natural Earth', license: 'Public domain', what: 'srcNaturalEarth', url: 'https://www.naturalearthdata.com' },
   {

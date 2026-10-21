@@ -6,25 +6,61 @@ import type { FeatureCollection } from 'geojson';
 import regionsRaw from '../../content/regions.json';
 import { ALL_CARDS, imageUrl, isVerified } from '../game/cards';
 import type { Card, L10n } from '../game/types';
+import type { StringKey } from '../i18n/strings';
 import Guide from '../guide/Guide';
 import { useI18n } from '../i18n';
 import { Button } from '../ui/Button';
 import { cn } from '../ui/cn';
 import { TopBar } from '../ui/TopBar';
 import { EVENTS, yearLabel, type HistEvent } from './events';
-import { CountryOutline, EraOverlay, ModernWithin, MONUMENT_LAYER_ID, MonumentsLayer, REGION_LAYER_ID, RegionsLayer } from './layers';
+import {
+  CountryOutline,
+  EraOverlay,
+  MONUMENT_COLORS,
+  MONUMENT_KINDS,
+  MONUMENT_LAYER_ID,
+  ModernWithin,
+  MonumentsLayer,
+  REGION_LAYER_ID,
+  RegionsLayer,
+  type MonumentKind,
+} from './layers';
 import MapCanvas, { type Camera as Cam } from './MapCanvas';
 import { PERIODS, formatRange, periodById, periodOfYear, type PeriodId } from './periods';
 import Timeline from './Timeline';
+
+interface KkRu {
+  kk: string;
+  ru: string;
+}
 
 interface Monument {
   id: number;
   lat: number;
   lng: number;
-  name: { kk: string; ru: string };
-  type: { kk: string; ru: string };
-  district: { kk: string; ru: string };
+  name: KkRu;
+  type: KkRu;
+  region: KkRu;
+  // location as worded in the list
+  place: KkRu;
+  // how the point was found: the list itself gives addresses, not coordinates
+  how: 'osm' | 'address' | 'settlement';
+  // true when the point is the settlement or street rather than the object itself
+  approx: boolean;
+  kind: MonumentKind;
+  // the act or dataset this point comes from
+  source: string;
 }
+
+const KIND_LABEL: Record<MonumentKind, StringKey> = {
+  archaeology: 'monArchaeology',
+  architecture: 'monArchitecture',
+  monumental: 'monMonumental',
+  ensemble: 'monEnsemble',
+  sacral: 'monSacral',
+  history: 'monHistory',
+  other: 'monOther',
+};
 
 interface RegionInfo {
   note: L10n;
@@ -34,8 +70,6 @@ interface RegionInfo {
 }
 
 const REGIONS = regionsRaw as Record<string, RegionInfo>;
-const MONUMENTS_SOURCE = 'https://data.egov.kz/datasets/view?index=respublikalyk_manyzy_bar_tarih';
-const KOSTANAY: Cam = { center: [63.6, 51.9], zoom: 5.4 };
 const DEMO_STEP_MS = 5200;
 
 // Text events and photo cards share the map and the era list
@@ -95,7 +129,7 @@ const ALL_ITEMS: Item[] = [...EVENTS.map(fromEvent), ...ALL_CARDS.filter(isVerif
 
 type Selection =
   | { type: 'item'; item: Item }
-  | { type: 'monument'; mon: Monument }
+  | { type: 'monument'; mons: Monument[] }
   | { type: 'region'; id: string; name: L10n }
   | { type: 'list' };
 
@@ -157,6 +191,8 @@ export default function Atlas({ onBack }: { onBack: () => void }) {
   const [showPhotos, setShowPhotos] = useState(true);
   const [showMon, setShowMon] = useState(false);
   const [monuments, setMonuments] = useState<Monument[] | null>(null);
+  const [monKinds, setMonKinds] = useState<MonumentKind[]>([...MONUMENT_KINDS]);
+  const [showApprox, setShowApprox] = useState(true);
   const [sel, setSel] = useState<Selection | null>(null);
   const [camera, setCamera] = useState<Cam | null>(null);
   const [ask, setAsk] = useState(false);
@@ -171,11 +207,21 @@ export default function Atlas({ onBack }: { onBack: () => void }) {
     [period, showEvents, showPhotos],
   );
 
-  // ~600 points from the open data portal: loaded only when the layer is switched on
+  // the state list of monuments of republican significance: loaded only when the layer is switched on
   useEffect(() => {
     if (showMon && !monuments)
-      import('../../content/monuments-kostanay.json').then((m) => setMonuments(m.default as Monument[]));
+      import('../../content/monuments.json').then((m) => setMonuments(m.default as Monument[]));
   }, [showMon, monuments]);
+
+  // classes present in the data, with counts, in the fixed legend order
+  const kindCounts = useMemo(() => {
+    const n = new Map<MonumentKind, number>();
+    monuments?.forEach((m) => n.set(m.kind, (n.get(m.kind) ?? 0) + 1));
+    return MONUMENT_KINDS.filter((k) => n.has(k)).map((k) => [k, n.get(k)!] as const);
+  }, [monuments]);
+  const approxCount = useMemo(() => monuments?.filter((m) => m.approx).length ?? 0, [monuments]);
+  const toggleKind = (k: MonumentKind) =>
+    setMonKinds((ks) => (ks.includes(k) ? ks.filter((x) => x !== k) : [...ks, k]));
 
   const monumentGeo = useMemo<FeatureCollection | null>(
     () =>
@@ -183,7 +229,7 @@ export default function Atlas({ onBack }: { onBack: () => void }) {
         type: 'FeatureCollection',
         features: monuments.map((m) => ({
           type: 'Feature',
-          properties: { id: m.id },
+          properties: { id: m.id, kind: m.kind, approx: m.approx },
           geometry: { type: 'Point', coordinates: [m.lng, m.lat] },
         })),
       },
@@ -213,7 +259,7 @@ export default function Atlas({ onBack }: { onBack: () => void }) {
     setCamera({ center: [item.lng, item.lat], zoom: 7 });
   };
 
-  const ml = (x: { kk: string; ru: string }) => (lang === 'kk' ? x.kk : x.ru) || x.ru || x.kk;
+  const ml = (x: KkRu) => (lang === 'kk' ? x.kk : x.ru) || x.ru || x.kk;
   const interactive = [...(regionsOn ? [REGION_LAYER_ID] : []), ...(showMon && monumentGeo ? [MONUMENT_LAYER_ID] : [])];
   const selectedKey = sel?.type === 'item' ? sel.item.key : null;
 
@@ -253,20 +299,45 @@ export default function Atlas({ onBack }: { onBack: () => void }) {
         </Panel>
       );
 
-    if (sel.type === 'monument')
+    if (sel.type === 'monument') {
+      const [m, ...more] = sel.mons;
+      const place = ml(m.region);
       return (
-        <Panel key={`m${sel.mon.id}`} onClose={close} color="#cfd8e6">
-          <p className="pr-10 text-xs font-semibold tracking-[0.16em] text-muted-foreground uppercase">{ml(sel.mon.type)}</p>
-          <h3 className="mt-1 text-lg leading-tight font-bold text-pretty">{ml(sel.mon.name)}</h3>
-          <p className="mt-1 text-sm text-muted-foreground">{ml(sel.mon.district)}</p>
-          <p className="mt-3 text-xs text-muted-foreground">
+        <Panel key={`m${m.id}`} onClose={close} color={MONUMENT_COLORS[m.kind]}>
+          {more.length > 0 && (
+            <p className="mb-2 pr-10 text-xs text-muted-foreground">{t('monHere', { n: sel.mons.length })}</p>
+          )}
+          <ol className="flex flex-col gap-4">
+            {sel.mons.map((x) => (
+              <li key={x.id}>
+                <p className="pr-10 text-xs font-semibold tracking-[0.16em] uppercase" style={{ color: MONUMENT_COLORS[x.kind] }}>
+                  {t(KIND_LABEL[x.kind])}
+                </p>
+                <h3 className="mt-1 text-lg leading-tight font-bold text-pretty">{ml(x.name)}</h3>
+                {ml(x.place) && (
+                  <p className="mt-1 text-sm text-pretty text-foreground/85">
+                    <span className="text-muted-foreground">{t('monPlace')}:</span> {ml(x.place)}
+                  </p>
+                )}
+              </li>
+            ))}
+          </ol>
+          <p className="mt-2 text-sm text-muted-foreground">{place}</p>
+          {m.approx && (
+            <p className="mt-2 text-xs leading-relaxed text-primary/90">
+              ≈ {t(m.how === 'address' ? 'monApproxAddress' : 'monApproxNote')}
+            </p>
+          )}
+          <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
             {t('monumentsSource')}:{' '}
-            <a href={MONUMENTS_SOURCE} target="_blank" rel="noreferrer">
-              data.egov.kz
+            <a href={m.source} target="_blank" rel="noreferrer">
+              {t('monumentsList')}
             </a>
+            {` · ${t('monCoords')}: OpenStreetMap`}
           </p>
         </Panel>
       );
+    }
 
     if (sel.type === 'region') {
       const info = REGIONS[sel.id];
@@ -361,8 +432,10 @@ export default function Atlas({ onBack }: { onBack: () => void }) {
         interactiveLayerIds={interactive.length ? interactive : undefined}
         onFeatureClick={(layer, props) => {
           if (layer === MONUMENT_LAYER_ID && props) {
-            const mon = monuments?.find((m) => m.id === Number(props.id));
-            if (mon) setSel({ type: 'monument', mon });
+            const hit = monuments?.find((m) => m.id === Number(props.id));
+            // monuments placed at the same settlement share one dot: list them all
+            const mons = hit ? monuments!.filter((m) => m.lat === hit.lat && m.lng === hit.lng) : [];
+            if (hit) setSel({ type: 'monument', mons: [hit, ...mons.filter((m) => m !== hit)] });
           } else if (layer === REGION_LAYER_ID && props) {
             const id = String(props.id);
             setSel({
@@ -379,7 +452,7 @@ export default function Atlas({ onBack }: { onBack: () => void }) {
         {withinEmpire && <ModernWithin />}
         {regionsOn && <RegionsLayer selectedId={sel?.type === 'region' ? sel.id : null} />}
         <CountryOutline />
-        {showMon && monumentGeo && <MonumentsLayer data={monumentGeo} />}
+        {showMon && monumentGeo && <MonumentsLayer data={monumentGeo} kinds={monKinds} showApprox={showApprox} />}
         {items.map((i) => {
           const active = i.key === selectedKey;
           return (
@@ -454,7 +527,7 @@ export default function Atlas({ onBack }: { onBack: () => void }) {
             </p>
             {showMon && (
               <p className="mt-1 text-xs text-muted-foreground drop-shadow-[0_2px_8px_rgba(7,13,24,0.95)]">
-                {t('monumentsNote')} data.egov.kz {monuments ? `· ${monuments.length}` : '…'}
+                {t('monumentsNote')} {monuments ? `· ${monuments.length}` : '…'}
               </p>
             )}
           </motion.div>
@@ -465,6 +538,33 @@ export default function Atlas({ onBack }: { onBack: () => void }) {
       <div className="pointer-events-none absolute inset-x-0 bottom-0 z-20 px-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] sm:px-5 sm:pb-5">
         <div className="mx-auto flex max-w-6xl flex-col gap-2">
           <AnimatePresence mode="wait">{panel()}</AnimatePresence>
+          {showMon && kindCounts.length > 0 && (
+            <div className="pointer-events-auto flex gap-1.5 overflow-x-auto [scrollbar-width:none]">
+              {kindCounts.map(([k, n]) => (
+                <Button
+                  key={k}
+                  variant="chip"
+                  on={monKinds.includes(k)}
+                  onClick={() => toggleKind(k)}
+                  className={cn('min-h-10 shrink-0 px-3 text-xs', !monKinds.includes(k) && 'opacity-60')}
+                >
+                  <span aria-hidden="true" className="size-2.5 rounded-full" style={{ backgroundColor: MONUMENT_COLORS[k] }} />
+                  {t(KIND_LABEL[k])} <span className="tabular-nums opacity-70">{n}</span>
+                </Button>
+              ))}
+              {approxCount > 0 && (
+                <Button
+                  variant="chip"
+                  on={showApprox}
+                  onClick={() => setShowApprox(!showApprox)}
+                  className={cn('min-h-10 shrink-0 px-3 text-xs', !showApprox && 'opacity-60')}
+                >
+                  <span aria-hidden="true" className="size-2.5 rounded-full border border-foreground/80" />
+                  {t('monApprox')} <span className="tabular-nums opacity-70">{approxCount}</span>
+                </Button>
+              )}
+            </div>
+          )}
           <div className="pointer-events-auto flex gap-1.5 overflow-x-auto [scrollbar-width:none]">
             <Button variant="chip" on={showEvents} onClick={() => setShowEvents(!showEvents)} className="shrink-0 px-3">
               ◆ {t('layerEvents')}
@@ -475,10 +575,7 @@ export default function Atlas({ onBack }: { onBack: () => void }) {
             <Button
               variant="chip"
               on={showMon}
-              onClick={() => {
-                if (!showMon) setCamera(KOSTANAY);
-                setShowMon(!showMon);
-              }}
+              onClick={() => setShowMon(!showMon)}
               className="shrink-0 px-3"
             >
               <Landmark aria-hidden="true" className="size-4" /> {t('layerMonuments')}

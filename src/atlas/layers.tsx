@@ -113,19 +113,53 @@ export function RegionsLayer({ selectedId }: { selectedId: string | null }) {
 
 export const MONUMENT_LAYER_ID = 'monuments';
 
-// ~600 open-data points: one GeoJSON layer instead of DOM markers
-export function MonumentsLayer({ data }: { data: FeatureCollection }) {
+// Classes from the Law on historical and cultural heritage; set by scripts/import_monuments.py
+export const MONUMENT_KINDS = ['archaeology', 'architecture', 'monumental', 'ensemble', 'sacral', 'history', 'other'] as const;
+export type MonumentKind = (typeof MONUMENT_KINDS)[number];
+
+// Distinct in hue and lightness, readable over both desert and mountains
+export const MONUMENT_COLORS: Record<MonumentKind, string> = {
+  archaeology: '#e0a458',
+  architecture: '#5fb3e0',
+  monumental: '#e46f93',
+  ensemble: '#a597f2',
+  sacral: '#4fbf98',
+  history: '#e9eef7',
+  other: '#93a3bd',
+};
+
+const COLOR_BY_KIND = [
+  'match',
+  ['get', 'kind'],
+  ...MONUMENT_KINDS.flatMap((k) => [k, MONUMENT_COLORS[k]]),
+  MONUMENT_COLORS.other,
+] as unknown as ExpressionSpecification;
+
+// One GeoJSON layer, filtered on the GPU instead of DOM markers.
+// Approximate sites (placed at a settlement or street, not the object) are drawn as hollow rings.
+export function MonumentsLayer({
+  data,
+  kinds,
+  showApprox,
+}: {
+  data: FeatureCollection;
+  kinds: MonumentKind[];
+  showApprox: boolean;
+}) {
+  const approx: ExpressionSpecification = ['==', ['get', 'approx'], true];
+  const byKind: ExpressionSpecification = ['in', ['get', 'kind'], ['literal', kinds]];
   return (
     <Source id="monuments-src" type="geojson" data={data}>
       <Layer
         id={MONUMENT_LAYER_ID}
         type="circle"
+        filter={showApprox ? byKind : ['all', byKind, ['!', approx]]}
         paint={{
-          'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 2.5, 8, 5, 12, 8],
-          'circle-color': '#cfd8e6',
-          'circle-opacity': 0.85,
-          'circle-stroke-color': '#070d18',
-          'circle-stroke-width': 1,
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 4.5, 8, 7, 12, 10],
+          'circle-color': COLOR_BY_KIND,
+          'circle-opacity': ['case', approx, 0.15, 0.9],
+          'circle-stroke-color': ['case', approx, COLOR_BY_KIND, '#070d18'],
+          'circle-stroke-width': ['case', approx, 1.8, 1.2],
         }}
       />
     </Source>
